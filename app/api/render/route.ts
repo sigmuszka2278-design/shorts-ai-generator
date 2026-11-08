@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { jsonError } from "@/lib/api";
+import { serverRenderEnabled } from "@/lib/config";
 import { activeJobs } from "@/lib/jobs/store";
 import { startRenderJob } from "@/lib/render/renderer";
 import { sanitizeScene } from "@/lib/scene/generator";
@@ -10,6 +11,9 @@ export const dynamic = "force-dynamic";
 const MAX_QUEUE = 5;
 
 export async function POST(request: Request) {
+  if (!serverRenderEnabled()) {
+    return jsonError("Renderowanie na serwerze jest wyłączone – film renderuje się w przeglądarce", 501);
+  }
   let body: { scene?: unknown };
   try {
     body = await request.json();

@@ -4,7 +4,7 @@ import path from "node:path";
 import { Readable } from "node:stream";
 import { jsonError } from "@/lib/api";
 import { parseRange } from "@/lib/http-range";
-import { isValidVideoId, rendersDir } from "@/lib/render/renderer";
+import { isValidVideoId, rendersDir } from "@/lib/render/storage";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";

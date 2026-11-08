@@ -37,6 +37,38 @@ Pierwsze renderowanie MP4 trwa kilka sekund dłużej (Remotion przygotowuje pacz
 przeglądarki Chrome Headless Shell – Remotion pobierze ją automatycznie przy pierwszym renderze. Jeśli serwer nie ma dostępu
 do internetu, wskaż własną przeglądarkę w `REMOTION_BROWSER_EXECUTABLE` (aplikacja sama wykrywa też przeglądarki Playwrighta).
 
+## Wdrożenie na Vercel (link do otwierania na iPhonie)
+
+Vercel uruchamia API jako funkcje serverless, które **nie mogą renderować wideo** (brak Chrome i ffmpeg, limit rozmiaru
+i czasu). Dlatego na Vercelu aplikacja automatycznie przełącza się na **renderowanie w przeglądarce**: plik MP4
+(H.264 + AAC, 1080×1920) tworzy telefon lub komputer użytkownika przez WebCodecs (`@remotion/web-renderer`).
+**Nie jest potrzebny osobny serwer renderujący** ani żadna płatna usługa – wystarcza darmowy plan Hobby na Vercelu.
+
+1. Zaloguj się na [vercel.com](https://vercel.com) kontem GitHub (plan **Hobby – darmowy**).
+2. **Add New… → Project → Import** repozytorium `shorts-ai-generator`.
+3. Framework zostanie wykryty jako **Next.js** – nic nie zmieniaj, nie dodawaj zmiennych środowiskowych.
+   Vercel wdraża domyślną gałąź repozytorium; każdy kolejny `git push` na nią aktualizuje stronę.
+4. **Deploy**. Po ok. 1–2 minutach dostaniesz link w stylu `https://shorts-ai-generator.vercel.app`.
+5. Otwórz link w Safari na iPhonie.
+
+Na iPhonie:
+- **Podgląd** odtwarza się od razu (dotknij ▶, żeby usłyszeć dźwięk – iOS blokuje automatyczne odtwarzanie z dźwiękiem).
+- **Renderuj MP4** – film powstaje na telefonie. Nie blokuj ekranu i nie przełączaj aplikacji (iOS wstrzymuje karty w tle).
+- **Zapisz w Zdjęciach / Udostępnij** – otwiera arkusz udostępniania; wybierz **Zapisz wideo**, a film trafi do Zdjęć
+  (stamtąd wrzucisz go do aplikacji YouTube). **Pobierz MP4** zapisuje plik w aplikacji **Pliki → Pobrane**.
+- Wymagany iOS 16.4 lub nowszy (WebCodecs). Najlepiej działa na aktualnym iOS.
+- **Dodaj do ekranu początkowego** (Safari → Udostępnij → „Do ekranu początk.”) – aplikacja otwiera się jak zwykła apka.
+
+Ograniczenia na Vercelu: galeria „Twoje filmy” jest pusta (pliki nie są zapisywane na serwerze – zostają na urządzeniu),
+a dostawcy AI wymagają trwałej kolejki zadań (np. Vercel KV / Redis), bo pamięć funkcji nie jest współdzielona.
+
+### Opcjonalnie: renderowanie na serwerze
+
+Gdyby renderowanie na telefonie było za wolne, ten sam kod działa jako serwer renderujący na dowolnej maszynie z Node.js
+(Twój komputer, VPS, Docker): `npm run build && npm start` – tam tryb `server` jest domyślny. Telefon w tej samej sieci
+Wi-Fi otworzy go pod adresem `http://<IP-komputera>:3000`. Usługi typu Remotion Lambda (AWS) są płatne i nie są
+skonfigurowane.
+
 ## Jak to działa
 
 ```
@@ -44,7 +76,8 @@ pomysł (PL) ──► /api/generate ──► dostawca (provider)
                                     ├─ "procedural": analiza słów kluczowych → SceneSpec (JSON)   ← darmowy, offline
                                     └─ AI (Replicate / własny serwer): klip AI → SceneSpec z tłem wideo
 SceneSpec ──► Remotion Player (podgląd w przeglądarce)
-SceneSpec ──► /api/render ──► @remotion/renderer ──► renders/<id>.mp4 ──► /api/videos/<id> (podgląd / pobieranie)
+SceneSpec ──► /api/render ──► @remotion/renderer ──► renders/<id>.mp4 ──► /api/videos/<id>   (tryb "server")
+SceneSpec ──► @remotion/web-renderer w przeglądarce ──► Blob MP4 ──► pobierz / udostępnij       (tryb "browser", Vercel)
 ```
 
 1. **Analiza pomysłu** (`lib/scene/generator.ts`, `lib/scene/dictionary.ts`) – rozpoznaje polskie słowa (z odmianą, bez
@@ -132,6 +165,8 @@ Do opakowania gotowego klipu w scenę użyj `sceneFromAiClip()` z `lib/providers
 
 | Zmienna | Domyślnie | Opis |
 | --- | --- | --- |
+| `RENDER_MODE` | `server` lokalnie, `browser` na Vercelu | gdzie powstaje MP4 |
+| `NEXT_PUBLIC_REMOTION_LICENSE_KEY` | `free-license` | licencja Remotion dla renderowania w przeglądarce |
 | `RENDERS_DIR` | `./renders` | folder na filmy MP4 |
 | `REMOTION_BROWSER_EXECUTABLE` | auto | ścieżka do Chrome Headless Shell |
 | `RENDER_CONCURRENCY` | połowa rdzeni | wątki renderowania |

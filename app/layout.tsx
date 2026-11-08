@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   description:
     "Wpisz pomysł, a Shorts AI Studio stworzy kolorowy, animowany film dla dzieci w formacie YouTube Shorts (9:16, 1080p) z efektami dźwiękowymi.",
   icons: { icon: "/icon.svg" },
+  appleWebApp: { capable: true, title: "Shorts AI", statusBarStyle: "default" },
 };
 
 export const viewport: Viewport = {

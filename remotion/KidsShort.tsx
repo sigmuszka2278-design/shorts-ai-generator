@@ -1,7 +1,6 @@
 import React from "react";
 import {
   AbsoluteFill,
-  Audio,
   interpolate,
   Loop,
   OffthreadVideo,
@@ -11,6 +10,7 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
+import { Audio } from "@remotion/media";
 import { motionAt } from "../lib/scene/motion";
 import { climaxFrame, outroStartFrame } from "../lib/scene/timeline";
 import type { Actor, SceneSpec } from "../lib/scene/types";

@@ -3,8 +3,10 @@
 import dynamic from "next/dynamic";
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import type { ProviderId, ProviderInfo } from "@/lib/providers/types";
-import type { RenderResult, VideoMeta } from "@/lib/render/renderer";
+import type { RenderResult } from "@/lib/render/renderer";
+import type { VideoMeta } from "@/lib/render/storage";
 import { MAX_DURATION, MIN_DURATION, type AnimationStyle, type SceneSpec, type ThemeId } from "@/lib/scene/types";
+import { canShareFiles, renderInBrowser, shareVideo } from "./browserRender";
 import { formatBytes, ProgressBar, Section, Segmented, Spinner, Toggle } from "./ui";
 
 const PreviewPlayer = dynamic(() => import("./PreviewPlayer").then((m) => m.PreviewPlayer), {
@@ -40,6 +42,17 @@ const THEMES: { id: ThemeId | "auto"; label: string; emoji: string }[] = [
   { id: "cukierkowo", label: "Słodycze", emoji: "🍭" },
   { id: "noc", label: "Noc", emoji: "🌙" },
 ];
+
+type Rendered = {
+  url: string;
+  downloadUrl: string;
+  fileName: string;
+  sizeBytes: number;
+  durationInSeconds: number;
+  renderSeconds: number;
+  where: "server" | "browser";
+  blob?: Blob;
+};
 
 type JobState<T> = {
   id: string;
@@ -82,7 +95,10 @@ export function Studio() {
   const [generating, setGenerating] = useState(false);
   const [aiJob, setAiJob] = useState<JobState<SceneSpec> | null>(null);
   const [renderJob, setRenderJob] = useState<JobState<RenderResult> | null>(null);
-  const [rendered, setRendered] = useState<RenderResult | null>(null);
+  const [rendered, setRendered] = useState<Rendered | null>(null);
+  const [serverRender, setServerRender] = useState<boolean | null>(null);
+  const [shareable, setShareable] = useState(false);
+  const renderAbortRef = useRef<AbortController | null>(null);
   const [showMp4, setShowMp4] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [videos, setVideos] = useState<VideoMeta[]>([]);
@@ -97,10 +113,14 @@ export function Studio() {
   }, []);
 
   useEffect(() => {
-    api<{ providers: ProviderInfo[] }>("/api/providers")
-      .then((d) => setProviders(d.providers))
-      .catch(() => undefined);
-    loadVideos();
+    api<{ providers: ProviderInfo[]; serverRender: boolean }>("/api/providers")
+      .then((d) => {
+        setProviders(d.providers);
+        setServerRender(d.serverRender);
+        if (d.serverRender) loadVideos();
+      })
+      .catch(() => setServerRender(false));
+    setShareable(canShareFiles());
   }, [loadVideos]);
 
   const generate = useCallback(
@@ -156,28 +176,52 @@ export function Studio() {
     return () => clearTimeout(t);
   }, [settingsKey, scene, provider, generate]);
 
+  // Free the memory of a previous in-browser render
+  useEffect(() => {
+    return () => {
+      if (rendered?.where === "browser") URL.revokeObjectURL(rendered.url);
+    };
+  }, [rendered]);
+
   const render = useCallback(async () => {
     if (!scene) return;
     setError(null);
     setRendered(null);
     const controller = new AbortController();
+    renderAbortRef.current = controller;
     try {
-      setRenderJob({ id: "", status: "queued", progress: 0, stage: "Wysyłam do renderowania…" });
-      const { jobId } = await api<{ jobId: string }>("/api/render", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ scene }),
-      });
-      const result = await pollJob<RenderResult>(jobId, setRenderJob, controller.signal);
-      setRendered(result);
+      if (serverRender) {
+        setRenderJob({ id: "", status: "queued", progress: 0, stage: "Wysyłam do renderowania…" });
+        const { jobId } = await api<{ jobId: string }>("/api/render", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ scene }),
+        });
+        const result = await pollJob<RenderResult>(jobId, setRenderJob, controller.signal);
+        setRendered({ ...result, fileName: result.fileName, where: "server" });
+        loadVideos();
+      } else {
+        setRenderJob({ id: "", status: "running", progress: 0, stage: "Przygotowuję renderowanie…" });
+        const result = await renderInBrowser(
+          scene,
+          (progress, stage) => setRenderJob({ id: "", status: "running", progress, stage }),
+          controller.signal,
+        );
+        setRendered({ ...result, downloadUrl: result.url, where: "browser" });
+      }
       setShowMp4(true);
-      loadVideos();
     } catch (err) {
-      setError(err instanceof Error ? err.message : String(err));
+      if (!controller.signal.aborted) setError(err instanceof Error ? err.message : String(err));
     } finally {
       setRenderJob(null);
+      renderAbortRef.current = null;
     }
-  }, [scene, loadVideos]);
+  }, [scene, serverRender, loadVideos]);
+
+  const cancelRender = () => {
+    renderAbortRef.current?.abort();
+    setRenderJob(null);
+  };
 
   const randomIdea = () => {
     const pool = EXAMPLES.filter((e) => e !== prompt);
@@ -410,7 +454,15 @@ export function Studio() {
             <div className="mx-auto w-full max-w-[340px] rounded-[38px] bg-ink p-2.5 shadow-2xl shadow-purple-400/30">
               <div className="relative aspect-[9/16] overflow-hidden rounded-[30px] bg-gradient-to-b from-sky-300 via-purple-300 to-pink-300">
                 {scene ? (
-                  showMp4 && rendered ? (
+                  renderJob && !serverRender ? (
+                    <div className="flex h-full flex-col items-center justify-center gap-4 p-6 text-center text-white">
+                      <Spinner className="h-10 w-10" />
+                      <p className="font-display text-xl font-semibold drop-shadow">Tworzę plik MP4…</p>
+                      <p className="text-sm text-white/90 drop-shadow">
+                        Nie zamykaj tej karty i nie blokuj ekranu – film powstaje na tym urządzeniu.
+                      </p>
+                    </div>
+                  ) : showMp4 && rendered ? (
                     <video key={rendered.url} src={rendered.url} controls playsInline autoPlay loop className="h-full w-full bg-black object-cover" />
                   ) : (
                     <PreviewPlayer scene={scene} />
@@ -432,16 +484,36 @@ export function Studio() {
                 </ul>
 
                 {renderJob ? (
-                  <ProgressBar value={renderJob.progress} label={renderJob.stage} />
+                  <div className="space-y-2">
+                    <ProgressBar value={renderJob.progress} label={renderJob.stage} />
+                    {!serverRender && (
+                      <button type="button" onClick={cancelRender} className="text-xs font-semibold text-ink/50 underline">
+                        Anuluj
+                      </button>
+                    )}
+                  </div>
                 ) : rendered ? (
                   <div className="space-y-3 rounded-2xl bg-emerald-50 p-4">
                     <p className="text-sm font-semibold text-emerald-800">
                       🎉 Film gotowy! 1080×1920 · {rendered.durationInSeconds} s · {formatBytes(rendered.sizeBytes)}
                     </p>
+                    {rendered.blob && shareable && (
+                      <button
+                        type="button"
+                        onClick={() =>
+                          shareVideo(rendered.blob!, rendered.fileName, scene.title).catch((err) =>
+                            setError(err instanceof Error ? err.message : String(err)),
+                          )
+                        }
+                        className="flex w-full items-center justify-center gap-1.5 rounded-xl bg-purple-600 px-3 py-3 text-sm font-semibold text-white shadow-md shadow-purple-200 transition hover:bg-purple-700"
+                      >
+                        📲 Zapisz w Zdjęciach / Udostępnij
+                      </button>
+                    )}
                     <div className="grid grid-cols-2 gap-2">
                       <a
                         href={rendered.downloadUrl}
-                        download
+                        download={rendered.fileName}
                         className="flex items-center justify-center gap-1.5 rounded-xl bg-emerald-500 px-3 py-3 text-sm font-semibold text-white shadow-md shadow-emerald-200 transition hover:bg-emerald-600"
                       >
                         ⬇️ Pobierz MP4
