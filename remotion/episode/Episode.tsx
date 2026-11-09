@@ -18,6 +18,7 @@ import {
 } from "./cues";
 import { clamp01, rnd, seg } from "./math";
 import { stateAt, type State } from "./shots";
+import { SHORTS_CTA, SHORTS_CUTS, SHORTS_SECONDS, shortsToEpisode } from "./shortsCuts";
 import { EGG_POS, GROUND, LeafPile, SPOT, WorldBack, WorldFront } from "./world";
 
 ensureFonts();
@@ -53,11 +54,19 @@ const Hearts: React.FC<{ x: number; y: number; t: number }> = ({ x, y, t }) => (
 );
 
 /** The animated world for a given episode time (seconds). */
-export const EpisodeWorld: React.FC<{ g: number; width: number; height: number; offsetX?: number }> = ({ g, width, height, offsetX = 0 }) => {
+export const EpisodeWorld: React.FC<{ g: number; width: number; height: number; offsetX?: number; zoomFactor?: number; follow?: number }> = ({
+  g,
+  width,
+  height,
+  offsetX = 0,
+  zoomFactor,
+  follow = 0,
+}) => {
   const st = stateAt(g);
-  const { cam } = st;
+  const cam = { ...st.cam };
+  if (follow > 0 && st.tosia) cam.x = cam.x + (st.tosia.x - cam.x) * follow;
   const shake = st.shake ? Math.sin(g * 60) * 14 * st.shake : 0;
-  const zoom = cam.z * (height / EPISODE_H);
+  const zoom = cam.z * (zoomFactor ?? height / EPISODE_H);
   const base = platformUnder(st);
   const tosia = st.tosia;
 
@@ -415,3 +424,58 @@ export const TosiaEpisode: React.FC<{ withAudio?: boolean }> = ({ withAudio = tr
 };
 
 void EPISODE_FPS;
+
+// ── vertical Shorts version ─────────────────────────────────────
+export const SHORTS_W = 1080;
+export const SHORTS_H = 1920;
+
+export const TosiaShorts: React.FC<{ withAudio?: boolean }> = ({ withAudio = true }) => {
+  const frame = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const t = frame / fps;
+  const mapped = shortsToEpisode(t);
+  const g = mapped ?? SHORTS_CUTS[SHORTS_CUTS.length - 1].to - 0.01;
+  const cta = mapped === null ? t - (SHORTS_SECONDS - SHORTS_CTA) : -1;
+  const pop = cta < 0 ? 0 : Math.min(1, cta / 0.3);
+  return (
+    <AbsoluteFill style={{ background: "#8fd3ff" }}>
+      <EpisodeWorld g={g} width={SHORTS_W} height={SHORTS_H} zoomFactor={1.3} follow={0.65} />
+      {mapped !== null && <EpisodeOverlays g={g} w={SHORTS_W} h={SHORTS_H} vertical />}
+      {cta >= 0 && (
+        <AbsoluteFill style={{ alignItems: "center", justifyContent: "center", background: `rgba(255,255,255,${0.35 * pop})` }}>
+          <div
+            style={{
+              transform: `scale(${0.6 + 0.4 * pop})`,
+              opacity: pop,
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "center",
+              gap: 40,
+              fontFamily: FONT_FAMILY,
+              fontWeight: 700,
+              textAlign: "center",
+            }}
+          >
+            <div style={{ fontSize: 92, color: "#ffffff", lineHeight: 1.1, ...outlined(16, "#ff7a2f") }}>
+              Czy Tosia zdobędzie malinę?
+            </div>
+            <div
+              style={{
+                fontSize: 70,
+                color: "#ffffff",
+                background: "#ff3b5c",
+                padding: "22px 54px",
+                borderRadius: 60,
+                boxShadow: "0 12px 0 rgba(0,0,0,0.15)",
+                transform: `scale(${1 + Math.sin(cta * 6) * 0.04})`,
+              }}
+            >
+              CAŁY ODCINEK ➜
+            </div>
+          </div>
+        </AbsoluteFill>
+      )}
+      {withAudio && <Audio src={staticFile("episode/odc01-shorts-audio.wav")} />}
+    </AbsoluteFill>
+  );
+};

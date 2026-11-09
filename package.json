@@ -11,7 +11,9 @@
     "test": "vitest run",
     "test:render": "tsx scripts/render-test.ts",
     "sfx": "tsx scripts/generate-sfx.ts",
-    "studio": "remotion studio remotion/index.ts"
+    "studio": "remotion studio remotion/index.ts",
+    "episode:audio": "tsx scripts/episode-audio.ts",
+    "episode": "tsx scripts/render-episode.ts"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.541",

@@ -186,6 +186,24 @@ public/              czcionka Fredoka (OFL), wygenerowane dźwięki
 tests/               testy Vitest
 ```
 
+## Serial: „Przygody Tosi z Kolorowego Lasu”
+
+Odcinek 1 „Tosia i największa malina w lesie” to pełna animacja 16:9 (1920×1080, 4:00) zrobiona w Remotion,
+bez zewnętrznych grafik i nagrań. Scenariusz: `scenariusze/tosia-01-najwieksza-malina.md`.
+
+```bash
+npm run episode:audio                 # muzyka + efekty (public/episode/*.wav) i napisy do dubbingu (scenariusze/tosia-01-dialogi.srt)
+npm run episode                       # renders/episode/tosia-odc01-najwieksza-malina.mp4
+npm run episode -- --shorts           # renders/episode/tosia-odc01-shorts.mp4 (9:16, ok. 44 s)
+npm run episode -- --stills=3,82,141  # podgląd wybranych sekund jako PNG
+```
+
+- Kod: `remotion/episode/` – postacie (`characters.tsx`), plany (`world.tsx`), ujęcia i ruch kamery (`shots.tsx`),
+  oś czasu dialogów, efektów i piosenki (`cues.ts`), kompozycje `TosiaOdcinek1` i `TosiaOdcinek1Shorts` (`Episode.tsx`).
+- **Głosy:** film ma muzykę, efekty i napisy, ale nie ma lektora – w środowisku nie było polskiego syntezatora mowy.
+  Dialogi z dokładnymi czasami są w pliku SRT, a muzyka jest ściszana pod kwestiami, więc nagrany głos wystarczy
+  podłożyć w dowolnym edytorze (np. CapCut). Postacie poruszają ustami dokładnie w czasie swoich kwestii.
+
 ## Licencje
 
 - Remotion ma własną licencję: darmową dla osób prywatnych i firm do 3 osób, większe firmy potrzebują licencji firmowej –
