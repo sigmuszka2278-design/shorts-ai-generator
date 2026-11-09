@@ -10,21 +10,26 @@
     "lint": "tsc --noEmit",
     "test": "vitest run",
     "test:render": "tsx scripts/render-test.ts",
+    "render:gravity": "tsx scripts/render-gravity.ts",
     "sfx": "tsx scripts/generate-sfx.ts",
     "studio": "remotion studio remotion/index.ts"
   },
   "dependencies": {
+    "@react-three/fiber": "^9.8.2",
     "@remotion/bundler": "4.0.541",
     "@remotion/fonts": "4.0.541",
     "@remotion/media": "4.0.541",
     "@remotion/media-parser": "4.0.541",
     "@remotion/player": "4.0.541",
     "@remotion/renderer": "4.0.541",
+    "@remotion/three": "^4.0.541",
     "@remotion/web-renderer": "4.0.541",
+    "@types/three": "^0.187.0",
     "next": "^16.4.5",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",
-    "remotion": "4.0.541"
+    "remotion": "4.0.541",
+    "three": "^0.187.0"
   },
   "devDependencies": {
     "@remotion/cli": "4.0.541",

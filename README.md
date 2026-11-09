@@ -159,7 +159,31 @@ Do opakowania gotowego klipu w scenę użyj `sceneFromAiClip()` z `lib/providers
 | `npm run test:render` | test end-to-end: renderuje 2 filmy (3D i 2D) i sprawdza ffprobe – 1080×1920, H.264, AAC, długość (`-- --stills` zapisuje klatki PNG) |
 | `npm run lint` | sprawdzenie typów TypeScript |
 | `npm run sfx` | ponowne wygenerowanie efektów dźwiękowych i muzyki |
-| `npm run studio` | Remotion Studio – edycja kompozycji `KidsShort` |
+| `npm run studio` | Remotion Studio – edycja kompozycji `KidsShort` i `GravityShort` |
+| `npm run render:gravity` | renderuje gotowy Short „Co gdyby grawitacja zniknęła na 5 sekund?!” (patrz niżej) |
+
+## Gotowy film: „Co gdyby grawitacja zniknęła na 5 sekund?! 😱🌍”
+
+Osobna kompozycja `GravityShort` (`remotion/gravity/`) – 30 s, 1080×1920, 30 kl./s, H.264 + AAC:
+
+- **sceny 3D w three.js** (`@remotion/three`): Ziemia z kosmosu (proceduralne kontynenty, chmury, atmosfera),
+  ulica z samochodami, piłkami i ludźmi, basen i ocean z unoszącymi się kulami wody (materiał z refrakcją),
+  powrót grawitacji z odbiciami i trzęsieniem kamery, zaskoczone twarze, cofanie czasu, zakończenie z pytaniem,
+- **ujęcia zmieniają się co 2–3 s** (oś czasu w `remotion/gravity/timeline.json`),
+- **polski lektor** – offline, Piper TTS (głos `pl_PL-darkman`), dopasowany do slotów scenariusza,
+- **muzyka i efekty** (riser, uderzenia, błysk, stop taśmy, bąbelki, plusk, cofanie) syntezowane w numpy,
+  z automatycznym wyciszaniem pod lektorem,
+- **duże dynamiczne napisy** słowo po słowie, licznik grawitacji, oznaczenie **„FIKCYJNA SYMULACJA 3D”** przez cały film.
+
+```bash
+pip install piper-tts numpy
+python3 scripts/gravity/voiceover.py    # lektor → public/gravity/vo/*.wav + remotion/gravity/voiceover.json
+python3 scripts/gravity/soundtrack.py   # miks muzyki, efektów i lektora → public/gravity/soundtrack.wav
+npm run render:gravity                  # → renders/grawitacja-5-sekund.mp4
+npm run render:gravity -- --stills=0,300,600   # tylko podgląd wybranych klatek (PNG)
+```
+
+Render używa programowego WebGL (SwiftShader), więc działa na serwerze bez GPU; z kartą graficzną ustaw `REMOTION_GL=angle`.
 
 ## Konfiguracja
 
@@ -178,6 +202,8 @@ Do opakowania gotowego klipu w scenę użyj `sceneFromAiClip()` z `lib/providers
 app/                 strona + API (Next.js App Router)
 components/          interfejs (Studio, podgląd, kontrolki)
 remotion/            kompozycja wideo: tła, postacie, kulki, magia, efekty, napisy, dźwięk
+remotion/gravity/    Short „grawitacja na 5 sekund” – sceny 3D (three.js), napisy, HUD
+scripts/gravity/     lektor (Piper TTS) i miks ścieżki dźwiękowej dla tego Shorta
 lib/scene/           słownik PL, generator scen, ruch, oś czasu, kolory
 lib/providers/       generatory: programowy, Replicate, własny HTTP
 lib/render/          renderowanie MP4 (Remotion), wykrywanie przeglądarki
@@ -191,4 +217,5 @@ tests/               testy Vitest
 - Remotion ma własną licencję: darmową dla osób prywatnych i firm do 3 osób, większe firmy potrzebują licencji firmowej –
   zobacz [remotion.dev/license](https://remotion.dev/license).
 - Czcionka Fredoka – SIL Open Font License.
+- Głos lektora: model Piper `pl_PL-darkman-medium` (zob. jego MODEL_CARD); pobierany przy pierwszym uruchomieniu skryptu.
 - Wszystkie grafiki, efekty dźwiękowe i muzyka są generowane przez kod tego projektu.

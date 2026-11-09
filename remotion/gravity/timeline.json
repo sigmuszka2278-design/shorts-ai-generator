@@ -1,0 +1,21 @@
+{
+  "fps": 30,
+  "durationInFrames": 900,
+  "flashFrame": 60,
+  "freezeFrame": 64,
+  "gravityOffFrame": 126,
+  "gravityBackFrame": 423,
+  "shots": [
+    { "id": "earth", "from": 0, "to": 126 },
+    { "id": "streetFloat", "from": 126, "to": 186 },
+    { "id": "carClose", "from": 186, "to": 252 },
+    { "id": "pool", "from": 252, "to": 336 },
+    { "id": "ocean", "from": 336, "to": 423 },
+    { "id": "streetFall", "from": 423, "to": 498 },
+    { "id": "poolCrash", "from": 498, "to": 564 },
+    { "id": "faces", "from": 564, "to": 633 },
+    { "id": "rewind", "from": 633, "to": 723 },
+    { "id": "earthCalm", "from": 723, "to": 813 },
+    { "id": "outro", "from": 813, "to": 900 }
+  ]
+}

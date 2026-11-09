@@ -1,0 +1,38 @@
+[
+  {
+    "file": "gravity/vo/vo0.wav",
+    "start": 0.05,
+    "duration": 3.947,
+    "text": "Wyobraź sobie, że grawitacja na Ziemi znika na 5 sekund! Co by się stało?!"
+  },
+  {
+    "file": "gravity/vo/vo1.wav",
+    "start": 4.2,
+    "duration": 3.904,
+    "text": "Wszystko, czego nic nie trzyma, mogłoby zacząć unosić się w powietrzu!"
+  },
+  {
+    "file": "gravity/vo/vo2.wav",
+    "start": 8.4,
+    "duration": 4.409,
+    "text": "Woda w basenach i oceanach również przestałaby być przyciągana do powierzchni!"
+  },
+  {
+    "file": "gravity/vo/vo3.wav",
+    "start": 14.1,
+    "duration": 4.776,
+    "text": "A gdyby grawitacja nagle wróciła, unoszące się przedmioty zaczęłyby spadać!"
+  },
+  {
+    "file": "gravity/vo/vo4.wav",
+    "start": 21.1,
+    "duration": 4.431,
+    "text": "Na szczęście to tylko eksperyment myślowy. Ale wyglądałoby niesamowicie!"
+  },
+  {
+    "file": "gravity/vo/vo5.wav",
+    "start": 27.05,
+    "duration": 2.682,
+    "text": "A ty? Co zrobiłbyś przez te 5 sekund?"
+  }
+]

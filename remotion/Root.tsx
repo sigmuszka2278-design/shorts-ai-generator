@@ -3,6 +3,8 @@ import { Composition } from "remotion";
 import { generateScene } from "../lib/scene/generator";
 import type { SceneSpec } from "../lib/scene/types";
 import { KidsShort } from "./KidsShort";
+import { GRAVITY_COMPOSITION_ID, GravityShort } from "./gravity/GravityShort";
+import gravityTimeline from "./gravity/timeline.json";
 
 export const COMPOSITION_ID = "KidsShort";
 
@@ -13,6 +15,7 @@ const defaultScene = generateScene({
 });
 
 export const RemotionRoot: React.FC = () => (
+  <>
   <Composition
     id={COMPOSITION_ID}
     component={KidsShort as unknown as React.FC<Record<string, unknown>>}
@@ -31,4 +34,13 @@ export const RemotionRoot: React.FC = () => (
       };
     }}
   />
+  <Composition
+    id={GRAVITY_COMPOSITION_ID}
+    component={GravityShort}
+    width={1080}
+    height={1920}
+    fps={gravityTimeline.fps}
+    durationInFrames={gravityTimeline.durationInFrames}
+  />
+  </>
 );
