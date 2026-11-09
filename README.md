@@ -69,6 +69,30 @@ Gdyby renderowanie na telefonie było za wolne, ten sam kod działa jako serwer 
 Wi-Fi otworzy go pod adresem `http://<IP-komputera>:3000`. Usługi typu Remotion Lambda (AWS) są płatne i nie są
 skonfigurowane.
 
+## Short „licznik kosztów” (realistyczny, 9:16, lektor PL)
+
+Osobny tryb do filmów typu „ile to naprawdę kosztuje”: realistyczne, ciepłe kadry, szybki montaż, polski lektor,
+napisy wypalone w obrazie (2–4 słowa, kwoty na żółto) i licznik „0 zł” w prawym górnym rogu, który rośnie,
+gdy lektor wymienia kolejne koszty.
+
+Gotowy przykład: **`output/auto-na-rok.mp4`** – „Ile naprawdę kosztuje auto przez rok?” (46 s, 1080×1920, H.264 + AAC, −14 LUFS).
+
+```bash
+pip install edge-tts numpy pillow
+python3 scripts/cost-short/build_assets.py cost-short/auto-na-rok.json   # lektor, zdjęcia AI, muzyka, timeline.json
+npm run cost-short -- auto-na-rok                                        # → output/auto-na-rok.mp4
+npm run cost-short -- auto-na-rok --stills --stills-only                  # tylko podgląd klatek (renders/)
+```
+
+- **Scenariusz** – `cost-short/<slug>.json`: segmenty z tekstem lektora, opcjonalną kwotą `cost` (dodawaną do licznika
+  w chwili, gdy lektor ją wypowiada), `total` dla podsumowania i promptami kadrów. Nowy temat = nowy plik JSON.
+- **Lektor** – głos neuronowy `pl-PL-MarekNeural` (Microsoft, przez `edge-tts`) z czasami słów, z których powstają
+  napisy i momenty zmian licznika. Wymaga dostępu do `speech.platform.bing.com`.
+- **Kadry** – fotorealistyczne zdjęcia AI z `image.pollinations.ai` (kadrowane do 9:16 i powiększane do 1080×1920),
+  animowane ruchem kamery (Ken Burns), z ciepłą gradacją, ziarnem filmowym i flashami na cięciach.
+- **Dźwięk** – lektor, syntezowany podkład, „ka-ching” przy każdej kwocie, whoosh na przejściach.
+- Kompozycja Remotion: `remotion/cost-short/CostShort.tsx` (`CostShort`, podgląd w `npm run studio`).
+
 ## Jak to działa
 
 ```

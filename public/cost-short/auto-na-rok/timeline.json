@@ -1,0 +1,978 @@
+{
+ "slug": "auto-na-rok",
+ "title": "Ile naprawdę kosztuje auto przez rok?",
+ "fps": 30,
+ "durationInSeconds": 46.133,
+ "voice": "cost-short/auto-na-rok/voice.wav",
+ "music": "cost-short/auto-na-rok/music.wav",
+ "cash": "cost-short/auto-na-rok/cash.wav",
+ "grain": "cost-short/auto-na-rok/grain.png",
+ "segments": [
+  {
+   "index": 0,
+   "text": "Myślisz, że auto kosztuje tylko tyle, ile zapłacisz w salonie? Policzmy, ile naprawdę wydasz w jeden rok!",
+   "start": 0.35,
+   "end": 6.942,
+   "cost": null,
+   "total": false
+  },
+  {
+   "index": 1,
+   "text": "Na start ubezpieczenie OC. Około 1200 zł.",
+   "start": 7.062,
+   "end": 11.154,
+   "cost": 1200,
+   "total": false
+  },
+  {
+   "index": 2,
+   "text": "Potem paliwo. Przy 15 tysiącach kilometrów to mniej więcej 6500 zł.",
+   "start": 11.274,
+   "end": 16.739,
+   "cost": 6500,
+   "total": false
+  },
+  {
+   "index": 3,
+   "text": "Serwis, olej i przegląd techniczny? Kolejne 1500 zł.",
+   "start": 16.859,
+   "end": 21.609,
+   "cost": 1500,
+   "total": false
+  },
+  {
+   "index": 4,
+   "text": "Opony i sezonowa wymiana to około 800 zł rocznie.",
+   "start": 21.729,
+   "end": 24.699,
+   "cost": 800,
+   "total": false
+  },
+  {
+   "index": 5,
+   "text": "Do tego parking, myjnia i drobne naprawy. Następne 1000 zł.",
+   "start": 24.819,
+   "end": 29.559,
+   "cost": 1000,
+   "total": false
+  },
+  {
+   "index": 6,
+   "text": "A największy koszt? Utrata wartości. Nawet 8000 zł w jeden rok!",
+   "start": 29.679,
+   "end": 35.668,
+   "cost": 8000,
+   "total": false
+  },
+  {
+   "index": 7,
+   "text": "Razem około 19 000 zł. To ponad 1500 zł co miesiąc!",
+   "start": 35.788,
+   "end": 40.907,
+   "cost": null,
+   "total": true
+  },
+  {
+   "index": 8,
+   "text": "A ile ty wydajesz na swoje auto? Napisz w komentarzu!",
+   "start": 41.027,
+   "end": 44.806,
+   "cost": null,
+   "total": false
+  }
+ ],
+ "chunks": [
+  {
+   "start": 0.45,
+   "end": 1.588,
+   "words": [
+    {
+     "text": "Myślisz,",
+     "start": 0.45,
+     "end": 1.075,
+     "highlight": false
+    },
+    {
+     "text": "że",
+     "start": 1.242,
+     "end": 1.376,
+     "highlight": false
+    },
+    {
+     "text": "auto",
+     "start": 1.376,
+     "end": 1.588,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 1.588,
+   "end": 2.682,
+   "words": [
+    {
+     "text": "kosztuje",
+     "start": 1.588,
+     "end": 1.89,
+     "highlight": false
+    },
+    {
+     "text": "tylko",
+     "start": 1.89,
+     "end": 2.124,
+     "highlight": false
+    },
+    {
+     "text": "tyle,",
+     "start": 2.124,
+     "end": 2.526,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 2.682,
+   "end": 4.254,
+   "words": [
+    {
+     "text": "ile",
+     "start": 2.682,
+     "end": 2.827,
+     "highlight": false
+    },
+    {
+     "text": "zapłacisz",
+     "start": 2.827,
+     "end": 3.24,
+     "highlight": false
+    },
+    {
+     "text": "w",
+     "start": 3.24,
+     "end": 3.274,
+     "highlight": false
+    },
+    {
+     "text": "salonie?",
+     "start": 3.274,
+     "end": 3.754,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 4.574,
+   "end": 5.891,
+   "words": [
+    {
+     "text": "Policzmy,",
+     "start": 4.574,
+     "end": 5.177,
+     "highlight": false
+    },
+    {
+     "text": "ile",
+     "start": 5.355,
+     "end": 5.512,
+     "highlight": false
+    },
+    {
+     "text": "naprawdę",
+     "start": 5.512,
+     "end": 5.891,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 5.891,
+   "end": 7.162,
+   "words": [
+    {
+     "text": "wydasz",
+     "start": 5.891,
+     "end": 6.159,
+     "highlight": false
+    },
+    {
+     "text": "w",
+     "start": 6.159,
+     "end": 6.204,
+     "highlight": false
+    },
+    {
+     "text": "jeden",
+     "start": 6.204,
+     "end": 6.46,
+     "highlight": false
+    },
+    {
+     "text": "rok!",
+     "start": 6.46,
+     "end": 6.862,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 7.162,
+   "end": 9.169,
+   "words": [
+    {
+     "text": "Na",
+     "start": 7.162,
+     "end": 7.341,
+     "highlight": false
+    },
+    {
+     "text": "start",
+     "start": 7.341,
+     "end": 7.653,
+     "highlight": false
+    },
+    {
+     "text": "ubezpieczenie",
+     "start": 7.653,
+     "end": 8.233,
+     "highlight": false
+    },
+    {
+     "text": "OC.",
+     "start": 8.233,
+     "end": 8.669,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 9.489,
+   "end": 11.374,
+   "words": [
+    {
+     "text": "Około",
+     "start": 9.489,
+     "end": 9.846,
+     "highlight": false
+    },
+    {
+     "text": "1200",
+     "start": 9.846,
+     "end": 10.665,
+     "highlight": true
+    },
+    {
+     "text": "zł.",
+     "start": 10.665,
+     "end": 11.074,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 11.374,
+   "end": 12.745,
+   "words": [
+    {
+     "text": "Potem",
+     "start": 11.374,
+     "end": 11.72,
+     "highlight": false
+    },
+    {
+     "text": "paliwo.",
+     "start": 11.72,
+     "end": 12.245,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 13.076,
+   "end": 13.969,
+   "words": [
+    {
+     "text": "Przy",
+     "start": 13.076,
+     "end": 13.255,
+     "highlight": false
+    },
+    {
+     "text": "15",
+     "start": 13.255,
+     "end": 13.385,
+     "highlight": true
+    },
+    {
+     "text": "tysiącach",
+     "start": 13.385,
+     "end": 13.969,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 13.969,
+   "end": 14.817,
+   "words": [
+    {
+     "text": "kilometrów",
+     "start": 13.969,
+     "end": 14.494,
+     "highlight": false
+    },
+    {
+     "text": "to",
+     "start": 14.494,
+     "end": 14.605,
+     "highlight": false
+    },
+    {
+     "text": "mniej",
+     "start": 14.605,
+     "end": 14.817,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 14.817,
+   "end": 16.959,
+   "words": [
+    {
+     "text": "więcej",
+     "start": 14.817,
+     "end": 15.107,
+     "highlight": false
+    },
+    {
+     "text": "6500",
+     "start": 15.108,
+     "end": 16.142,
+     "highlight": true
+    },
+    {
+     "text": "zł.",
+     "start": 16.142,
+     "end": 16.659,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 16.959,
+   "end": 18.175,
+   "words": [
+    {
+     "text": "Serwis,",
+     "start": 16.959,
+     "end": 17.651,
+     "highlight": false
+    },
+    {
+     "text": "olej",
+     "start": 17.818,
+     "end": 18.108,
+     "highlight": false
+    },
+    {
+     "text": "i",
+     "start": 18.108,
+     "end": 18.175,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 18.175,
+   "end": 19.613,
+   "words": [
+    {
+     "text": "przegląd",
+     "start": 18.175,
+     "end": 18.544,
+     "highlight": false
+    },
+    {
+     "text": "techniczny?",
+     "start": 18.544,
+     "end": 19.113,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 19.933,
+   "end": 21.829,
+   "words": [
+    {
+     "text": "Kolejne",
+     "start": 19.933,
+     "end": 20.335,
+     "highlight": false
+    },
+    {
+     "text": "1500",
+     "start": 20.335,
+     "end": 21.131,
+     "highlight": true
+    },
+    {
+     "text": "zł.",
+     "start": 21.131,
+     "end": 21.529,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 21.829,
+   "end": 22.644,
+   "words": [
+    {
+     "text": "Opony",
+     "start": 21.829,
+     "end": 22.22,
+     "highlight": false
+    },
+    {
+     "text": "i",
+     "start": 22.22,
+     "end": 22.276,
+     "highlight": false
+    },
+    {
+     "text": "sezonowa",
+     "start": 22.276,
+     "end": 22.644,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 22.644,
+   "end": 23.459,
+   "words": [
+    {
+     "text": "wymiana",
+     "start": 22.644,
+     "end": 23.035,
+     "highlight": false
+    },
+    {
+     "text": "to",
+     "start": 23.035,
+     "end": 23.124,
+     "highlight": false
+    },
+    {
+     "text": "około",
+     "start": 23.124,
+     "end": 23.459,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 23.459,
+   "end": 24.919,
+   "words": [
+    {
+     "text": "800",
+     "start": 23.459,
+     "end": 23.887,
+     "highlight": true
+    },
+    {
+     "text": "zł",
+     "start": 23.887,
+     "end": 24.173,
+     "highlight": true
+    },
+    {
+     "text": "rocznie.",
+     "start": 24.173,
+     "end": 24.619,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 24.919,
+   "end": 26.024,
+   "words": [
+    {
+     "text": "Do",
+     "start": 24.919,
+     "end": 25.076,
+     "highlight": false
+    },
+    {
+     "text": "tego",
+     "start": 25.076,
+     "end": 25.277,
+     "highlight": false
+    },
+    {
+     "text": "parking,",
+     "start": 25.277,
+     "end": 25.846,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 26.024,
+   "end": 27.83,
+   "words": [
+    {
+     "text": "myjnia",
+     "start": 26.024,
+     "end": 26.471,
+     "highlight": false
+    },
+    {
+     "text": "i",
+     "start": 26.471,
+     "end": 26.527,
+     "highlight": false
+    },
+    {
+     "text": "drobne",
+     "start": 26.527,
+     "end": 26.806,
+     "highlight": false
+    },
+    {
+     "text": "naprawy.",
+     "start": 26.806,
+     "end": 27.33,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 28.084,
+   "end": 29.779,
+   "words": [
+    {
+     "text": "Następne",
+     "start": 28.084,
+     "end": 28.608,
+     "highlight": false
+    },
+    {
+     "text": "1000",
+     "start": 28.608,
+     "end": 29.189,
+     "highlight": true
+    },
+    {
+     "text": "zł.",
+     "start": 29.189,
+     "end": 29.479,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 29.779,
+   "end": 31.373,
+   "words": [
+    {
+     "text": "A",
+     "start": 29.779,
+     "end": 29.89,
+     "highlight": false
+    },
+    {
+     "text": "największy",
+     "start": 29.89,
+     "end": 30.393,
+     "highlight": false
+    },
+    {
+     "text": "koszt?",
+     "start": 30.393,
+     "end": 30.873,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 31.626,
+   "end": 33.231,
+   "words": [
+    {
+     "text": "Utrata",
+     "start": 31.626,
+     "end": 32.061,
+     "highlight": false
+    },
+    {
+     "text": "wartości.",
+     "start": 32.061,
+     "end": 32.731,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 33.557,
+   "end": 34.818,
+   "words": [
+    {
+     "text": "Nawet",
+     "start": 33.557,
+     "end": 33.869,
+     "highlight": false
+    },
+    {
+     "text": "8000",
+     "start": 33.869,
+     "end": 34.502,
+     "highlight": true
+    },
+    {
+     "text": "zł",
+     "start": 34.502,
+     "end": 34.818,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 34.818,
+   "end": 35.888,
+   "words": [
+    {
+     "text": "w",
+     "start": 34.818,
+     "end": 34.896,
+     "highlight": false
+    },
+    {
+     "text": "jeden",
+     "start": 34.896,
+     "end": 35.164,
+     "highlight": false
+    },
+    {
+     "text": "rok!",
+     "start": 35.164,
+     "end": 35.588,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 35.888,
+   "end": 36.569,
+   "words": [
+    {
+     "text": "Razem",
+     "start": 35.888,
+     "end": 36.301,
+     "highlight": false
+    },
+    {
+     "text": "około",
+     "start": 36.301,
+     "end": 36.569,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 36.569,
+   "end": 38.442,
+   "words": [
+    {
+     "text": "19",
+     "start": 36.569,
+     "end": 36.961,
+     "highlight": true
+    },
+    {
+     "text": "000",
+     "start": 36.961,
+     "end": 37.55,
+     "highlight": true
+    },
+    {
+     "text": "zł.",
+     "start": 37.55,
+     "end": 37.942,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 38.762,
+   "end": 40.113,
+   "words": [
+    {
+     "text": "To",
+     "start": 38.762,
+     "end": 38.896,
+     "highlight": false
+    },
+    {
+     "text": "ponad",
+     "start": 38.896,
+     "end": 39.175,
+     "highlight": false
+    },
+    {
+     "text": "1500",
+     "start": 39.175,
+     "end": 39.8,
+     "highlight": true
+    },
+    {
+     "text": "zł",
+     "start": 39.8,
+     "end": 40.113,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 40.113,
+   "end": 41.127,
+   "words": [
+    {
+     "text": "co",
+     "start": 40.113,
+     "end": 40.235,
+     "highlight": false
+    },
+    {
+     "text": "miesiąc!",
+     "start": 40.236,
+     "end": 40.827,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 41.127,
+   "end": 41.562,
+   "words": [
+    {
+     "text": "A",
+     "start": 41.127,
+     "end": 41.294,
+     "highlight": false
+    },
+    {
+     "text": "ile",
+     "start": 41.294,
+     "end": 41.473,
+     "highlight": false
+    },
+    {
+     "text": "ty",
+     "start": 41.473,
+     "end": 41.562,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 41.562,
+   "end": 43.189,
+   "words": [
+    {
+     "text": "wydajesz",
+     "start": 41.562,
+     "end": 41.908,
+     "highlight": false
+    },
+    {
+     "text": "na",
+     "start": 41.908,
+     "end": 41.975,
+     "highlight": false
+    },
+    {
+     "text": "swoje",
+     "start": 41.975,
+     "end": 42.243,
+     "highlight": false
+    },
+    {
+     "text": "auto?",
+     "start": 42.243,
+     "end": 42.689,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 43.532,
+   "end": 45.227,
+   "words": [
+    {
+     "text": "Napisz",
+     "start": 43.532,
+     "end": 43.979,
+     "highlight": false
+    },
+    {
+     "text": "w",
+     "start": 43.979,
+     "end": 44.023,
+     "highlight": false
+    },
+    {
+     "text": "komentarzu!",
+     "start": 44.023,
+     "end": 44.727,
+     "highlight": false
+    }
+   ]
+  }
+ ],
+ "counter": {
+  "steps": [
+   {
+    "at": 9.846,
+    "add": 1200,
+    "value": 1200
+   },
+   {
+    "at": 15.108,
+    "add": 6500,
+    "value": 7700
+   },
+   {
+    "at": 20.335,
+    "add": 1500,
+    "value": 9200
+   },
+   {
+    "at": 23.459,
+    "add": 800,
+    "value": 10000
+   },
+   {
+    "at": 28.608,
+    "add": 1000,
+    "value": 11000
+   },
+   {
+    "at": 33.869,
+    "add": 8000,
+    "value": 19000
+   }
+  ],
+  "totalAt": 35.788
+ },
+ "shots": [
+  {
+   "src": "cost-short/auto-na-rok/shot-01.jpg",
+   "start": 0.0,
+   "end": 2.334
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-02.jpg",
+   "start": 2.334,
+   "end": 4.668
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-03.jpg",
+   "start": 4.668,
+   "end": 7.002
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-04.jpg",
+   "start": 7.002,
+   "end": 9.108
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-05.jpg",
+   "start": 9.108,
+   "end": 11.214
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-06.jpg",
+   "start": 11.214,
+   "end": 13.076
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-07.jpg",
+   "start": 13.076,
+   "end": 14.937
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-08.jpg",
+   "start": 14.937,
+   "end": 16.799
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-09.jpg",
+   "start": 16.799,
+   "end": 19.234
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-10.jpg",
+   "start": 19.234,
+   "end": 21.669
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-11.jpg",
+   "start": 21.669,
+   "end": 23.214
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-12.jpg",
+   "start": 23.214,
+   "end": 24.759
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-13.jpg",
+   "start": 24.759,
+   "end": 26.379
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-14.jpg",
+   "start": 26.379,
+   "end": 27.999
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-15.jpg",
+   "start": 27.999,
+   "end": 29.619
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-16.jpg",
+   "start": 29.619,
+   "end": 31.655
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-17.jpg",
+   "start": 31.655,
+   "end": 33.692
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-18.jpg",
+   "start": 33.692,
+   "end": 35.728
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-19.jpg",
+   "start": 35.728,
+   "end": 38.347
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-20.jpg",
+   "start": 38.347,
+   "end": 40.967
+  },
+  {
+   "src": "cost-short/auto-na-rok/shot-21.jpg",
+   "start": 40.967,
+   "end": 46.133
+  }
+ ]
+}

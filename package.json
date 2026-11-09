@@ -11,7 +11,8 @@
     "test": "vitest run",
     "test:render": "tsx scripts/render-test.ts",
     "sfx": "tsx scripts/generate-sfx.ts",
-    "studio": "remotion studio remotion/index.ts"
+    "studio": "remotion studio remotion/index.ts",
+    "cost-short": "tsx scripts/render-cost-short.ts"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.541",

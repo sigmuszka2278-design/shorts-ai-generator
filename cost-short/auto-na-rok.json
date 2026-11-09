@@ -1,0 +1,85 @@
+{
+  "slug": "auto-na-rok",
+  "title": "Ile naprawdę kosztuje auto przez rok?",
+  "voice": "pl-PL-MarekNeural",
+  "rate": "+12%",
+  "pitch": "+0Hz",
+  "gapSeconds": 0.12,
+  "tailSeconds": 1.2,
+  "imageSuffix": "cinematic film still, photorealistic, warm golden hour tones, amber and teal color grade, shallow depth of field, anamorphic lens, 35mm film grain, dramatic lighting, vertical composition, highly detailed, no text, no watermark",
+  "segments": [
+    {
+      "text": "Myślisz, że auto kosztuje tylko tyle, ile zapłacisz w salonie? Policzmy, ile naprawdę wydasz w jeden rok!",
+      "shots": [
+        "a shiny new hatchback car in a modern car dealership showroom, warm spotlights, reflections on polished floor",
+        "close-up of a hand holding new car keys with a leather keychain, car dealership in the background, bokeh",
+        "young man smiling behind the steering wheel of a new car, sunlight through the windshield"
+      ]
+    },
+    {
+      "text": "Na start ubezpieczenie OC. Około 1200 zł.",
+      "cost": 1200,
+      "shots": [
+        "car insurance documents and a pen on a wooden desk next to car keys, warm desk lamp light, close-up",
+        "hands signing an insurance contract on a desk, warm window light, close-up"
+      ]
+    },
+    {
+      "text": "Potem paliwo. Przy 15 tysiącach kilometrów to mniej więcej 6500 zł.",
+      "cost": 6500,
+      "shots": [
+        "close-up of a fuel nozzle filling a car at a gas station at dusk, glowing lights",
+        "a gas station at night with warm neon lights and a car at the pump, wet asphalt reflections",
+        "car driving on a European highway at sunset, motion blur, aerial view"
+      ]
+    },
+    {
+      "text": "Serwis, olej i przegląd techniczny? Kolejne 1500 zł.",
+      "cost": 1500,
+      "shots": [
+        "mechanic working under a lifted car in a garage workshop, warm work lights, sparks of light",
+        "close-up of golden engine oil being poured into a car engine, macro"
+      ]
+    },
+    {
+      "text": "Opony i sezonowa wymiana to około 800 zł rocznie.",
+      "cost": 800,
+      "shots": [
+        "stack of new car tires in a tire shop, dramatic side light",
+        "mechanic changing a car wheel with an impact wrench, close-up, garage"
+      ]
+    },
+    {
+      "text": "Do tego parking, myjnia i drobne naprawy. Następne 1000 zł.",
+      "cost": 1000,
+      "shots": [
+        "car covered in white foam in a car wash, colorful warm light, water droplets",
+        "car parked on a city street at golden hour, parking meter in the foreground",
+        "close-up of a cracked car headlight, moody warm light"
+      ]
+    },
+    {
+      "text": "A największy koszt? Utrata wartości. Nawet 8000 zł w jeden rok!",
+      "cost": 8000,
+      "shots": [
+        "a lonely car parked in the rain at night under a street lamp, moody, warm orange light, rain drops",
+        "a used car on a lot with a sale sign on the windshield, sunset, dramatic sky",
+        "close-up of a car speedometer and dashboard glowing orange in the dark"
+      ]
+    },
+    {
+      "text": "Razem około 19 000 zł. To ponad 1500 zł co miesiąc!",
+      "total": true,
+      "shots": [
+        "worried man looking at bills and a calculator at a kitchen table, warm evening light",
+        "open empty leather wallet on a car seat, close-up, warm light"
+      ]
+    },
+    {
+      "text": "A ile ty wydajesz na swoje auto? Napisz w komentarzu!",
+      "shots": [
+        "car driving on an empty country road toward the sunset, rear view, lens flare, epic wide shot"
+      ]
+    }
+  ]
+}
