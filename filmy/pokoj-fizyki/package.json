@@ -1,0 +1,17 @@
+{
+  "name": "pokoj-fizyki",
+  "version": "1.0.0",
+  "private": true,
+  "description": "YouTube Shorts „TEN POKÓJ ŁAMIE PRAWA FIZYKI! 😱” – animacja 3D (three.js), polski lektor, napisy, muzyka i efekty",
+  "scripts": {
+    "voice": "python3 voice.py",
+    "audio": "python3 audio.py",
+    "stills": "node render.cjs --stills 0,5,10,15,20,24",
+    "video": "node render.cjs --video build/video.mp4"
+  },
+  "dependencies": {
+    "@fontsource/montserrat": "^5.3.0",
+    "@twemoji/svg": "^15.0.0",
+    "three": "0.170.0"
+  }
+}
