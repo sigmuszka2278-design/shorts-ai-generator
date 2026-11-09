@@ -3,6 +3,8 @@ import { Composition } from "remotion";
 import { generateScene } from "../lib/scene/generator";
 import type { SceneSpec } from "../lib/scene/types";
 import { KidsShort } from "./KidsShort";
+import { EPISODE_FPS, EPISODE_SECONDS } from "./episode/cues";
+import { EPISODE_H, EPISODE_W, TosiaEpisode } from "./episode/Episode";
 
 export const COMPOSITION_ID = "KidsShort";
 
@@ -13,6 +15,16 @@ const defaultScene = generateScene({
 });
 
 export const RemotionRoot: React.FC = () => (
+  <>
+  <Composition
+    id="TosiaOdcinek1"
+    component={TosiaEpisode as unknown as React.FC<Record<string, unknown>>}
+    width={EPISODE_W}
+    height={EPISODE_H}
+    fps={EPISODE_FPS}
+    durationInFrames={EPISODE_SECONDS * EPISODE_FPS}
+    defaultProps={{ withAudio: true }}
+  />
   <Composition
     id={COMPOSITION_ID}
     component={KidsShort as unknown as React.FC<Record<string, unknown>>}
@@ -31,4 +43,5 @@ export const RemotionRoot: React.FC = () => (
       };
     }}
   />
+  </>
 );
