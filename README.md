@@ -186,6 +186,20 @@ public/              czcionka Fredoka (OFL), wygenerowane dźwięki
 tests/               testy Vitest
 ```
 
+## Gotowa historia: „Mruczek i jego wąsy”
+
+Scenariuszowy film edukacyjny (≈42 s, 9:16) o kotku Mruczku – 6 scen, polski lektor (kobiecy głos neuronowy
+`pl-PL-ZofiaNeural`) i wypalone napisy (2–3 słowa, słowa kluczowe na żółto) zsynchronizowane co do słowa.
+
+```bash
+npm run render:mruczek                 # → renders/mruczek-wasy.mp4
+npm run render:mruczek -- --stills     # podgląd klatek PNG
+```
+
+Kod: `remotion/stories/mruczek/` (kompozycja `MruczekWasy`). Nagrania lektora i znaczniki czasu słów leżą
+w `public/stories/mruczek/`; odtworzysz je skryptem `scripts/stories/voiceover.py` (wymaga `pip install edge-tts`
+i internetu). Długość scen wynika z nagrania, więc napisy i animacje zawsze trafiają w słowa.
+
 ## Licencje
 
 - Remotion ma własną licencję: darmową dla osób prywatnych i firm do 3 osób, większe firmy potrzebują licencji firmowej –

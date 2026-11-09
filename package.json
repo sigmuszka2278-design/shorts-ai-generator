@@ -10,6 +10,7 @@
     "lint": "tsc --noEmit",
     "test": "vitest run",
     "test:render": "tsx scripts/render-test.ts",
+    "render:mruczek": "tsx scripts/render-mruczek.ts",
     "sfx": "tsx scripts/generate-sfx.ts",
     "studio": "remotion studio remotion/index.ts"
   },

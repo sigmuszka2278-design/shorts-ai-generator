@@ -1,0 +1,463 @@
+{
+  "voice": "pl-PL-ZofiaNeural",
+  "rate": "-8%",
+  "pitch": "+3Hz",
+  "scenes": {
+    "s1": {
+      "text": "Cześć! To jest Mruczek. Widzisz jego długie wąsy? One wcale nie są tylko do ozdoby!",
+      "duration": 9.0,
+      "words": [
+        {
+          "text": "Cześć",
+          "start": 0.104,
+          "end": 0.471
+        },
+        {
+          "text": "To",
+          "start": 1.508,
+          "end": 1.576
+        },
+        {
+          "text": "jest",
+          "start": 1.576,
+          "end": 1.834
+        },
+        {
+          "text": "Mruczek",
+          "start": 1.861,
+          "end": 2.459
+        },
+        {
+          "text": "Widzisz",
+          "start": 3.504,
+          "end": 3.898
+        },
+        {
+          "text": "jego",
+          "start": 3.898,
+          "end": 4.17
+        },
+        {
+          "text": "długie",
+          "start": 4.17,
+          "end": 4.537
+        },
+        {
+          "text": "wąsy",
+          "start": 4.537,
+          "end": 5.026
+        },
+        {
+          "text": "One",
+          "start": 6.032,
+          "end": 6.235
+        },
+        {
+          "text": "wcale",
+          "start": 6.249,
+          "end": 6.589
+        },
+        {
+          "text": "nie",
+          "start": 6.589,
+          "end": 6.738
+        },
+        {
+          "text": "są",
+          "start": 6.738,
+          "end": 6.915
+        },
+        {
+          "text": "tylko",
+          "start": 6.969,
+          "end": 7.282
+        },
+        {
+          "text": "do",
+          "start": 7.282,
+          "end": 7.39
+        },
+        {
+          "text": "ozdoby",
+          "start": 7.39,
+          "end": 8.002
+        }
+      ]
+    },
+    "s2": {
+      "text": "Wąsy są mniej więcej tak szerokie jak kotek. Dzięki nim Mruczek wie, czy zmieści się w ciasnej dziurce!",
+      "duration": 8.088,
+      "words": [
+        {
+          "text": "Wąsy",
+          "start": 0.103,
+          "end": 0.457
+        },
+        {
+          "text": "są",
+          "start": 0.457,
+          "end": 0.62
+        },
+        {
+          "text": "mniej",
+          "start": 0.674,
+          "end": 0.973
+        },
+        {
+          "text": "więcej",
+          "start": 0.973,
+          "end": 1.394
+        },
+        {
+          "text": "tak",
+          "start": 1.394,
+          "end": 1.611
+        },
+        {
+          "text": "szerokie",
+          "start": 1.652,
+          "end": 2.141
+        },
+        {
+          "text": "jak",
+          "start": 2.141,
+          "end": 2.331
+        },
+        {
+          "text": "kotek",
+          "start": 2.359,
+          "end": 2.848
+        },
+        {
+          "text": "Dzięki",
+          "start": 3.898,
+          "end": 4.265
+        },
+        {
+          "text": "nim",
+          "start": 4.265,
+          "end": 4.469
+        },
+        {
+          "text": "Mruczek",
+          "start": 4.469,
+          "end": 4.958
+        },
+        {
+          "text": "wie",
+          "start": 4.972,
+          "end": 5.176
+        },
+        {
+          "text": "czy",
+          "start": 5.284,
+          "end": 5.515
+        },
+        {
+          "text": "zmieści",
+          "start": 5.515,
+          "end": 5.936
+        },
+        {
+          "text": "się",
+          "start": 5.936,
+          "end": 6.086
+        },
+        {
+          "text": "w",
+          "start": 6.086,
+          "end": 6.14
+        },
+        {
+          "text": "ciasnej",
+          "start": 6.14,
+          "end": 6.548
+        },
+        {
+          "text": "dziurce",
+          "start": 6.548,
+          "end": 7.023
+        }
+      ]
+    },
+    "s3": {
+      "text": "W ciemności wąsy czują nawet malutki ruch powietrza. Tak Mruczek omija przeszkody, nawet gdy prawie nic nie widzi!",
+      "duration": 8.64,
+      "words": [
+        {
+          "text": "W",
+          "start": 0.104,
+          "end": 0.118
+        },
+        {
+          "text": "ciemności",
+          "start": 0.118,
+          "end": 0.77
+        },
+        {
+          "text": "wąsy",
+          "start": 0.77,
+          "end": 1.178
+        },
+        {
+          "text": "czują",
+          "start": 1.178,
+          "end": 1.463
+        },
+        {
+          "text": "nawet",
+          "start": 1.504,
+          "end": 1.789
+        },
+        {
+          "text": "malutki",
+          "start": 1.803,
+          "end": 2.278
+        },
+        {
+          "text": "ruch",
+          "start": 2.278,
+          "end": 2.482
+        },
+        {
+          "text": "powietrza",
+          "start": 2.482,
+          "end": 3.053
+        },
+        {
+          "text": "Tak",
+          "start": 4.117,
+          "end": 4.253
+        },
+        {
+          "text": "Mruczek",
+          "start": 4.293,
+          "end": 4.769
+        },
+        {
+          "text": "omija",
+          "start": 4.783,
+          "end": 5.163
+        },
+        {
+          "text": "przeszkody",
+          "start": 5.19,
+          "end": 5.883
+        },
+        {
+          "text": "nawet",
+          "start": 5.938,
+          "end": 6.277
+        },
+        {
+          "text": "gdy",
+          "start": 6.291,
+          "end": 6.522
+        },
+        {
+          "text": "prawie",
+          "start": 6.522,
+          "end": 6.834
+        },
+        {
+          "text": "nic",
+          "start": 6.834,
+          "end": 7.052
+        },
+        {
+          "text": "nie",
+          "start": 7.092,
+          "end": 7.242
+        },
+        {
+          "text": "widzi",
+          "start": 7.255,
+          "end": 7.663
+        }
+      ]
+    },
+    "s4": {
+      "text": "A kiedy się bawi, wąsy pomagają mu dokładnie złapać zabawkę. Hop!",
+      "duration": 6.144,
+      "words": [
+        {
+          "text": "A",
+          "start": 0.103,
+          "end": 0.185
+        },
+        {
+          "text": "kiedy",
+          "start": 0.198,
+          "end": 0.511
+        },
+        {
+          "text": "się",
+          "start": 0.511,
+          "end": 0.688
+        },
+        {
+          "text": "bawi",
+          "start": 0.688,
+          "end": 1.068
+        },
+        {
+          "text": "wąsy",
+          "start": 1.122,
+          "end": 1.516
+        },
+        {
+          "text": "pomagają",
+          "start": 1.516,
+          "end": 2.073
+        },
+        {
+          "text": "mu",
+          "start": 2.114,
+          "end": 2.223
+        },
+        {
+          "text": "dokładnie",
+          "start": 2.236,
+          "end": 2.78
+        },
+        {
+          "text": "złapać",
+          "start": 2.78,
+          "end": 3.188
+        },
+        {
+          "text": "zabawkę",
+          "start": 3.188,
+          "end": 3.758
+        },
+        {
+          "text": "Hop",
+          "start": 4.81,
+          "end": 5.082
+        }
+      ]
+    },
+    "s5": {
+      "text": "Pamiętaj: kotkom nigdy nie obcinamy wąsów i nie ciągniemy za nie. Są bardzo, bardzo ważne!",
+      "duration": 7.728,
+      "words": [
+        {
+          "text": "Pamiętaj",
+          "start": 0.104,
+          "end": 0.716
+        },
+        {
+          "text": "kotkom",
+          "start": 0.811,
+          "end": 1.327
+        },
+        {
+          "text": "nigdy",
+          "start": 1.341,
+          "end": 1.708
+        },
+        {
+          "text": "nie",
+          "start": 1.708,
+          "end": 1.816
+        },
+        {
+          "text": "obcinamy",
+          "start": 1.83,
+          "end": 2.401
+        },
+        {
+          "text": "wąsów",
+          "start": 2.401,
+          "end": 2.89
+        },
+        {
+          "text": "i",
+          "start": 2.944,
+          "end": 2.998
+        },
+        {
+          "text": "nie",
+          "start": 3.012,
+          "end": 3.148
+        },
+        {
+          "text": "ciągniemy",
+          "start": 3.161,
+          "end": 3.678
+        },
+        {
+          "text": "za",
+          "start": 3.678,
+          "end": 3.854
+        },
+        {
+          "text": "nie",
+          "start": 3.882,
+          "end": 4.072
+        },
+        {
+          "text": "Są",
+          "start": 5.08,
+          "end": 5.23
+        },
+        {
+          "text": "bardzo",
+          "start": 5.298,
+          "end": 5.787
+        },
+        {
+          "text": "bardzo",
+          "start": 5.841,
+          "end": 6.249
+        },
+        {
+          "text": "ważne",
+          "start": 6.249,
+          "end": 6.724
+        }
+      ]
+    },
+    "s6": {
+      "text": "Pa, pa! Mruczek macha do ciebie wąsami!",
+      "duration": 4.608,
+      "words": [
+        {
+          "text": "Pa",
+          "start": 0.104,
+          "end": 0.24
+        },
+        {
+          "text": "pa",
+          "start": 0.322,
+          "end": 0.58
+        },
+        {
+          "text": "Mruczek",
+          "start": 1.589,
+          "end": 2.064
+        },
+        {
+          "text": "macha",
+          "start": 2.118,
+          "end": 2.458
+        },
+        {
+          "text": "do",
+          "start": 2.499,
+          "end": 2.621
+        },
+        {
+          "text": "ciebie",
+          "start": 2.621,
+          "end": 2.961
+        },
+        {
+          "text": "wąsami",
+          "start": 2.961,
+          "end": 3.532
+        }
+      ]
+    }
+  }
+}

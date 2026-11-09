@@ -1,0 +1,11 @@
+{
+  "title": "Mruczek i jego wąsy",
+  "scenes": [
+    { "id": "s1", "start": 0, "end": 4, "voiceover": "Cześć! To jest Mruczek. Widzisz jego długie wąsy? One wcale nie są tylko do ozdoby!" },
+    { "id": "s2", "start": 4, "end": 12, "voiceover": "Wąsy są mniej więcej tak szerokie jak kotek. Dzięki nim Mruczek wie, czy zmieści się w ciasnej dziurce!" },
+    { "id": "s3", "start": 12, "end": 22, "voiceover": "W ciemności wąsy czują nawet malutki ruch powietrza. Tak Mruczek omija przeszkody, nawet gdy prawie nic nie widzi!" },
+    { "id": "s4", "start": 22, "end": 30, "voiceover": "A kiedy się bawi, wąsy pomagają mu dokładnie złapać zabawkę. Hop!" },
+    { "id": "s5", "start": 30, "end": 36, "voiceover": "Pamiętaj: kotkom nigdy nie obcinamy wąsów i nie ciągniemy za nie. Są bardzo, bardzo ważne!" },
+    { "id": "s6", "start": 36, "end": 40, "voiceover": "Pa, pa! Mruczek macha do ciebie wąsami!" }
+  ]
+}
