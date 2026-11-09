@@ -30,12 +30,12 @@ export function setupCaptions(voice) {
       const len = cur.reduce((a, x) => a + x.w.length + 1, 0) + w.w.length;
       if (cur.length >= 3 || (cur.length && len > 17)) flush();
       cur.push(w);
-      if (/[,…!?]$/.test(w.w) && cur.length >= 2) flush();
+      if (/[,…!?]$/.test(w.w)) flush();
     }
     flush();
   }
+  groups.forEach((g) => { g.t0 = g.words[0].t0 - 0.04; });
   groups.forEach((g, i) => {
-    g.t0 = g.words[0].t0 - 0.04;
     const next = groups[i + 1];
     g.t1 = next && next.t0 < g.end + 0.35 ? next.words[0].t0 - 0.04 : g.end + 0.3;
   });
