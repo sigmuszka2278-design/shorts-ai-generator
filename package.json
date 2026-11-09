@@ -11,7 +11,9 @@
     "test": "vitest run",
     "test:render": "tsx scripts/render-test.ts",
     "sfx": "tsx scripts/generate-sfx.ts",
-    "studio": "remotion studio remotion/index.ts"
+    "studio": "remotion studio remotion/index.ts",
+    "honey:audio": "python3 scripts/honey/build_audio.py",
+    "honey:render": "tsx scripts/honey/render.ts"
   },
   "dependencies": {
     "@remotion/bundler": "4.0.541",

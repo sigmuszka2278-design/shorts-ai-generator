@@ -3,6 +3,7 @@ import { Composition } from "remotion";
 import { generateScene } from "../lib/scene/generator";
 import type { SceneSpec } from "../lib/scene/types";
 import { KidsShort } from "./KidsShort";
+import { HONEY_COMPOSITION_ID, HONEY_DURATION, HONEY_FPS, HoneyShort } from "./honey/HoneyShort";
 
 export const COMPOSITION_ID = "KidsShort";
 
@@ -13,6 +14,7 @@ const defaultScene = generateScene({
 });
 
 export const RemotionRoot: React.FC = () => (
+  <>
   <Composition
     id={COMPOSITION_ID}
     component={KidsShort as unknown as React.FC<Record<string, unknown>>}
@@ -31,4 +33,14 @@ export const RemotionRoot: React.FC = () => (
       };
     }}
   />
+  <Composition
+    id={HONEY_COMPOSITION_ID}
+    component={HoneyShort}
+    width={1080}
+    height={1920}
+    fps={HONEY_FPS}
+    durationInFrames={Math.round(HONEY_DURATION * HONEY_FPS)}
+    defaultProps={{ clips: {}, showCaptions: true }}
+  />
+  </>
 );

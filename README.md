@@ -139,6 +139,38 @@ Klip musi być dostępny przez HTTPS (lub z tego samego hosta co `AI_VIDEO_HTTP_
 Zaimplementuj interfejs `VideoProvider` z `lib/providers/types.ts` i dodaj go w `lib/providers/index.ts`.
 Do opakowania gotowego klipu w scenę użyj `sceneFromAiClip()` z `lib/providers/ai-common.ts`.
 
+## Film „Miód się nie psuje” (YouTube Shorts, 40 s)
+
+Gotowy, osobny film: kompozycja `HoneyShort` (`remotion/honey/`), 1080×1920, 30 kl./s, 40 s, ciepłe złote kolory,
+szybki montaż (cięcia w scenach, błyski przejść), polski lektor i wypalone napisy. Ostatnia klatka wraca do kadru
+pierwszej, więc film zapętla się płynnie. Wyrenderowany plik: `examples/miod-sie-nie-psuje.mp4`.
+
+| Scena | Czas | Obraz |
+| --- | --- | --- |
+| 1 | 0–3 s | łyżka wyciąga gęsty miód ze słoika (zbliżenie, slow motion) |
+| 2 | 3–10 s | grobowiec egipski, pochodnie, archeolodzy otwierają zapieczętowany dzban |
+| 3 | 10–18 s | makro: bakteria w miodzie traci wodę i wysycha (osmoza) |
+| 4 | 18–25 s | kropla miodu na pasku pH, kolor zmienia się na pH ≈ 3,9 |
+| 5 | 25–33 s | pszczoły na plastrze pod słońce, H₂O₂ |
+| 6 | 33–40 s | ta sama łyżka – kamera wraca do kadru ze sceny 1 |
+
+- **Tekst** – `scripts/honey/script.json` (słowa w `*gwiazdkach*` są żółte w napisach).
+- **Lektor** – polski męski głos neuronowy Piper `pl_PL-darkman-medium` (offline). Zdania są syntezowane osobno,
+  pauzy dopasowane do przecinków, a czas słów liczony z sylab → napisy po 2–4 słowa zsynchronizowane z mową.
+- **Muzyka i efekty** – syntezowane (pad, puls, whoosh + uderzenie na cięciach, kapanie miodu, pochodnia, bzyczenie),
+  ściszanie pod lektorem, głośność -14 LUFS.
+
+```bash
+pip install piper-tts numpy        # + ffmpeg
+npm run honey:audio                # → public/honey/soundtrack.wav, remotion/honey/timeline.json
+npm run honey:render               # → renders/miod-sie-nie-psuje.mp4  (-- --stills: podgląd klatek)
+```
+
+Obrazy są rysowane kodem (SVG). Aby podmienić sceny na fotorealistyczne ujęcia z modelu wideo AI, wygeneruj klipy
+z promptów w `remotion/honey/prompts.ts` i podaj je: `npm run honey:render -- --clips=clips.json`, gdzie
+`clips.json` to np. `{"tomb": "https://…/tomb.mp4", "bees": "https://…/bees.mp4"}` – napisy, lektor i korekcja
+kolorów zostają bez zmian.
+
 ## API
 
 | Metoda | Ścieżka | Opis |

@@ -1,0 +1,721 @@
+{
+ "title": "Dlaczego miód się nie psuje?",
+ "durationInSeconds": 40.0,
+ "fps": 30,
+ "voice": "Piper pl_PL-darkman-medium",
+ "scenes": [
+  {
+   "id": "spoon-intro",
+   "start": 0,
+   "end": 3
+  },
+  {
+   "id": "tomb",
+   "start": 3,
+   "end": 10
+  },
+  {
+   "id": "bacteria",
+   "start": 10,
+   "end": 18
+  },
+  {
+   "id": "ph-strip",
+   "start": 18,
+   "end": 25
+  },
+  {
+   "id": "bees",
+   "start": 25,
+   "end": 33
+  },
+  {
+   "id": "spoon-outro",
+   "start": 33,
+   "end": 40
+  }
+ ],
+ "sentences": [
+  {
+   "scene": "spoon-intro",
+   "text": "Ten miód mógłby mieć trzy tysiące lat.",
+   "start": 0.14,
+   "end": 2.11
+  },
+  {
+   "scene": "spoon-intro",
+   "text": "I nadal dałoby się go zjeść.",
+   "start": 2.25,
+   "end": 3.78
+  },
+  {
+   "scene": "tomb",
+   "text": "Archeolodzy znajdowali miód w egipskich grobowcach.",
+   "start": 3.92,
+   "end": 6.86
+  },
+  {
+   "scene": "tomb",
+   "text": "Po tysiącach lat wciąż się nie zepsuł.",
+   "start": 7.0,
+   "end": 9.24
+  },
+  {
+   "scene": "bacteria",
+   "text": "Pierwszy powód: miód ma bardzo mało wody.",
+   "start": 10.12,
+   "end": 12.73
+  },
+  {
+   "scene": "bacteria",
+   "text": "Bakterie, które do niego trafią, dosłownie wysychają.",
+   "start": 12.87,
+   "end": 16.49
+  },
+  {
+   "scene": "ph-strip",
+   "text": "Drugi: jest kwaśny.",
+   "start": 18.12,
+   "end": 19.66
+  },
+  {
+   "scene": "ph-strip",
+   "text": "Mało który drobnoustrój przeżyje w takim środowisku.",
+   "start": 19.8,
+   "end": 22.67
+  },
+  {
+   "scene": "bees",
+   "text": "Trzeci: pszczoły dodają do niego enzym, który wytwarza nadtlenek wodoru.",
+   "start": 25.12,
+   "end": 29.26
+  },
+  {
+   "scene": "bees",
+   "text": "Naturalny środek antybakteryjny.",
+   "start": 29.4,
+   "end": 31.42
+  },
+  {
+   "scene": "spoon-outro",
+   "text": "Jedyne, co może mu zaszkodzić, to wilgoć.",
+   "start": 33.12,
+   "end": 35.76
+  },
+  {
+   "scene": "spoon-outro",
+   "text": "Więc zakręcaj słoik.",
+   "start": 35.9,
+   "end": 37.26
+  },
+  {
+   "scene": "spoon-outro",
+   "text": "A ty wiedziałeś, że miód się nie psuje?",
+   "start": 37.4,
+   "end": 39.41
+  }
+ ],
+ "captions": [
+  {
+   "start": 0.14,
+   "end": 1.153,
+   "scene": "spoon-intro",
+   "words": [
+    {
+     "text": "Ten",
+     "start": 0.14,
+     "highlight": false
+    },
+    {
+     "text": "miód",
+     "start": 0.354,
+     "highlight": true
+    },
+    {
+     "text": "mógłby",
+     "start": 0.567,
+     "highlight": false
+    },
+    {
+     "text": "mieć",
+     "start": 0.939,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 1.153,
+   "end": 2.25,
+   "scene": "spoon-intro",
+   "words": [
+    {
+     "text": "trzy",
+     "start": 1.153,
+     "highlight": true
+    },
+    {
+     "text": "tysiące",
+     "start": 1.366,
+     "highlight": true
+    },
+    {
+     "text": "lat.",
+     "start": 1.896,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 2.25,
+   "end": 3.222,
+   "scene": "spoon-intro",
+   "words": [
+    {
+     "text": "I",
+     "start": 2.25,
+     "highlight": false
+    },
+    {
+     "text": "nadal",
+     "start": 2.436,
+     "highlight": false
+    },
+    {
+     "text": "dałoby",
+     "start": 2.76,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 3.222,
+   "end": 3.92,
+   "scene": "spoon-intro",
+   "words": [
+    {
+     "text": "się",
+     "start": 3.222,
+     "highlight": false
+    },
+    {
+     "text": "go",
+     "start": 3.408,
+     "highlight": false
+    },
+    {
+     "text": "zjeść.",
+     "start": 3.594,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 3.92,
+   "end": 5.552,
+   "scene": "tomb",
+   "words": [
+    {
+     "text": "Archeolodzy",
+     "start": 3.92,
+     "highlight": false
+    },
+    {
+     "text": "znajdowali",
+     "start": 4.627,
+     "highlight": false
+    },
+    {
+     "text": "miód",
+     "start": 5.333,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 5.552,
+   "end": 7.0,
+   "scene": "tomb",
+   "words": [
+    {
+     "text": "w",
+     "start": 5.552,
+     "highlight": false
+    },
+    {
+     "text": "egipskich",
+     "start": 5.772,
+     "highlight": true
+    },
+    {
+     "text": "grobowcach.",
+     "start": 6.316,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 7.0,
+   "end": 8.331,
+   "scene": "tomb",
+   "words": [
+    {
+     "text": "Po",
+     "start": 7.0,
+     "highlight": false
+    },
+    {
+     "text": "tysiącach",
+     "start": 7.243,
+     "highlight": true
+    },
+    {
+     "text": "lat",
+     "start": 7.846,
+     "highlight": true
+    },
+    {
+     "text": "wciąż",
+     "start": 8.089,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 8.331,
+   "end": 9.49,
+   "scene": "tomb",
+   "words": [
+    {
+     "text": "się",
+     "start": 8.331,
+     "highlight": false
+    },
+    {
+     "text": "nie",
+     "start": 8.574,
+     "highlight": true
+    },
+    {
+     "text": "zepsuł.",
+     "start": 8.817,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 10.12,
+   "end": 11.18,
+   "scene": "bacteria",
+   "words": [
+    {
+     "text": "Pierwszy",
+     "start": 10.12,
+     "highlight": true
+    },
+    {
+     "text": "powód:",
+     "start": 10.56,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 11.18,
+   "end": 11.983,
+   "scene": "bacteria",
+   "words": [
+    {
+     "text": "miód",
+     "start": 11.18,
+     "highlight": false
+    },
+    {
+     "text": "ma",
+     "start": 11.395,
+     "highlight": false
+    },
+    {
+     "text": "bardzo",
+     "start": 11.609,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 11.983,
+   "end": 12.87,
+   "scene": "bacteria",
+   "words": [
+    {
+     "text": "mało",
+     "start": 11.983,
+     "highlight": true
+    },
+    {
+     "text": "wody.",
+     "start": 12.356,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 12.87,
+   "end": 14.112,
+   "scene": "bacteria",
+   "words": [
+    {
+     "text": "Bakterie,",
+     "start": 12.87,
+     "highlight": true
+    },
+    {
+     "text": "które",
+     "start": 13.76,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 14.112,
+   "end": 15.26,
+   "scene": "bacteria",
+   "words": [
+    {
+     "text": "do",
+     "start": 14.112,
+     "highlight": false
+    },
+    {
+     "text": "niego",
+     "start": 14.315,
+     "highlight": false
+    },
+    {
+     "text": "trafią,",
+     "start": 14.667,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 15.26,
+   "end": 16.74,
+   "scene": "bacteria",
+   "words": [
+    {
+     "text": "dosłownie",
+     "start": 15.26,
+     "highlight": false
+    },
+    {
+     "text": "wysychają.",
+     "start": 15.795,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 18.12,
+   "end": 19.8,
+   "scene": "ph-strip",
+   "words": [
+    {
+     "text": "Drugi:",
+     "start": 18.12,
+     "highlight": true
+    },
+    {
+     "text": "jest",
+     "start": 18.84,
+     "highlight": false
+    },
+    {
+     "text": "kwaśny.",
+     "start": 19.139,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 19.8,
+   "end": 21.482,
+   "scene": "ph-strip",
+   "words": [
+    {
+     "text": "Mało",
+     "start": 19.8,
+     "highlight": false
+    },
+    {
+     "text": "który",
+     "start": 20.147,
+     "highlight": false
+    },
+    {
+     "text": "drobnoustrój",
+     "start": 20.494,
+     "highlight": true
+    },
+    {
+     "text": "przeżyje",
+     "start": 20.988,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 21.482,
+   "end": 22.92,
+   "scene": "ph-strip",
+   "words": [
+    {
+     "text": "w",
+     "start": 21.482,
+     "highlight": false
+    },
+    {
+     "text": "takim",
+     "start": 21.681,
+     "highlight": false
+    },
+    {
+     "text": "środowisku.",
+     "start": 22.028,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 25.12,
+   "end": 26.378,
+   "scene": "bees",
+   "words": [
+    {
+     "text": "Trzeci:",
+     "start": 25.12,
+     "highlight": true
+    },
+    {
+     "text": "pszczoły",
+     "start": 25.487,
+     "highlight": true
+    },
+    {
+     "text": "dodają",
+     "start": 25.854,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 26.378,
+   "end": 27.323,
+   "scene": "bees",
+   "words": [
+    {
+     "text": "do",
+     "start": 26.378,
+     "highlight": false
+    },
+    {
+     "text": "niego",
+     "start": 26.589,
+     "highlight": false
+    },
+    {
+     "text": "enzym,",
+     "start": 26.956,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 27.323,
+   "end": 29.4,
+   "scene": "bees",
+   "words": [
+    {
+     "text": "który",
+     "start": 27.323,
+     "highlight": false
+    },
+    {
+     "text": "wytwarza",
+     "start": 27.69,
+     "highlight": false
+    },
+    {
+     "text": "nadtlenek",
+     "start": 28.213,
+     "highlight": true
+    },
+    {
+     "text": "wodoru.",
+     "start": 28.737,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 29.4,
+   "end": 31.67,
+   "scene": "bees",
+   "words": [
+    {
+     "text": "Naturalny",
+     "start": 29.4,
+     "highlight": false
+    },
+    {
+     "text": "środek",
+     "start": 30.073,
+     "highlight": false
+    },
+    {
+     "text": "antybakteryjny.",
+     "start": 30.437,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 33.12,
+   "end": 34.318,
+   "scene": "spoon-outro",
+   "words": [
+    {
+     "text": "Jedyne,",
+     "start": 33.12,
+     "highlight": false
+    },
+    {
+     "text": "co",
+     "start": 33.82,
+     "highlight": false
+    },
+    {
+     "text": "może",
+     "start": 34.002,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 34.318,
+   "end": 35.2,
+   "scene": "spoon-outro",
+   "words": [
+    {
+     "text": "mu",
+     "start": 34.318,
+     "highlight": false
+    },
+    {
+     "text": "zaszkodzić,",
+     "start": 34.499,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 35.2,
+   "end": 35.9,
+   "scene": "spoon-outro",
+   "words": [
+    {
+     "text": "to",
+     "start": 35.2,
+     "highlight": false
+    },
+    {
+     "text": "wilgoć.",
+     "start": 35.404,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 35.9,
+   "end": 37.4,
+   "scene": "spoon-outro",
+   "words": [
+    {
+     "text": "Więc",
+     "start": 35.9,
+     "highlight": false
+    },
+    {
+     "text": "zakręcaj",
+     "start": 36.203,
+     "highlight": true
+    },
+    {
+     "text": "słoik.",
+     "start": 36.957,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 37.4,
+   "end": 38.281,
+   "scene": "spoon-outro",
+   "words": [
+    {
+     "text": "A",
+     "start": 37.4,
+     "highlight": false
+    },
+    {
+     "text": "ty",
+     "start": 37.597,
+     "highlight": false
+    },
+    {
+     "text": "wiedziałeś,",
+     "start": 37.793,
+     "highlight": false
+    }
+   ]
+  },
+  {
+   "start": 38.281,
+   "end": 38.674,
+   "scene": "spoon-outro",
+   "words": [
+    {
+     "text": "że",
+     "start": 38.281,
+     "highlight": false
+    },
+    {
+     "text": "miód",
+     "start": 38.478,
+     "highlight": true
+    }
+   ]
+  },
+  {
+   "start": 38.674,
+   "end": 39.95,
+   "scene": "spoon-outro",
+   "words": [
+    {
+     "text": "się",
+     "start": 38.674,
+     "highlight": true
+    },
+    {
+     "text": "nie",
+     "start": 38.871,
+     "highlight": true
+    },
+    {
+     "text": "psuje?",
+     "start": 39.068,
+     "highlight": true
+    }
+   ]
+  }
+ ]
+}

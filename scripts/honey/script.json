@@ -1,0 +1,44 @@
+{
+  "title": "Dlaczego miód się nie psuje?",
+  "durationInSeconds": 40,
+  "fps": 30,
+  "note": "Słowa w *gwiazdkach* są podświetlane na żółto w napisach. Czas scen w sekundach.",
+  "scenes": [
+    {
+      "id": "spoon-intro",
+      "start": 0,
+      "end": 3,
+      "voiceover": ["Ten *miód* mógłby mieć *trzy tysiące lat*.", "I nadal dałoby się go *zjeść*."]
+    },
+    {
+      "id": "tomb",
+      "start": 3,
+      "end": 10,
+      "voiceover": ["Archeolodzy znajdowali *miód* w *egipskich grobowcach*.", "Po *tysiącach lat* wciąż się *nie zepsuł*."]
+    },
+    {
+      "id": "bacteria",
+      "start": 10,
+      "end": 18,
+      "voiceover": ["*Pierwszy powód*: miód ma bardzo *mało wody*.", "*Bakterie*, które do niego trafią, dosłownie *wysychają*."]
+    },
+    {
+      "id": "ph-strip",
+      "start": 18,
+      "end": 25,
+      "voiceover": ["*Drugi*: jest *kwaśny*.", "Mało który *drobnoustrój* przeżyje w takim środowisku."]
+    },
+    {
+      "id": "bees",
+      "start": 25,
+      "end": 33,
+      "voiceover": ["*Trzeci*: *pszczoły* dodają do niego *enzym*, który wytwarza *nadtlenek wodoru*.", "Naturalny środek *antybakteryjny*."]
+    },
+    {
+      "id": "spoon-outro",
+      "start": 33,
+      "end": 40,
+      "voiceover": ["Jedyne, co może mu zaszkodzić, to *wilgoć*.", "Więc *zakręcaj słoik*.", "A ty wiedziałeś, że *miód się nie psuje*?"]
+    }
+  ]
+}
