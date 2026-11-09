@@ -1,0 +1,97 @@
+{
+  "title": "6 CIEKAWOSTEK, O KTÓRYCH NIGDY NIE SŁYSZAŁEŚ! 😱",
+  "segments": [
+    {
+      "id": "intro",
+      "text": "Sześć ciekawostek, o których prawdopodobnie nigdy nie słyszałeś! Ostatnia jest niesamowita!",
+      "display": "6 ciekawostek, o których prawdopodobnie nigdy nie słyszałeś! Ostatnia jest niesamowita!",
+      "beats": {},
+      "length_scale": 0.78
+    },
+    {
+      "id": "octopus",
+      "number": 1,
+      "label": "OŚMIORNICE",
+      "emoji": "🐙",
+      "text": "Czy wiedziałeś, że ośmiornice mają aż trzy serca i niebieską krew?!",
+      "display": "Czy wiedziałeś, że ośmiornice mają aż 3 serca i niebieską krew?!",
+      "beats": {
+        "hearts": "3",
+        "blood": "niebieską"
+      }
+    },
+    {
+      "id": "venus",
+      "number": 2,
+      "label": "WENUS",
+      "emoji": "🪐",
+      "text": "Na Wenus jeden obrót wokół własnej osi trwa dłużej niż cały rok na tej planecie!",
+      "display": "Na Wenus jeden obrót wokół własnej osi trwa dłużej niż cały rok na tej planecie!",
+      "beats": {
+        "day": "obrót",
+        "year": "rok"
+      }
+    },
+    {
+      "id": "shark",
+      "number": 3,
+      "label": "REKINY",
+      "emoji": "🦈",
+      "text": "Rekiny istniały na Ziemi jeszcze zanim pojawiły się pierwsze drzewa!",
+      "display": "Rekiny istniały na Ziemi jeszcze zanim pojawiły się pierwsze drzewa!",
+      "beats": {
+        "trees": "drzewa",
+        "shark": "Rekiny"
+      }
+    },
+    {
+      "id": "banana",
+      "number": 4,
+      "label": "BANANY",
+      "emoji": "🍌",
+      "text": "Z botanicznego punktu widzenia banany są jagodami, ale truskawki już nie!",
+      "display": "Z botanicznego punktu widzenia banany są jagodami, ale truskawki już nie!",
+      "beats": {
+        "banana": "banany",
+        "berry": "jagodami,",
+        "strawberry": "truskawki",
+        "no": "nie!"
+      }
+    },
+    {
+      "id": "moon",
+      "number": 5,
+      "label": "KOSMOS",
+      "emoji": "🌌",
+      "text": "Na Księżycu ślady astronautów mogą przetrwać miliony lat, ponieważ nie ma tam wiatru ani deszczu!",
+      "display": "Na Księżycu ślady astronautów mogą przetrwać miliony lat, ponieważ nie ma tam wiatru ani deszczu!",
+      "beats": {
+        "steps": "ślady",
+        "years": "miliony",
+        "wind": "wiatru",
+        "rain": "deszczu!"
+      }
+    },
+    {
+      "id": "jelly",
+      "number": 6,
+      "label": "MEDUZY",
+      "emoji": "🪼",
+      "text": "Istnieje gatunek meduzy, który potrafi cofnąć swój cykl życia i ponownie stać się młody!",
+      "display": "Istnieje gatunek meduzy, który potrafi cofnąć swój cykl życia i ponownie stać się młody!",
+      "beats": {
+        "rewind": "cofnąć",
+        "young": "młody!"
+      }
+    },
+    {
+      "id": "outro",
+      "text": "Która ciekawostka najbardziej cię zaskoczyła? Napisz numer w komentarzu!",
+      "display": "Która ciekawostka najbardziej cię zaskoczyła? Napisz numer w komentarzu!",
+      "beats": {
+        "numbers": "numer",
+        "comment": "komentarzu!"
+      }
+    }
+  ]
+}

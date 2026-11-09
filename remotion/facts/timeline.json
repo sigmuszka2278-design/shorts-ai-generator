@@ -1,0 +1,618 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationInFrames": 1468,
+ "title": "6 CIEKAWOSTEK, O KTÓRYCH NIGDY NIE SŁYSZAŁEŚ! 😱",
+ "segments": [
+  {
+   "id": "intro",
+   "number": null,
+   "label": null,
+   "emoji": null,
+   "from": 0,
+   "duration": 212,
+   "voiceAt": 0.12,
+   "voiceEnd": 6.753,
+   "words": [
+    {
+     "w": "6",
+     "start": 0.152,
+     "end": 0.392
+    },
+    {
+     "w": "ciekawostek,",
+     "start": 0.424,
+     "end": 1.16
+    },
+    {
+     "w": "o",
+     "start": 1.208,
+     "end": 1.272
+    },
+    {
+     "w": "których",
+     "start": 1.304,
+     "end": 1.528
+    },
+    {
+     "w": "prawdopodobnie",
+     "start": 1.56,
+     "end": 2.136
+    },
+    {
+     "w": "nigdy",
+     "start": 2.168,
+     "end": 2.392
+    },
+    {
+     "w": "nie",
+     "start": 2.424,
+     "end": 2.52
+    },
+    {
+     "w": "słyszałeś!",
+     "start": 2.568,
+     "end": 3.4
+    },
+    {
+     "w": "Ostatnia",
+     "start": 3.64,
+     "end": 5.448
+    },
+    {
+     "w": "jest",
+     "start": 5.48,
+     "end": 5.608
+    },
+    {
+     "w": "niesamowita!",
+     "start": 5.656,
+     "end": 6.68
+    }
+   ],
+   "beats": {}
+  },
+  {
+   "id": "octopus",
+   "number": 1,
+   "label": "OŚMIORNICE",
+   "emoji": "🐙",
+   "from": 212,
+   "duration": 153,
+   "voiceAt": 7.867,
+   "voiceEnd": 11.714,
+   "words": [
+    {
+     "w": "Czy",
+     "start": 7.899,
+     "end": 7.995
+    },
+    {
+     "w": "wiedziałeś,",
+     "start": 8.027,
+     "end": 8.395
+    },
+    {
+     "w": "że",
+     "start": 8.427,
+     "end": 8.523
+    },
+    {
+     "w": "ośmiornice",
+     "start": 8.555,
+     "end": 9.739
+    },
+    {
+     "w": "mają",
+     "start": 9.787,
+     "end": 9.995
+    },
+    {
+     "w": "aż",
+     "start": 10.027,
+     "end": 10.155
+    },
+    {
+     "w": "3",
+     "start": 10.187,
+     "end": 10.395
+    },
+    {
+     "w": "serca",
+     "start": 10.427,
+     "end": 10.795
+    },
+    {
+     "w": "i",
+     "start": 10.875,
+     "end": 10.907
+    },
+    {
+     "w": "niebieską",
+     "start": 10.939,
+     "end": 11.419
+    },
+    {
+     "w": "krew?!",
+     "start": 11.499,
+     "end": 11.714
+    }
+   ],
+   "beats": {
+    "hearts": 10.187,
+    "blood": 10.939
+   }
+  },
+  {
+   "id": "venus",
+   "number": 2,
+   "label": "WENUS",
+   "emoji": "🪐",
+   "from": 365,
+   "duration": 169,
+   "voiceAt": 12.967,
+   "voiceEnd": 17.339,
+   "words": [
+    {
+     "w": "Na",
+     "start": 13.004,
+     "end": 13.084
+    },
+    {
+     "w": "Wenus",
+     "start": 13.132,
+     "end": 13.388
+    },
+    {
+     "w": "jeden",
+     "start": 13.452,
+     "end": 13.692
+    },
+    {
+     "w": "obrót",
+     "start": 13.756,
+     "end": 14.012
+    },
+    {
+     "w": "wokół",
+     "start": 14.06,
+     "end": 14.412
+    },
+    {
+     "w": "własnej",
+     "start": 14.46,
+     "end": 14.828
+    },
+    {
+     "w": "osi",
+     "start": 14.892,
+     "end": 15.116
+    },
+    {
+     "w": "trwa",
+     "start": 15.212,
+     "end": 15.42
+    },
+    {
+     "w": "dłużej",
+     "start": 15.468,
+     "end": 15.756
+    },
+    {
+     "w": "niż",
+     "start": 15.804,
+     "end": 15.964
+    },
+    {
+     "w": "cały",
+     "start": 15.996,
+     "end": 16.204
+    },
+    {
+     "w": "rok",
+     "start": 16.252,
+     "end": 16.428
+    },
+    {
+     "w": "na",
+     "start": 16.46,
+     "end": 16.54
+    },
+    {
+     "w": "tej",
+     "start": 16.572,
+     "end": 16.7
+    },
+    {
+     "w": "planecie!",
+     "start": 16.748,
+     "end": 17.339
+    }
+   ],
+   "beats": {
+    "day": 13.756,
+    "year": 16.252
+   }
+  },
+  {
+   "id": "shark",
+   "number": 3,
+   "label": "REKINY",
+   "emoji": "🦈",
+   "from": 534,
+   "duration": 161,
+   "voiceAt": 18.6,
+   "voiceEnd": 22.709,
+   "words": [
+    {
+     "w": "Rekiny",
+     "start": 18.637,
+     "end": 19.277
+    },
+    {
+     "w": "istniały",
+     "start": 19.325,
+     "end": 19.741
+    },
+    {
+     "w": "na",
+     "start": 19.789,
+     "end": 19.869
+    },
+    {
+     "w": "Ziemi",
+     "start": 19.933,
+     "end": 20.493
+    },
+    {
+     "w": "jeszcze",
+     "start": 20.541,
+     "end": 20.797
+    },
+    {
+     "w": "zanim",
+     "start": 20.845,
+     "end": 21.261
+    },
+    {
+     "w": "pojawiły",
+     "start": 21.309,
+     "end": 21.725
+    },
+    {
+     "w": "się",
+     "start": 21.757,
+     "end": 21.853
+    },
+    {
+     "w": "pierwsze",
+     "start": 21.885,
+     "end": 22.237
+    },
+    {
+     "w": "drzewa!",
+     "start": 22.269,
+     "end": 22.709
+    }
+   ],
+   "beats": {
+    "trees": 22.269,
+    "shark": 18.637
+   }
+  },
+  {
+   "id": "banana",
+   "number": 4,
+   "label": "BANANY",
+   "emoji": "🍌",
+   "from": 695,
+   "duration": 189,
+   "voiceAt": 23.967,
+   "voiceEnd": 29.011,
+   "words": [
+    {
+     "w": "Z",
+     "start": 24.095,
+     "end": 24.159
+    },
+    {
+     "w": "botanicznego",
+     "start": 24.191,
+     "end": 24.735
+    },
+    {
+     "w": "punktu",
+     "start": 24.783,
+     "end": 25.071
+    },
+    {
+     "w": "widzenia",
+     "start": 25.103,
+     "end": 25.471
+    },
+    {
+     "w": "banany",
+     "start": 25.519,
+     "end": 25.791
+    },
+    {
+     "w": "są",
+     "start": 25.839,
+     "end": 25.951
+    },
+    {
+     "w": "jagodami,",
+     "start": 25.983,
+     "end": 26.895
+    },
+    {
+     "w": "ale",
+     "start": 26.975,
+     "end": 27.119
+    },
+    {
+     "w": "truskawki",
+     "start": 27.167,
+     "end": 28.159
+    },
+    {
+     "w": "już",
+     "start": 28.207,
+     "end": 28.335
+    },
+    {
+     "w": "nie!",
+     "start": 28.383,
+     "end": 29.011
+    }
+   ],
+   "beats": {
+    "banana": 25.519,
+    "berry": 25.983,
+    "strawberry": 27.167,
+    "no": 28.383
+   }
+  },
+  {
+   "id": "moon",
+   "number": 5,
+   "label": "KOSMOS",
+   "emoji": "🌌",
+   "from": 884,
+   "duration": 204,
+   "voiceAt": 30.267,
+   "voiceEnd": 35.812,
+   "words": [
+    {
+     "w": "Na",
+     "start": 30.32,
+     "end": 30.416
+    },
+    {
+     "w": "Księżycu",
+     "start": 30.496,
+     "end": 30.96
+    },
+    {
+     "w": "ślady",
+     "start": 31.008,
+     "end": 31.28
+    },
+    {
+     "w": "astronautów",
+     "start": 31.344,
+     "end": 32.288
+    },
+    {
+     "w": "mogą",
+     "start": 32.336,
+     "end": 32.56
+    },
+    {
+     "w": "przetrwać",
+     "start": 32.624,
+     "end": 33.072
+    },
+    {
+     "w": "miliony",
+     "start": 33.104,
+     "end": 33.424
+    },
+    {
+     "w": "lat,",
+     "start": 33.472,
+     "end": 33.904
+    },
+    {
+     "w": "ponieważ",
+     "start": 33.952,
+     "end": 34.288
+    },
+    {
+     "w": "nie",
+     "start": 34.32,
+     "end": 34.416
+    },
+    {
+     "w": "ma",
+     "start": 34.416,
+     "end": 34.512
+    },
+    {
+     "w": "tam",
+     "start": 34.56,
+     "end": 34.72
+    },
+    {
+     "w": "wiatru",
+     "start": 34.752,
+     "end": 35.088
+    },
+    {
+     "w": "ani",
+     "start": 35.168,
+     "end": 35.328
+    },
+    {
+     "w": "deszczu!",
+     "start": 35.36,
+     "end": 35.811
+    }
+   ],
+   "beats": {
+    "steps": 31.008,
+    "years": 33.104,
+    "wind": 34.752,
+    "rain": 35.36
+   }
+  },
+  {
+   "id": "jelly",
+   "number": 6,
+   "label": "MEDUZY",
+   "emoji": "🪼",
+   "from": 1088,
+   "duration": 182,
+   "voiceAt": 37.067,
+   "voiceEnd": 41.881,
+   "words": [
+    {
+     "w": "Istnieje",
+     "start": 37.111,
+     "end": 37.591
+    },
+    {
+     "w": "gatunek",
+     "start": 37.639,
+     "end": 37.943
+    },
+    {
+     "w": "meduzy,",
+     "start": 37.991,
+     "end": 38.535
+    },
+    {
+     "w": "który",
+     "start": 38.567,
+     "end": 38.775
+    },
+    {
+     "w": "potrafi",
+     "start": 38.823,
+     "end": 39.127
+    },
+    {
+     "w": "cofnąć",
+     "start": 39.175,
+     "end": 39.543
+    },
+    {
+     "w": "swój",
+     "start": 39.575,
+     "end": 39.735
+    },
+    {
+     "w": "cykl",
+     "start": 39.767,
+     "end": 40.023
+    },
+    {
+     "w": "życia",
+     "start": 40.071,
+     "end": 40.471
+    },
+    {
+     "w": "i",
+     "start": 40.551,
+     "end": 40.583
+    },
+    {
+     "w": "ponownie",
+     "start": 40.631,
+     "end": 40.983
+    },
+    {
+     "w": "stać",
+     "start": 41.015,
+     "end": 41.271
+    },
+    {
+     "w": "się",
+     "start": 41.303,
+     "end": 41.399
+    },
+    {
+     "w": "młody!",
+     "start": 41.431,
+     "end": 41.831
+    }
+   ],
+   "beats": {
+    "rewind": 39.175,
+    "young": 41.431
+   }
+  },
+  {
+   "id": "outro",
+   "number": null,
+   "label": null,
+   "emoji": null,
+   "from": 1270,
+   "duration": 198,
+   "voiceAt": 42.883,
+   "voiceEnd": 47.226,
+   "words": [
+    {
+     "w": "Która",
+     "start": 42.915,
+     "end": 43.507
+    },
+    {
+     "w": "ciekawostka",
+     "start": 43.555,
+     "end": 44.179
+    },
+    {
+     "w": "najbardziej",
+     "start": 44.227,
+     "end": 44.611
+    },
+    {
+     "w": "cię",
+     "start": 44.643,
+     "end": 44.771
+    },
+    {
+     "w": "zaskoczyła?",
+     "start": 44.819,
+     "end": 45.469
+    },
+    {
+     "w": "Napisz",
+     "start": 45.589,
+     "end": 45.844
+    },
+    {
+     "w": "numer",
+     "start": 45.876,
+     "end": 46.532
+    },
+    {
+     "w": "w",
+     "start": 46.692,
+     "end": 46.756
+    },
+    {
+     "w": "komentarzu!",
+     "start": 46.788,
+     "end": 47.204
+    }
+   ],
+   "beats": {
+    "numbers": 45.876,
+    "comment": 46.788
+   }
+  }
+ ]
+}

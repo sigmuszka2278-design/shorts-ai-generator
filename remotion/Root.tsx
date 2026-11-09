@@ -3,6 +3,8 @@ import { Composition } from "remotion";
 import { generateScene } from "../lib/scene/generator";
 import type { SceneSpec } from "../lib/scene/types";
 import { KidsShort } from "./KidsShort";
+import { FactsShort, FACTS_COMPOSITION_ID } from "./facts/FactsShort";
+import { timeline as factsTimeline } from "./facts/util";
 
 export const COMPOSITION_ID = "KidsShort";
 
@@ -13,6 +15,7 @@ const defaultScene = generateScene({
 });
 
 export const RemotionRoot: React.FC = () => (
+  <>
   <Composition
     id={COMPOSITION_ID}
     component={KidsShort as unknown as React.FC<Record<string, unknown>>}
@@ -31,4 +34,13 @@ export const RemotionRoot: React.FC = () => (
       };
     }}
   />
+  <Composition
+    id={FACTS_COMPOSITION_ID}
+    component={FactsShort}
+    width={factsTimeline.width}
+    height={factsTimeline.height}
+    fps={factsTimeline.fps}
+    durationInFrames={factsTimeline.durationInFrames}
+  />
+  </>
 );
