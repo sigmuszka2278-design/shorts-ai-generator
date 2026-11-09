@@ -192,3 +192,19 @@ tests/               testy Vitest
   zobacz [remotion.dev/license](https://remotion.dev/license).
 - Czcionka Fredoka – SIL Open Font License.
 - Wszystkie grafiki, efekty dźwiękowe i muzyka są generowane przez kod tego projektu.
+
+## Film edukacyjny „Chmurka i tęcza”
+
+Gotowa, ręcznie zaprojektowana kompozycja `ChmurkaTecza` (`remotion/chmurka/`): ok. 41 s, 9:16, 6 scen o tym,
+skąd bierze się tęcza. Lektorka: polski głos neuronowy `pl-PL-ZofiaNeural` (wygenerowany wcześniej –
+`public/chmurka/*.mp3`), napisy 2–3 słowa zsynchronizowane co do słowa (`remotion/chmurka/voiceover.json`),
+słowa kluczowe na żółto.
+
+```bash
+npx tsx scripts/render-chmurka.ts                 # → renders/chmurka-tecza.mp4
+npx tsx scripts/render-chmurka.ts --stills        # podgląd klatek PNG
+pip install edge-tts && python3 scripts/tts_chmurka.py public/chmurka -5% +3Hz \
+  && mv public/chmurka/words.json remotion/chmurka/voiceover.json   # ponowne nagranie lektora
+```
+
+Długości scen wynikają z nagrania – po zmianie tekstu obraz i napisy same się dopasują.

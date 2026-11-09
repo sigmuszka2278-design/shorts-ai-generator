@@ -1,0 +1,397 @@
+[
+ {
+  "text": "Cześć! To znowu ja, Chmurka. Zobacz, jaka piękna tęcza! A wiesz, skąd się bierze?",
+  "words": [
+   {
+    "text": "Cześć",
+    "start": 0.102625,
+    "end": 0.457875
+   },
+   {
+    "text": "To",
+    "start": 1.460541,
+    "end": 1.565791
+   },
+   {
+    "text": "znowu",
+    "start": 1.578958,
+    "end": 1.999999
+   },
+   {
+    "text": "ja",
+    "start": 2.013166,
+    "end": 2.223707
+   },
+   {
+    "text": "Chmurka",
+    "start": 2.434208,
+    "end": 2.907874
+   },
+   {
+    "text": "Zobacz",
+    "start": 3.90725,
+    "end": 4.367791
+   },
+   {
+    "text": "jaka",
+    "start": 4.499333,
+    "end": 4.775666
+   },
+   {
+    "text": "piękna",
+    "start": 4.788833,
+    "end": 5.223041
+   },
+   {
+    "text": "tęcza",
+    "start": 5.249333,
+    "end": 5.670374
+   },
+   {
+    "text": "A",
+    "start": 6.696708,
+    "end": 6.801958
+   },
+   {
+    "text": "wiesz",
+    "start": 6.828291,
+    "end": 7.183541
+   },
+   {
+    "text": "skąd",
+    "start": 7.275666,
+    "end": 7.657249
+   },
+   {
+    "text": "się",
+    "start": 7.65725,
+    "end": 7.828291
+   },
+   {
+    "text": "bierze",
+    "start": 7.828291,
+    "end": 8.249332
+   }
+  ]
+ },
+ {
+  "text": "Najpierw potrzebny jest deszczyk. Kap, kap, kap! W powietrzu lata mnóstwo malutkich kropelek.",
+  "words": [
+   {
+    "text": "Najpierw",
+    "start": 0.101958,
+    "end": 0.522999
+   },
+   {
+    "text": "potrzebny",
+    "start": 0.523041,
+    "end": 1.088832
+   },
+   {
+    "text": "jest",
+    "start": 1.088833,
+    "end": 1.325666
+   },
+   {
+    "text": "deszczyk",
+    "start": 1.378291,
+    "end": 1.930916
+   },
+   {
+    "text": "Kap",
+    "start": 2.947375,
+    "end": 3.171041
+   },
+   {
+    "text": "kap",
+    "start": 3.328958,
+    "end": 3.644749
+   },
+   {
+    "text": "kap",
+    "start": 3.776333,
+    "end": 4.092124
+   },
+   {
+    "text": "W",
+    "start": 5.118416,
+    "end": 5.144749
+   },
+   {
+    "text": "powietrzu",
+    "start": 5.157875,
+    "end": 5.7105
+   },
+   {
+    "text": "lata",
+    "start": 5.710541,
+    "end": 5.999999
+   },
+   {
+    "text": "mnóstwo",
+    "start": 6.026333,
+    "end": 6.499999
+   },
+   {
+    "text": "malutkich",
+    "start": 6.5,
+    "end": 7.013166
+   },
+   {
+    "text": "kropelek",
+    "start": 7.013166,
+    "end": 7.631582
+   }
+  ]
+ },
+ {
+  "text": "Potem wychodzi słoneczko i świeci prosto na kropelki.",
+  "words": [
+   {
+    "text": "Potem",
+    "start": 0.102625,
+    "end": 0.418416
+   },
+   {
+    "text": "wychodzi",
+    "start": 0.418416,
+    "end": 0.826291
+   },
+   {
+    "text": "słoneczko",
+    "start": 0.826333,
+    "end": 1.484208
+   },
+   {
+    "text": "i",
+    "start": 1.497375,
+    "end": 1.5895
+   },
+   {
+    "text": "świeci",
+    "start": 1.602625,
+    "end": 1.984208
+   },
+   {
+    "text": "prosto",
+    "start": 1.984208,
+    "end": 2.392083
+   },
+   {
+    "text": "na",
+    "start": 2.392125,
+    "end": 2.510541
+   },
+   {
+    "text": "kropelki",
+    "start": 2.523666,
+    "end": 3.168416
+   }
+  ]
+ },
+ {
+  "text": "Każda kropelka działa jak malutka magiczna lupa. Rozdziela światło na kolory: czerwony, pomarańczowy, żółty, zielony, niebieski i fioletowy!",
+  "words": [
+   {
+    "text": "Każda",
+    "start": 0.102625,
+    "end": 0.44475
+   },
+   {
+    "text": "kropelka",
+    "start": 0.457875,
+    "end": 1.063125
+   },
+   {
+    "text": "działa",
+    "start": 1.115791,
+    "end": 1.444749
+   },
+   {
+    "text": "jak",
+    "start": 1.471041,
+    "end": 1.668416
+   },
+   {
+    "text": "malutka",
+    "start": 1.69475,
+    "end": 2.168416
+   },
+   {
+    "text": "magiczna",
+    "start": 2.19475,
+    "end": 2.707916
+   },
+   {
+    "text": "lupa",
+    "start": 2.721041,
+    "end": 3.036832
+   },
+   {
+    "text": "Rozdziela",
+    "start": 4.065125,
+    "end": 4.499333
+   },
+   {
+    "text": "światło",
+    "start": 4.5125,
+    "end": 4.90725
+   },
+   {
+    "text": "na",
+    "start": 4.90725,
+    "end": 5.025666
+   },
+   {
+    "text": "kolory",
+    "start": 5.038833,
+    "end": 5.578291
+   },
+   {
+    "text": "czerwony",
+    "start": 5.696708,
+    "end": 6.380916
+   },
+   {
+    "text": "pomarańczowy",
+    "start": 6.394083,
+    "end": 7.223041
+   },
+   {
+    "text": "żółty",
+    "start": 7.301958,
+    "end": 7.841416
+   },
+   {
+    "text": "zielony",
+    "start": 7.920375,
+    "end": 8.525625
+   },
+   {
+    "text": "niebieski",
+    "start": 8.61775,
+    "end": 9.328291
+   },
+   {
+    "text": "i",
+    "start": 9.341458,
+    "end": 9.420416
+   },
+   {
+    "text": "fioletowy",
+    "start": 9.433541,
+    "end": 10.144082
+   }
+  ]
+ },
+ {
+  "text": "Mała rada: tęczę zobaczysz, gdy słoneczko jest za tobą, a deszczyk przed tobą.",
+  "words": [
+   {
+    "text": "Mała",
+    "start": 0.101958,
+    "end": 0.351958
+   },
+   {
+    "text": "rada",
+    "start": 0.404625,
+    "end": 0.720416
+   },
+   {
+    "text": "tęczę",
+    "start": 1.088833,
+    "end": 1.391458
+   },
+   {
+    "text": "zobaczysz",
+    "start": 1.391458,
+    "end": 2.023041
+   },
+   {
+    "text": "gdy",
+    "start": 2.0625,
+    "end": 2.246708
+   },
+   {
+    "text": "słoneczko",
+    "start": 2.246708,
+    "end": 2.799333
+   },
+   {
+    "text": "jest",
+    "start": 2.799333,
+    "end": 3.022999
+   },
+   {
+    "text": "za",
+    "start": 3.023041,
+    "end": 3.180916
+   },
+   {
+    "text": "tobą",
+    "start": 3.20725,
+    "end": 3.549375
+   },
+   {
+    "text": "a",
+    "start": 3.733541,
+    "end": 3.799332
+   },
+   {
+    "text": "deszczyk",
+    "start": 3.838833,
+    "end": 4.259874
+   },
+   {
+    "text": "przed",
+    "start": 4.286166,
+    "end": 4.522999
+   },
+   {
+    "text": "tobą",
+    "start": 4.549333,
+    "end": 4.891458
+   }
+  ]
+ },
+ {
+  "text": "Pa, pa! Przy następnym deszczu poszukaj tęczy!",
+  "words": [
+   {
+    "text": "Pa",
+    "start": 0.102625,
+    "end": 0.234208
+   },
+   {
+    "text": "pa",
+    "start": 0.313166,
+    "end": 0.563166
+   },
+   {
+    "text": "Przy",
+    "start": 1.539458,
+    "end": 1.671041
+   },
+   {
+    "text": "następnym",
+    "start": 1.671041,
+    "end": 2.263166
+   },
+   {
+    "text": "deszczu",
+    "start": 2.263166,
+    "end": 2.631582
+   },
+   {
+    "text": "poszukaj",
+    "start": 2.631583,
+    "end": 3.118416
+   },
+   {
+    "text": "tęczy",
+    "start": 3.118416,
+    "end": 3.618416
+   }
+  ]
+ }
+]

@@ -3,6 +3,8 @@ import { Composition } from "remotion";
 import { generateScene } from "../lib/scene/generator";
 import type { SceneSpec } from "../lib/scene/types";
 import { KidsShort } from "./KidsShort";
+import { ChmurkaTecza } from "./chmurka/ChmurkaTecza";
+import { FPS, HEIGHT, TOTAL_FRAMES, WIDTH } from "./chmurka/timeline";
 
 export const COMPOSITION_ID = "KidsShort";
 
@@ -13,6 +15,7 @@ const defaultScene = generateScene({
 });
 
 export const RemotionRoot: React.FC = () => (
+  <>
   <Composition
     id={COMPOSITION_ID}
     component={KidsShort as unknown as React.FC<Record<string, unknown>>}
@@ -31,4 +34,7 @@ export const RemotionRoot: React.FC = () => (
       };
     }}
   />
+  {/* Hand-crafted educational short: "Chmurka i tęcza" (scripts/render-chmurka.ts) */}
+  <Composition id="ChmurkaTecza" component={ChmurkaTecza} width={WIDTH} height={HEIGHT} fps={FPS} durationInFrames={TOTAL_FRAMES} />
+  </>
 );
