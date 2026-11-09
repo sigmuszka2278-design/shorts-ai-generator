@@ -1,0 +1,366 @@
+[
+ {
+  "id": "v01",
+  "start": 0.05,
+  "end": 2.369,
+  "words": [
+   {
+    "text": "TYLKO",
+    "emph": false,
+    "chunk": 0,
+    "start": 0.05,
+    "end": 0.29
+   },
+   {
+    "text": "JEDEN",
+    "emph": false,
+    "chunk": 0,
+    "start": 0.29,
+    "end": 0.529
+   },
+   {
+    "text": "Z",
+    "emph": false,
+    "chunk": 0,
+    "start": 0.529,
+    "end": 0.658
+   },
+   {
+    "text": "TYCH",
+    "emph": false,
+    "chunk": 0,
+    "start": 0.658,
+    "end": 0.786
+   },
+   {
+    "text": "PORTALI",
+    "emph": false,
+    "chunk": 0,
+    "start": 0.786,
+    "end": 1.137
+   },
+   {
+    "text": "PROWADZI",
+    "emph": false,
+    "chunk": 1,
+    "start": 1.137,
+    "end": 1.488
+   },
+   {
+    "text": "DO",
+    "emph": false,
+    "chunk": 1,
+    "start": 1.488,
+    "end": 1.617
+   },
+   {
+    "text": "MILIONA",
+    "emph": true,
+    "chunk": 1,
+    "start": 1.617,
+    "end": 1.968
+   },
+   {
+    "text": "DIAMENTÓW!",
+    "emph": true,
+    "chunk": 1,
+    "start": 1.968,
+    "end": 2.369
+   }
+  ]
+ },
+ {
+  "id": "v02",
+  "start": 2.35,
+  "end": 3.11,
+  "words": [
+   {
+    "text": "KTÓRY",
+    "emph": false,
+    "chunk": 0,
+    "start": 2.35,
+    "end": 2.634
+   },
+   {
+    "text": "WYBIERASZ?!",
+    "emph": true,
+    "chunk": 0,
+    "start": 2.634,
+    "end": 3.11
+   }
+  ]
+ },
+ {
+  "id": "v03",
+  "start": 3.15,
+  "end": 4.344,
+  "words": [
+   {
+    "text": "MASZ",
+    "emph": false,
+    "chunk": 0,
+    "start": 3.15,
+    "end": 3.321
+   },
+   {
+    "text": "TYLKO",
+    "emph": false,
+    "chunk": 0,
+    "start": 3.321,
+    "end": 3.639
+   },
+   {
+    "text": "3",
+    "emph": true,
+    "chunk": 0,
+    "start": 3.639,
+    "end": 3.81
+   },
+   {
+    "text": "SEKUNDY!",
+    "emph": false,
+    "chunk": 0,
+    "start": 3.81,
+    "end": 4.344
+   }
+  ]
+ },
+ {
+  "id": "v07",
+  "start": 7.2,
+  "end": 8.223,
+  "words": [
+   {
+    "text": "PORTAL",
+    "emph": false,
+    "chunk": 0,
+    "start": 7.2,
+    "end": 7.519
+   },
+   {
+    "text": "NUMER",
+    "emph": false,
+    "chunk": 0,
+    "start": 7.519,
+    "end": 7.837
+   },
+   {
+    "text": "JEDEN?!",
+    "emph": true,
+    "chunk": 0,
+    "start": 7.837,
+    "end": 8.223
+   }
+  ]
+ },
+ {
+  "id": "v08",
+  "start": 8.55,
+  "end": 8.848,
+  "words": [
+   {
+    "text": "O",
+    "emph": true,
+    "chunk": 0,
+    "start": 8.55,
+    "end": 8.675
+   },
+   {
+    "text": "NIE!",
+    "emph": true,
+    "chunk": 0,
+    "start": 8.675,
+    "end": 8.848
+   }
+  ]
+ },
+ {
+  "id": "v09",
+  "start": 9.4,
+  "end": 10.696,
+  "words": [
+   {
+    "text": "TO",
+    "emph": false,
+    "chunk": 0,
+    "start": 9.4,
+    "end": 9.589
+   },
+   {
+    "text": "GIGANTYCZNA",
+    "emph": true,
+    "chunk": 0,
+    "start": 9.589,
+    "end": 10.27
+   },
+   {
+    "text": "KACZKA!",
+    "emph": true,
+    "chunk": 0,
+    "start": 10.27,
+    "end": 10.696
+   }
+  ]
+ },
+ {
+  "id": "v10",
+  "start": 12.25,
+  "end": 12.748,
+  "words": [
+   {
+    "text": "NUMER",
+    "emph": false,
+    "chunk": 0,
+    "start": 12.25,
+    "end": 12.536
+   },
+   {
+    "text": "DWA?!",
+    "emph": true,
+    "chunk": 0,
+    "start": 12.536,
+    "end": 12.748
+   }
+  ]
+ },
+ {
+  "id": "v11",
+  "start": 13.35,
+  "end": 14.003,
+  "words": [
+   {
+    "text": "TYLKO",
+    "emph": false,
+    "chunk": 0,
+    "start": 13.35,
+    "end": 13.594
+   },
+   {
+    "text": "BALONY?!",
+    "emph": true,
+    "chunk": 0,
+    "start": 13.594,
+    "end": 14.003
+   }
+  ]
+ },
+ {
+  "id": "v12",
+  "start": 17.2,
+  "end": 18.303,
+  "words": [
+   {
+    "text": "A",
+    "emph": false,
+    "chunk": 0,
+    "start": 17.2,
+    "end": 17.38
+   },
+   {
+    "text": "PORTAL",
+    "emph": true,
+    "chunk": 0,
+    "start": 17.38,
+    "end": 17.716
+   },
+   {
+    "text": "NUMER",
+    "emph": true,
+    "chunk": 0,
+    "start": 17.716,
+    "end": 18.052
+   },
+   {
+    "text": "TRZY…",
+    "emph": true,
+    "chunk": 0,
+    "start": 18.052,
+    "end": 18.303
+   }
+  ]
+ },
+ {
+  "id": "v13",
+  "start": 19.35,
+  "end": 20.329,
+  "words": [
+   {
+    "text": "TO",
+    "emph": false,
+    "chunk": 0,
+    "start": 19.35,
+    "end": 19.541
+   },
+   {
+    "text": "PRAWDZIWY",
+    "emph": true,
+    "chunk": 0,
+    "start": 19.541,
+    "end": 20.064
+   },
+   {
+    "text": "SKARB!",
+    "emph": true,
+    "chunk": 0,
+    "start": 20.064,
+    "end": 20.329
+   }
+  ]
+ },
+ {
+  "id": "v14",
+  "start": 22.05,
+  "end": 22.949,
+  "words": [
+   {
+    "text": "CZEKAJ…",
+    "emph": true,
+    "chunk": 0,
+    "start": 22.05,
+    "end": 22.607
+   },
+   {
+    "text": "CO?!",
+    "emph": true,
+    "chunk": 0,
+    "start": 22.607,
+    "end": 22.949
+   }
+  ]
+ },
+ {
+  "id": "v15",
+  "start": 23.3,
+  "end": 24.233,
+  "words": [
+   {
+    "text": "A",
+    "emph": false,
+    "chunk": 0,
+    "start": 23.3,
+    "end": 23.433
+   },
+   {
+    "text": "TY",
+    "emph": false,
+    "chunk": 0,
+    "start": 23.433,
+    "end": 23.567
+   },
+   {
+    "text": "DOBRZE",
+    "emph": false,
+    "chunk": 0,
+    "start": 23.567,
+    "end": 23.816
+   },
+   {
+    "text": "WYBRAŁEŚ?!",
+    "emph": true,
+    "chunk": 0,
+    "start": 23.816,
+    "end": 24.233
+   }
+  ]
+ }
+]

@@ -192,3 +192,23 @@ tests/               testy Vitest
   zobacz [remotion.dev/license](https://remotion.dev/license).
 - Czcionka Fredoka – SIL Open Font License.
 - Wszystkie grafiki, efekty dźwiękowe i muzyka są generowane przez kod tego projektu.
+
+## Gotowy Short: „TYLKO JEDEN PORTAL PROWADZI DO SKARBU! 😱💎”
+
+Ręcznie wyreżyserowany film 25 s (1080×1920, 30 kl./s, H.264 + AAC):
+**`videos/tylko-jeden-portal-prowadzi-do-skarbu.mp4`**.
+
+Trzy portale → odliczanie 3-2-1 → gumowa kaczka → setki balonów → lot przez złoty portal do komnaty diamentów →
+mały smok w koronie zamienia diament w cukierka. Ostatnie 0,6 s to odjazd kamery z wnętrza złotego portalu do ujęcia
+z pierwszej klatki, a muzyka ma dokładnie 12 taktów (115,2 BPM), więc film zapętla się płynnie.
+
+- animacja: `remotion/portal/` (kompozycja `PortalShort`), oś czasu i tekst lektora: `remotion/portal/timeline.ts`
+- dźwięk: lektor offline **eSpeak-NG + MBROLA pl1**, efekty i muzyka syntezowane w kodzie (`lib/audio/portal.ts`) –
+  bez cudzych nagrań, więc można ich używać bez ograniczeń licencyjnych; mix -14 LUFS
+- napisy są synchronizowane z długościami nagranych kwestii (`remotion/portal/captions.json`)
+
+```bash
+sudo apt-get install espeak-ng mbrola mbrola-pl1 ffmpeg   # tylko do przebudowania dźwięku
+npm run portal:audio    # lektor + efekty + muzyka → public/portal-short/soundtrack.wav
+npm run portal:render   # → renders/portal-short.mp4  (--stills=0,5,10 zapisuje pojedyncze klatki)
+```
