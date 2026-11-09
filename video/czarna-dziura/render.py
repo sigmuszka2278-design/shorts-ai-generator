@@ -328,7 +328,7 @@ def title(im, t):
     pulse = 1 + 0.025 * math.sin(t * 7)
     draw_text_center(im, "CO BY SIĘ STAŁO,", W / 2, 300 + dy, 84, alpha=a, scale=pulse)
     draw_text_center(im, "GDYBYŚ WPADŁ DO", W / 2, 400 + dy, 84, alpha=a, scale=pulse)
-    tw, _ = draw_text_center(im, "CZARNEJ DZIURY?!", W / 2 - 50, 515 + dy, 100, fill=GOLD, alpha=a, scale=pulse, glow=(255, 140, 30))
+    tw, _ = draw_text_center(im, "CZARNEJ DZIURY?!", W / 2 - 70, 515 + dy, 92, fill=GOLD, alpha=a, scale=pulse, glow=(255, 140, 30))
     e = emoji("😱", 110)
     if a > 0.05:
         e2 = e.copy()
@@ -336,7 +336,7 @@ def title(im, t):
         arr[..., 3] = (arr[..., 3] * a).astype(np.uint8)
         wob = math.sin(t * 9) * 8
         e2 = Image.fromarray(arr).rotate(wob, resample=Image.BICUBIC, expand=True)
-        im.alpha_composite(e2, (int(W / 2 - 50 + tw * pulse / 2 + 18), int(515 + dy - e2.height / 2)))
+        im.alpha_composite(e2, (int(W / 2 - 70 + tw * pulse / 2 + 14), int(515 + dy - e2.height / 2)))
 
 
 def label_box(im, txt, x, y, size=40, color=CYAN, alpha=1.0, anchor="mm", path=FONT_BOLD):
