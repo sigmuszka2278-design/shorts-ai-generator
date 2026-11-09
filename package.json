@@ -11,6 +11,8 @@
     "test": "vitest run",
     "test:render": "tsx scripts/render-test.ts",
     "sfx": "tsx scripts/generate-sfx.ts",
+    "render:chmurka": "tsx scripts/render-chmurka.ts",
+    "voiceover:chmurka": "python3 scripts/chmurka-voiceover.py",
     "studio": "remotion studio remotion/index.ts"
   },
   "dependencies": {

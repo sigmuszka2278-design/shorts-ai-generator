@@ -3,6 +3,8 @@ import { Composition } from "remotion";
 import { generateScene } from "../lib/scene/generator";
 import type { SceneSpec } from "../lib/scene/types";
 import { KidsShort } from "./KidsShort";
+import { CHMURKA_COMPOSITION_ID, ChmurkaShort } from "./chmurka/ChmurkaShort";
+import { FPS as CHMURKA_FPS, HEIGHT as CHMURKA_H, TOTAL_FRAMES as CHMURKA_FRAMES, WIDTH as CHMURKA_W } from "./chmurka/timeline";
 
 export const COMPOSITION_ID = "KidsShort";
 
@@ -13,6 +15,7 @@ const defaultScene = generateScene({
 });
 
 export const RemotionRoot: React.FC = () => (
+  <>
   <Composition
     id={COMPOSITION_ID}
     component={KidsShort as unknown as React.FC<Record<string, unknown>>}
@@ -31,4 +34,13 @@ export const RemotionRoot: React.FC = () => (
       };
     }}
   />
+  <Composition
+    id={CHMURKA_COMPOSITION_ID}
+    component={ChmurkaShort}
+    width={CHMURKA_W}
+    height={CHMURKA_H}
+    fps={CHMURKA_FPS}
+    durationInFrames={CHMURKA_FRAMES}
+  />
+  </>
 );

@@ -186,6 +186,22 @@ public/              czcionka Fredoka (OFL), wygenerowane dźwięki
 tests/               testy Vitest
 ```
 
+## Film „Chmurka – dlaczego niebo jest niebieskie?”
+
+Gotowa kompozycja `ChmurkaShort` (`remotion/chmurka/`): 40 s, 9:16, 6 scen, polski lektor (głos żeński
+`pl-PL-ZofiaNeural`, wolne tempo) i wypalone napisy (2–3 słowa, słowa kluczowe na żółto) zsynchronizowane
+z czasami słów z syntezatora mowy.
+
+```bash
+npm run render:chmurka              # → renders/chmurka-niebo.mp4
+npm run render:chmurka -- --stills  # dodatkowo klatki PNG z każdej sceny
+npm run voiceover:chmurka           # ponowne nagranie lektora (pip install edge-tts, wymaga internetu)
+```
+
+Nagrania lektora (`public/chmurka/vo-*.mp3`) i czasy słów (`remotion/chmurka/voiceover.json`) są w repozytorium,
+więc renderowanie działa offline. Długości scen z scenariusza (4/8/10/8/6/4 s) są dopasowywane do mowy
+(`fitDurations` w `remotion/chmurka/timeline.ts`) przy zachowaniu łącznego czasu 40 s.
+
 ## Licencje
 
 - Remotion ma własną licencję: darmową dla osób prywatnych i firm do 3 osób, większe firmy potrzebują licencji firmowej –

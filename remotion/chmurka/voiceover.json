@@ -1,0 +1,395 @@
+{
+  "voice": "pl-PL-ZofiaNeural",
+  "rate": "-10%",
+  "pitch": "+4Hz",
+  "scenes": [
+    {
+      "text": "Cześć! Jestem Chmurka. Czy wiesz, dlaczego niebo jest niebieskie?",
+      "file": "chmurka/vo-1.mp3",
+      "duration": 6.864,
+      "speechEnd": 5.792,
+      "words": [
+        {
+          "text": "Cześć",
+          "start": 0.106,
+          "end": 0.481
+        },
+        {
+          "text": "Jestem",
+          "start": 1.54,
+          "end": 1.915
+        },
+        {
+          "text": "Chmurka",
+          "start": 1.915,
+          "end": 2.429
+        },
+        {
+          "text": "Czy",
+          "start": 3.5,
+          "end": 3.597
+        },
+        {
+          "text": "wiesz",
+          "start": 3.597,
+          "end": 3.931
+        },
+        {
+          "text": "dlaczego",
+          "start": 4.014,
+          "end": 4.542
+        },
+        {
+          "text": "niebo",
+          "start": 4.542,
+          "end": 4.833
+        },
+        {
+          "text": "jest",
+          "start": 4.833,
+          "end": 5.069
+        },
+        {
+          "text": "niebieskie",
+          "start": 5.097,
+          "end": 5.792
+        }
+      ]
+    },
+    {
+      "text": "Słoneczko świeci na biało. Ale w tym świetle ukryły się wszystkie kolory tęczy!",
+      "file": "chmurka/vo-2.mp3",
+      "duration": 6.744,
+      "speechEnd": 5.721,
+      "words": [
+        {
+          "text": "Słoneczko",
+          "start": 0.104,
+          "end": 0.743
+        },
+        {
+          "text": "świeci",
+          "start": 0.743,
+          "end": 1.16
+        },
+        {
+          "text": "na",
+          "start": 1.16,
+          "end": 1.312
+        },
+        {
+          "text": "biało",
+          "start": 1.312,
+          "end": 1.771
+        },
+        {
+          "text": "Ale",
+          "start": 2.776,
+          "end": 2.957
+        },
+        {
+          "text": "w",
+          "start": 2.985,
+          "end": 3.026
+        },
+        {
+          "text": "tym",
+          "start": 3.054,
+          "end": 3.262
+        },
+        {
+          "text": "świetle",
+          "start": 3.263,
+          "end": 3.707
+        },
+        {
+          "text": "ukryły",
+          "start": 3.735,
+          "end": 4.165
+        },
+        {
+          "text": "się",
+          "start": 4.165,
+          "end": 4.318
+        },
+        {
+          "text": "wszystkie",
+          "start": 4.318,
+          "end": 4.762
+        },
+        {
+          "text": "kolory",
+          "start": 4.763,
+          "end": 5.193
+        },
+        {
+          "text": "tęczy",
+          "start": 5.221,
+          "end": 5.721
+        }
+      ]
+    },
+    {
+      "text": "Kiedy światło leci przez powietrze, niebieski kolor odbija się na wszystkie strony. Najbardziej ze wszystkich!",
+      "file": "chmurka/vo-3.mp3",
+      "duration": 8.208,
+      "speechEnd": 7.221,
+      "words": [
+        {
+          "text": "Kiedy",
+          "start": 0.106,
+          "end": 0.314
+        },
+        {
+          "text": "światło",
+          "start": 0.314,
+          "end": 0.744
+        },
+        {
+          "text": "leci",
+          "start": 0.744,
+          "end": 1.008
+        },
+        {
+          "text": "przez",
+          "start": 1.008,
+          "end": 1.272
+        },
+        {
+          "text": "powietrze",
+          "start": 1.272,
+          "end": 1.869
+        },
+        {
+          "text": "niebieski",
+          "start": 1.953,
+          "end": 2.481
+        },
+        {
+          "text": "kolor",
+          "start": 2.481,
+          "end": 2.883
+        },
+        {
+          "text": "odbija",
+          "start": 2.967,
+          "end": 3.397
+        },
+        {
+          "text": "się",
+          "start": 3.411,
+          "end": 3.55
+        },
+        {
+          "text": "na",
+          "start": 3.55,
+          "end": 3.675
+        },
+        {
+          "text": "wszystkie",
+          "start": 3.703,
+          "end": 4.147
+        },
+        {
+          "text": "strony",
+          "start": 4.147,
+          "end": 4.703
+        },
+        {
+          "text": "Najbardziej",
+          "start": 5.707,
+          "end": 6.318
+        },
+        {
+          "text": "ze",
+          "start": 6.318,
+          "end": 6.471
+        },
+        {
+          "text": "wszystkich",
+          "start": 6.485,
+          "end": 7.221
+        }
+      ]
+    },
+    {
+      "text": "Dlatego, gdy patrzysz w górę, widzisz wszędzie niebieski!",
+      "file": "chmurka/vo-4.mp3",
+      "duration": 4.488,
+      "speechEnd": 3.41,
+      "words": [
+        {
+          "text": "Dlatego",
+          "start": 0.104,
+          "end": 0.66
+        },
+        {
+          "text": "gdy",
+          "start": 0.66,
+          "end": 0.882
+        },
+        {
+          "text": "patrzysz",
+          "start": 0.882,
+          "end": 1.34
+        },
+        {
+          "text": "w",
+          "start": 1.34,
+          "end": 1.424
+        },
+        {
+          "text": "górę",
+          "start": 1.424,
+          "end": 1.757
+        },
+        {
+          "text": "widzisz",
+          "start": 1.91,
+          "end": 2.285
+        },
+        {
+          "text": "wszędzie",
+          "start": 2.285,
+          "end": 2.729
+        },
+        {
+          "text": "niebieski",
+          "start": 2.729,
+          "end": 3.41
+        }
+      ]
+    },
+    {
+      "text": "A wieczorem niebo bywa pomarańczowe. Ale to już zagadka na inny raz!",
+      "file": "chmurka/vo-5.mp3",
+      "duration": 6.456,
+      "speechEnd": 5.415,
+      "words": [
+        {
+          "text": "A",
+          "start": 0.104,
+          "end": 0.187
+        },
+        {
+          "text": "wieczorem",
+          "start": 0.201,
+          "end": 0.812
+        },
+        {
+          "text": "niebo",
+          "start": 0.812,
+          "end": 1.146
+        },
+        {
+          "text": "bywa",
+          "start": 1.146,
+          "end": 1.424
+        },
+        {
+          "text": "pomarańczowe",
+          "start": 1.438,
+          "end": 2.326
+        },
+        {
+          "text": "Ale",
+          "start": 3.374,
+          "end": 3.554
+        },
+        {
+          "text": "to",
+          "start": 3.582,
+          "end": 3.707
+        },
+        {
+          "text": "już",
+          "start": 3.721,
+          "end": 3.943
+        },
+        {
+          "text": "zagadka",
+          "start": 3.943,
+          "end": 4.499
+        },
+        {
+          "text": "na",
+          "start": 4.499,
+          "end": 4.637
+        },
+        {
+          "text": "inny",
+          "start": 4.651,
+          "end": 5.068
+        },
+        {
+          "text": "raz",
+          "start": 5.068,
+          "end": 5.415
+        }
+      ]
+    },
+    {
+      "text": "Pa, pa! Spójrz dziś na niebo i powiedz, jaki ma kolor!",
+      "file": "chmurka/vo-6.mp3",
+      "duration": 5.472,
+      "speechEnd": 4.401,
+      "words": [
+        {
+          "text": "Pa",
+          "start": 0.106,
+          "end": 0.244
+        },
+        {
+          "text": "pa",
+          "start": 0.328,
+          "end": 0.592
+        },
+        {
+          "text": "Spójrz",
+          "start": 1.624,
+          "end": 1.985
+        },
+        {
+          "text": "dziś",
+          "start": 1.999,
+          "end": 2.318
+        },
+        {
+          "text": "na",
+          "start": 2.318,
+          "end": 2.471
+        },
+        {
+          "text": "niebo",
+          "start": 2.485,
+          "end": 2.818
+        },
+        {
+          "text": "i",
+          "start": 2.818,
+          "end": 2.943
+        },
+        {
+          "text": "powiedz",
+          "start": 2.957,
+          "end": 3.457
+        },
+        {
+          "text": "jaki",
+          "start": 3.513,
+          "end": 3.804
+        },
+        {
+          "text": "ma",
+          "start": 3.818,
+          "end": 3.943
+        },
+        {
+          "text": "kolor",
+          "start": 3.957,
+          "end": 4.401
+        }
+      ]
+    }
+  ]
+}
