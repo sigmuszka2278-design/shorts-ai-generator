@@ -81,7 +81,9 @@ async function main() {
     pixelFormat: "yuv420p",
     imageFormat: "jpeg",
     jpegQuality: 95,
-    concurrency: Number(process.env.RENDER_CONCURRENCY) || os.cpus().length,
+    // 4K frames with SVG filters are heavy: fewer parallel tabs + a generous per-frame timeout
+    concurrency: Number(process.env.RENDER_CONCURRENCY) || Math.max(1, scale >= 2 ? os.cpus().length - 1 : os.cpus().length),
+    timeoutInMilliseconds: 240_000,
     browserExecutable,
     chromiumOptions: { gl: "swangle" },
     onProgress: ({ progress, renderedFrames }) => {
