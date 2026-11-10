@@ -1,5 +1,5 @@
 /**
- * Generates all sound effects and background music into public/sfx and public/music.
+ * Generates all sound effects and background music into public/sfx, public/music and public/edit.
  * Run with: npm run sfx
  */
 import { mkdirSync, writeFileSync } from "node:fs";
@@ -13,6 +13,7 @@ import {
   SFX_NAMES,
   SFX_SAMPLE_RATE,
 } from "../lib/audio/synth";
+import { makePhonk, PHONK_SAMPLE_RATE } from "../lib/audio/phonk";
 
 const root = path.resolve(__dirname, "..");
 const sfxDir = path.join(root, "public", "sfx");
@@ -30,3 +31,9 @@ for (const name of MUSIC_NAMES) {
   writeFileSync(file, encodeWav(makeMusic(name), MUSIC_SAMPLE_RATE));
   console.log("✓", path.relative(root, file));
 }
+
+const editDir = path.join(root, "public", "edit");
+mkdirSync(editDir, { recursive: true });
+const phonkFile = path.join(editDir, "phonk-goat.wav");
+writeFileSync(phonkFile, encodeWav(makePhonk(), PHONK_SAMPLE_RATE));
+console.log("✓", path.relative(root, phonkFile));

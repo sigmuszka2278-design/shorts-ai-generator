@@ -139,6 +139,36 @@ Klip musi być dostępny przez HTTPS (lub z tego samego hosta co `AI_VIDEO_HTTP_
 Zaimplementuj interfejs `VideoProvider` z `lib/providers/types.ts` i dodaj go w `lib/providers/index.ts`.
 Do opakowania gotowego klipu w scenę użyj `sceneFromAiClip()` z `lib/providers/ai-common.ts`.
 
+## Football edit „CR7 🐐 THE GOAT” (4K, 60 fps, 9:16)
+
+Osobna kompozycja Remotion `GoatEdit` – viralowy edit piłkarski w stylu TikToka, ~18,2 s:
+
+| Czas | Co się dzieje |
+| --- | --- |
+| 0–3,7 s | **intro w zwolnionym tempie**: sylwetka #7 w kontrze świateł stadionu, podnosi wzrok, zapalają się oczy, letterbox, mroczny grading; riser i chwila ciszy |
+| 3,7 s | **beat drop** – flash, mocny shake, RGB split, zoom punch |
+| 3,7–14,9 s | szybki montaż na beat: przewrotka (REAL MADRID), zwody, rzut wolny z „postawą” (MAN UNITED), puchar i gwiazdy (CHAMPIONS LEAGUE), główka z wyskoku 2,56 m (PORTUGAL), siatka, uderzenie w zbliżeniu, cieszynka **SIUUU** |
+| 14,9–18,2 s | finał **„CR7 🐐 THE GOAT”** z efektem glow |
+
+Efekty: cięcia dokładnie co beat (128,57 BPM = 28 klatek przy 60 fps – wspólna oś czasu `lib/edit/timeline.ts` dla obrazu
+i muzyki), speed ramping (szybko → slow-mo w momencie uderzenia → szybko), shake, flashe, kierunkowy motion blur i „ghosty”
+(velocity edit), RGB split, glow, grading teal/orange + winieta + ziarno, dynamiczne zoomy i ruch kamery.
+Muzyka w stylu **Brazilian phonk** (808 ze slide’ami, melodia na cowbellu, klaskanie, riser, impakty, whooshe na cięciach
+i syntezowane „SIUUU”) powstaje w kodzie – `lib/audio/phonk.ts` → `public/edit/phonk-goat.wav` (`npm run sfx`).
+
+```bash
+npm run edit:render                 # 2160×3840, 60 fps, H.264 + AAC → renders/cr7-goat-edit-4k.mp4
+npm run edit:render -- --preview    # szybki podgląd 540×960
+npm run edit:render -- --stills     # klatki PNG kluczowych momentów
+npm run studio                      # podgląd/edycja kompozycji GoatEdit
+```
+
+**Własne nagrania.** Domyślnie wszystkie ujęcia to stylizowana grafika wektorowa (sylwetka z numerem 7 – bez wizerunku
+prawdziwej osoby, herbów klubów i materiałów z meczów). Jeśli masz prawa do klipów, wrzuć je do `public/edit/clips/`
+z nazwami ujęć (`intro.mp4`, `bicycle.mp4`, `stepovers.mp4`, `freekick.mp4`, `ucl.mp4`, `header.mp4`, `net.mp4`,
+`strike.mp4`, `siuuu.mp4` …) i uruchom `npm run edit:render -- --clips=public/edit/clips` – klipy dostaną te same
+speed rampy, cięcia na beat, flashe, shake, RGB split i grading.
+
 ## API
 
 | Metoda | Ścieżka | Opis |
@@ -159,7 +189,8 @@ Do opakowania gotowego klipu w scenę użyj `sceneFromAiClip()` z `lib/providers
 | `npm run test:render` | test end-to-end: renderuje 2 filmy (3D i 2D) i sprawdza ffprobe – 1080×1920, H.264, AAC, długość (`-- --stills` zapisuje klatki PNG) |
 | `npm run lint` | sprawdzenie typów TypeScript |
 | `npm run sfx` | ponowne wygenerowanie efektów dźwiękowych i muzyki |
-| `npm run studio` | Remotion Studio – edycja kompozycji `KidsShort` |
+| `npm run studio` | Remotion Studio – kompozycje `KidsShort` i `GoatEdit` |
+| `npm run edit:render` | renderuje football edit „CR7 🐐 THE GOAT” w 4K/60 fps (`--preview`, `--stills`, `--clips=`) |
 
 ## Konfiguracja
 
@@ -190,5 +221,5 @@ tests/               testy Vitest
 
 - Remotion ma własną licencję: darmową dla osób prywatnych i firm do 3 osób, większe firmy potrzebują licencji firmowej –
   zobacz [remotion.dev/license](https://remotion.dev/license).
-- Czcionka Fredoka – SIL Open Font License.
+- Czcionki Fredoka i Anton – SIL Open Font License.
 - Wszystkie grafiki, efekty dźwiękowe i muzyka są generowane przez kod tego projektu.

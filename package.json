@@ -10,6 +10,7 @@
     "lint": "tsc --noEmit",
     "test": "vitest run",
     "test:render": "tsx scripts/render-test.ts",
+    "edit:render": "tsx scripts/render-goat-edit.ts",
     "sfx": "tsx scripts/generate-sfx.ts",
     "studio": "remotion studio remotion/index.ts"
   },
