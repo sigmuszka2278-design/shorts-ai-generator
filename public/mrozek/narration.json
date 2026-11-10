@@ -1,0 +1,4087 @@
+{
+ "voice": {
+  "name": "pl-PL-MarekNeural",
+  "rate": "+0%",
+  "pitch": "-6Hz"
+ },
+ "segments": [
+  {
+   "id": "intro1",
+   "chapter": 0,
+   "visual": "talk",
+   "text": "Witam Was. Nazywam się Sławomir Mrożek.",
+   "audio": "mrozek/audio/intro1.mp3",
+   "duration": 4.608,
+   "cues": [
+    {
+     "text": "Witam Was.",
+     "start": 0.1,
+     "end": 1.775
+    },
+    {
+     "text": "Nazywam się Sławomir Mrożek.",
+     "start": 2.05,
+     "end": 3.725
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.512
+    },
+    {
+     "t": 0.613,
+     "d": 0.562
+    },
+    {
+     "t": 2.05,
+     "d": 0.487
+    },
+    {
+     "t": 2.538,
+     "d": 0.113
+    },
+    {
+     "t": 2.65,
+     "d": 0.463
+    },
+    {
+     "t": 3.112,
+     "d": 0.613
+    }
+   ]
+  },
+  {
+   "id": "intro2",
+   "chapter": 0,
+   "visual": "talk",
+   "text": "Byłem pisarzem, dramaturgiem i człowiekiem, który przez całe życie próbował zrozumieć otaczający go świat. Moją bronią były słowa, ironia i absurd.",
+   "audio": "mrozek/audio/intro2.mp3",
+   "duration": 10.44,
+   "cues": [
+    {
+     "text": "Byłem pisarzem, dramaturgiem i człowiekiem,",
+     "start": 0.1,
+     "end": 2.888
+    },
+    {
+     "text": "który przez całe życie próbował zrozumieć otaczający go świat.",
+     "start": 2.888,
+     "end": 6.449999999999999
+    },
+    {
+     "text": "Moją bronią były słowa, ironia i absurd.",
+     "start": 6.7,
+     "end": 9.588
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.362
+    },
+    {
+     "t": 0.463,
+     "d": 0.662
+    },
+    {
+     "t": 1.312,
+     "d": 0.662
+    },
+    {
+     "t": 1.975,
+     "d": 0.062
+    },
+    {
+     "t": 2.038,
+     "d": 0.662
+    },
+    {
+     "t": 2.888,
+     "d": 0.212
+    },
+    {
+     "t": 3.1,
+     "d": 0.212
+    },
+    {
+     "t": 3.312,
+     "d": 0.237
+    },
+    {
+     "t": 3.55,
+     "d": 0.25
+    },
+    {
+     "t": 3.8,
+     "d": 0.412
+    },
+    {
+     "t": 4.213,
+     "d": 0.463
+    },
+    {
+     "t": 4.675,
+     "d": 0.537
+    },
+    {
+     "t": 5.213,
+     "d": 0.087
+    },
+    {
+     "t": 5.3,
+     "d": 0.55
+    },
+    {
+     "t": 6.7,
+     "d": 0.362
+    },
+    {
+     "t": 7.062,
+     "d": 0.362
+    },
+    {
+     "t": 7.425,
+     "d": 0.163
+    },
+    {
+     "t": 7.588,
+     "d": 0.562
+    },
+    {
+     "t": 8.35,
+     "d": 0.487
+    },
+    {
+     "t": 8.838,
+     "d": 0.125
+    },
+    {
+     "t": 8.963,
+     "d": 0.625
+    }
+   ]
+  },
+  {
+   "id": "intro3",
+   "chapter": 0,
+   "visual": "talk",
+   "text": "Dziś chciałbym opowiedzieć Wam historię mojego życia. Historię pełną zmian, podróży i literatury…",
+   "audio": "mrozek/audio/intro3.mp3",
+   "duration": 7.176,
+   "cues": [
+    {
+     "text": "Dziś chciałbym opowiedzieć Wam historię mojego życia.",
+     "start": 0.1,
+     "end": 3.2
+    },
+    {
+     "text": "Historię pełną zmian, podróży i literatury…",
+     "start": 3.45,
+     "end": 6.263
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.287
+    },
+    {
+     "t": 0.388,
+     "d": 0.388
+    },
+    {
+     "t": 0.775,
+     "d": 0.438
+    },
+    {
+     "t": 1.212,
+     "d": 0.175
+    },
+    {
+     "t": 1.387,
+     "d": 0.425
+    },
+    {
+     "t": 1.812,
+     "d": 0.3
+    },
+    {
+     "t": 2.112,
+     "d": 0.487
+    },
+    {
+     "t": 3.45,
+     "d": 0.487
+    },
+    {
+     "t": 3.938,
+     "d": 0.362
+    },
+    {
+     "t": 4.3,
+     "d": 0.5
+    },
+    {
+     "t": 4.95,
+     "d": 0.512
+    },
+    {
+     "t": 5.463,
+     "d": 0.062
+    },
+    {
+     "t": 5.525,
+     "d": 0.738
+    }
+   ]
+  },
+  {
+   "id": "c1a",
+   "chapter": 1,
+   "visual": "borzecin",
+   "text": "Urodziłem się 29 czerwca 1930 roku w Borzęcinie, niewielkiej miejscowości w Małopolsce, niedaleko Brzeska.",
+   "audio": "mrozek/audio/c1a.mp3",
+   "duration": 8.304,
+   "cues": [
+    {
+     "text": "Urodziłem się 29 czerwca 1930 roku w Borzęcinie,",
+     "start": 0.1,
+     "end": 4.312
+    },
+    {
+     "text": "niewielkiej miejscowości w Małopolsce, niedaleko Brzeska.",
+     "start": 4.312,
+     "end": 7.45
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.45
+    },
+    {
+     "t": 0.55,
+     "d": 0.113
+    },
+    {
+     "t": 0.662,
+     "d": 0.45
+    },
+    {
+     "t": 1.113,
+     "d": 0.4
+    },
+    {
+     "t": 1.512,
+     "d": 0.375
+    },
+    {
+     "t": 1.887,
+     "d": 0.275
+    },
+    {
+     "t": 2.163,
+     "d": 0.412
+    },
+    {
+     "t": 2.575,
+     "d": 0.463
+    },
+    {
+     "t": 3.038,
+     "d": 0.287
+    },
+    {
+     "t": 3.325,
+     "d": 0.037
+    },
+    {
+     "t": 3.362,
+     "d": 0.7
+    },
+    {
+     "t": 4.312,
+     "d": 0.412
+    },
+    {
+     "t": 4.725,
+     "d": 0.588
+    },
+    {
+     "t": 5.312,
+     "d": 0.025
+    },
+    {
+     "t": 5.338,
+     "d": 0.812
+    },
+    {
+     "t": 6.388,
+     "d": 0.438
+    },
+    {
+     "t": 6.825,
+     "d": 0.625
+    }
+   ]
+  },
+  {
+   "id": "c1b",
+   "chapter": 1,
+   "visual": "talk",
+   "text": "Mój ojciec, Antoni, był urzędnikiem pocztowym. Matka, Zofia z domu Kędzior, pochodziła ze wsi. Miałem starszego brata, Jerzego, który zmarł jako małe dziecko, i młodszą siostrę, Litosławę.",
+   "audio": "mrozek/audio/c1b.mp3",
+   "duration": 15.096,
+   "cues": [
+    {
+     "text": "Mój ojciec, Antoni, był urzędnikiem pocztowym.",
+     "start": 0.1,
+     "end": 3.975
+    },
+    {
+     "text": "Matka, Zofia z domu Kędzior, pochodziła ze wsi.",
+     "start": 4.287,
+     "end": 8.025
+    },
+    {
+     "text": "Miałem starszego brata, Jerzego, który zmarł jako małe dziecko, i młodszą siostrę,",
+     "start": 8.275,
+     "end": 13.488
+    },
+    {
+     "text": "Litosławę.",
+     "start": 13.488,
+     "end": 14.263
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.287
+    },
+    {
+     "t": 0.388,
+     "d": 0.65
+    },
+    {
+     "t": 1.188,
+     "d": 0.588
+    },
+    {
+     "t": 1.975,
+     "d": 0.212
+    },
+    {
+     "t": 2.188,
+     "d": 0.525
+    },
+    {
+     "t": 2.712,
+     "d": 0.662
+    },
+    {
+     "t": 4.287,
+     "d": 0.65
+    },
+    {
+     "t": 5.162,
+     "d": 0.325
+    },
+    {
+     "t": 5.487,
+     "d": 0.062
+    },
+    {
+     "t": 5.55,
+     "d": 0.212
+    },
+    {
+     "t": 5.763,
+     "d": 0.575
+    },
+    {
+     "t": 6.487,
+     "d": 0.438
+    },
+    {
+     "t": 6.925,
+     "d": 0.113
+    },
+    {
+     "t": 7.037,
+     "d": 0.388
+    },
+    {
+     "t": 8.275,
+     "d": 0.338
+    },
+    {
+     "t": 8.613,
+     "d": 0.425
+    },
+    {
+     "t": 9.037,
+     "d": 0.537
+    },
+    {
+     "t": 9.8,
+     "d": 0.613
+    },
+    {
+     "t": 10.588,
+     "d": 0.225
+    },
+    {
+     "t": 10.812,
+     "d": 0.3
+    },
+    {
+     "t": 11.113,
+     "d": 0.188
+    },
+    {
+     "t": 11.3,
+     "d": 0.2
+    },
+    {
+     "t": 11.5,
+     "d": 0.55
+    },
+    {
+     "t": 12.262,
+     "d": 0.062
+    },
+    {
+     "t": 12.325,
+     "d": 0.375
+    },
+    {
+     "t": 12.7,
+     "d": 0.6
+    },
+    {
+     "t": 13.488,
+     "d": 0.775
+    }
+   ]
+  },
+  {
+   "id": "c1c",
+   "chapter": 1,
+   "visual": "krakow1933",
+   "text": "W 1933 roku rodzina przeprowadziła się do Krakowa. To miasto towarzyszyło mi przez całe życie.",
+   "audio": "mrozek/audio/c1c.mp3",
+   "duration": 7.704,
+   "cues": [
+    {
+     "text": "W 1933 roku rodzina przeprowadziła się do Krakowa.",
+     "start": 0.1,
+     "end": 4.4879999999999995
+    },
+    {
+     "text": "To miasto towarzyszyło mi przez całe życie.",
+     "start": 4.737,
+     "end": 6.825
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.1
+    },
+    {
+     "t": 0.2,
+     "d": 0.3
+    },
+    {
+     "t": 0.5,
+     "d": 0.463
+    },
+    {
+     "t": 0.963,
+     "d": 0.425
+    },
+    {
+     "t": 1.387,
+     "d": 0.287
+    },
+    {
+     "t": 1.675,
+     "d": 0.463
+    },
+    {
+     "t": 2.138,
+     "d": 0.362
+    },
+    {
+     "t": 2.5,
+     "d": 0.588
+    },
+    {
+     "t": 3.087,
+     "d": 0.1
+    },
+    {
+     "t": 3.188,
+     "d": 0.087
+    },
+    {
+     "t": 3.275,
+     "d": 0.613
+    },
+    {
+     "t": 4.737,
+     "d": 0.15
+    },
+    {
+     "t": 4.888,
+     "d": 0.312
+    },
+    {
+     "t": 5.2,
+     "d": 0.537
+    },
+    {
+     "t": 5.737,
+     "d": 0.1
+    },
+    {
+     "t": 5.838,
+     "d": 0.225
+    },
+    {
+     "t": 6.062,
+     "d": 0.275
+    },
+    {
+     "t": 6.338,
+     "d": 0.487
+    }
+   ]
+  },
+  {
+   "id": "c2a",
+   "chapter": 2,
+   "visual": "war",
+   "text": "Gdy we wrześniu 1939 roku wybuchła wojna, miałem 9 lat. Rodzina wróciła wtedy do Borzęcina i tam skończyłem szkołę powszechną.",
+   "audio": "mrozek/audio/c2a.mp3",
+   "duration": 10.2,
+   "cues": [
+    {
+     "text": "Gdy we wrześniu 1939 roku wybuchła wojna, miałem 9 lat.",
+     "start": 0.1,
+     "end": 5.537999999999999
+    },
+    {
+     "text": "Rodzina wróciła wtedy do Borzęcina i tam skończyłem szkołę powszechną.",
+     "start": 5.787,
+     "end": 9.25
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.225
+    },
+    {
+     "t": 0.325,
+     "d": 0.113
+    },
+    {
+     "t": 0.438,
+     "d": 0.325
+    },
+    {
+     "t": 0.762,
+     "d": 0.275
+    },
+    {
+     "t": 1.038,
+     "d": 0.438
+    },
+    {
+     "t": 1.475,
+     "d": 0.45
+    },
+    {
+     "t": 1.925,
+     "d": 0.412
+    },
+    {
+     "t": 2.337,
+     "d": 0.362
+    },
+    {
+     "t": 2.7,
+     "d": 0.4
+    },
+    {
+     "t": 3.1,
+     "d": 0.5
+    },
+    {
+     "t": 3.8,
+     "d": 0.325
+    },
+    {
+     "t": 4.125,
+     "d": 0.35
+    },
+    {
+     "t": 4.475,
+     "d": 0.463
+    },
+    {
+     "t": 5.787,
+     "d": 0.412
+    },
+    {
+     "t": 6.2,
+     "d": 0.3
+    },
+    {
+     "t": 6.5,
+     "d": 0.237
+    },
+    {
+     "t": 6.737,
+     "d": 0.075
+    },
+    {
+     "t": 6.812,
+     "d": 0.688
+    },
+    {
+     "t": 7.5,
+     "d": 0.075
+    },
+    {
+     "t": 7.575,
+     "d": 0.188
+    },
+    {
+     "t": 7.763,
+     "d": 0.512
+    },
+    {
+     "t": 8.275,
+     "d": 0.287
+    },
+    {
+     "t": 8.562,
+     "d": 0.688
+    }
+   ]
+  },
+  {
+   "id": "c2b",
+   "chapter": 2,
+   "visual": "talk",
+   "text": "Dorastałem w czasie niemieckiej okupacji. Badacze mojej twórczości podkreślają, że doświadczenie wojny i totalitaryzmu nauczyło mnie nieufności wobec wielkich haseł.",
+   "audio": "mrozek/audio/c2b.mp3",
+   "duration": 10.08,
+   "cues": [
+    {
+     "text": "Dorastałem w czasie niemieckiej okupacji.",
+     "start": 0.1,
+     "end": 2.825
+    },
+    {
+     "text": "Badacze mojej twórczości podkreślają,",
+     "start": 3.15,
+     "end": 5.275
+    },
+    {
+     "text": "że doświadczenie wojny i totalitaryzmu nauczyło mnie nieufności wobec wielkich haseł.",
+     "start": 5.275,
+     "end": 9.225
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.662
+    },
+    {
+     "t": 0.762,
+     "d": 0.05
+    },
+    {
+     "t": 0.812,
+     "d": 0.237
+    },
+    {
+     "t": 1.05,
+     "d": 0.438
+    },
+    {
+     "t": 1.488,
+     "d": 0.738
+    },
+    {
+     "t": 3.15,
+     "d": 0.425
+    },
+    {
+     "t": 3.575,
+     "d": 0.212
+    },
+    {
+     "t": 3.788,
+     "d": 0.463
+    },
+    {
+     "t": 4.25,
+     "d": 0.8
+    },
+    {
+     "t": 5.275,
+     "d": 0.087
+    },
+    {
+     "t": 5.362,
+     "d": 0.55
+    },
+    {
+     "t": 5.912,
+     "d": 0.287
+    },
+    {
+     "t": 6.2,
+     "d": 0.062
+    },
+    {
+     "t": 6.263,
+     "d": 0.738
+    },
+    {
+     "t": 7.0,
+     "d": 0.4
+    },
+    {
+     "t": 7.4,
+     "d": 0.15
+    },
+    {
+     "t": 7.55,
+     "d": 0.537
+    },
+    {
+     "t": 8.088,
+     "d": 0.275
+    },
+    {
+     "t": 8.363,
+     "d": 0.35
+    },
+    {
+     "t": 8.713,
+     "d": 0.512
+    }
+   ]
+  },
+  {
+   "id": "c2c",
+   "chapter": 2,
+   "visual": "matura",
+   "text": "W 1949 roku zdałem maturę w krakowskim Liceum imienia Bartłomieja Nowodworskiego. Próbowałem studiować architekturę, a potem orientalistykę, ale żadnych studiów nie ukończyłem. Bardziej pociągało mnie rysowanie i pisanie.",
+   "audio": "mrozek/audio/c2c.mp3",
+   "duration": 15.792,
+   "cues": [
+    {
+     "text": "W 1949 roku zdałem maturę w krakowskim Liceum imienia Bartłomieja Nowodworskiego.",
+     "start": 0.1,
+     "end": 6.212
+    },
+    {
+     "text": "Próbowałem studiować architekturę, a potem orientalistykę,",
+     "start": 6.487,
+     "end": 9.975
+    },
+    {
+     "text": "ale żadnych studiów nie ukończyłem.",
+     "start": 9.975,
+     "end": 12.299999999999999
+    },
+    {
+     "text": "Bardziej pociągało mnie rysowanie i pisanie.",
+     "start": 12.55,
+     "end": 14.875
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.1
+    },
+    {
+     "t": 0.2,
+     "d": 0.287
+    },
+    {
+     "t": 0.487,
+     "d": 0.438
+    },
+    {
+     "t": 0.925,
+     "d": 0.463
+    },
+    {
+     "t": 1.387,
+     "d": 0.35
+    },
+    {
+     "t": 1.738,
+     "d": 0.45
+    },
+    {
+     "t": 2.188,
+     "d": 0.362
+    },
+    {
+     "t": 2.55,
+     "d": 0.3
+    },
+    {
+     "t": 2.85,
+     "d": 0.05
+    },
+    {
+     "t": 2.9,
+     "d": 0.512
+    },
+    {
+     "t": 3.413,
+     "d": 0.475
+    },
+    {
+     "t": 3.888,
+     "d": 0.275
+    },
+    {
+     "t": 4.162,
+     "d": 0.525
+    },
+    {
+     "t": 4.688,
+     "d": 0.925
+    },
+    {
+     "t": 6.487,
+     "d": 0.537
+    },
+    {
+     "t": 7.025,
+     "d": 0.487
+    },
+    {
+     "t": 7.513,
+     "d": 0.787
+    },
+    {
+     "t": 8.5,
+     "d": 0.062
+    },
+    {
+     "t": 8.562,
+     "d": 0.275
+    },
+    {
+     "t": 8.838,
+     "d": 0.925
+    },
+    {
+     "t": 9.975,
+     "d": 0.15
+    },
+    {
+     "t": 10.125,
+     "d": 0.325
+    },
+    {
+     "t": 10.45,
+     "d": 0.425
+    },
+    {
+     "t": 10.875,
+     "d": 0.113
+    },
+    {
+     "t": 10.988,
+     "d": 0.713
+    },
+    {
+     "t": 12.55,
+     "d": 0.45
+    },
+    {
+     "t": 13.0,
+     "d": 0.463
+    },
+    {
+     "t": 13.463,
+     "d": 0.163
+    },
+    {
+     "t": 13.625,
+     "d": 0.562
+    },
+    {
+     "t": 14.188,
+     "d": 0.075
+    },
+    {
+     "t": 14.262,
+     "d": 0.613
+    }
+   ]
+  },
+  {
+   "id": "c3a",
+   "chapter": 3,
+   "visual": "press",
+   "text": "W 1950 roku zacząłem pracę w redakcji krakowskiego „Dziennika Polskiego”. W tym samym roku „Przekrój” wydrukował mój reportaż o budowie Nowej Huty, a tygodnik „Szpilki” nagrodził mój rysunek.",
+   "audio": "mrozek/audio/c3a.mp3",
+   "duration": 12.672,
+   "cues": [
+    {
+     "text": "W 1950 roku zacząłem pracę w redakcji krakowskiego „Dziennika Polskiego”.",
+     "start": 0.1,
+     "end": 5.425
+    },
+    {
+     "text": "W tym samym roku „Przekrój” wydrukował mój reportaż o budowie Nowej Huty,",
+     "start": 5.862,
+     "end": 9.625
+    },
+    {
+     "text": "a tygodnik „Szpilki” nagrodził mój rysunek.",
+     "start": 9.625,
+     "end": 11.812
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.062
+    },
+    {
+     "t": 0.163,
+     "d": 0.275
+    },
+    {
+     "t": 0.438,
+     "d": 0.412
+    },
+    {
+     "t": 0.85,
+     "d": 0.475
+    },
+    {
+     "t": 1.325,
+     "d": 0.412
+    },
+    {
+     "t": 1.738,
+     "d": 0.4
+    },
+    {
+     "t": 2.138,
+     "d": 0.287
+    },
+    {
+     "t": 2.425,
+     "d": 0.025
+    },
+    {
+     "t": 2.45,
+     "d": 0.412
+    },
+    {
+     "t": 2.862,
+     "d": 0.738
+    },
+    {
+     "t": 3.612,
+     "d": 0.487
+    },
+    {
+     "t": 4.1,
+     "d": 0.725
+    },
+    {
+     "t": 5.862,
+     "d": 0.113
+    },
+    {
+     "t": 5.975,
+     "d": 0.15
+    },
+    {
+     "t": 6.125,
+     "d": 0.275
+    },
+    {
+     "t": 6.4,
+     "d": 0.312
+    },
+    {
+     "t": 6.713,
+     "d": 0.537
+    },
+    {
+     "t": 7.25,
+     "d": 0.475
+    },
+    {
+     "t": 7.725,
+     "d": 0.125
+    },
+    {
+     "t": 7.85,
+     "d": 0.425
+    },
+    {
+     "t": 8.275,
+     "d": 0.087
+    },
+    {
+     "t": 8.363,
+     "d": 0.287
+    },
+    {
+     "t": 8.65,
+     "d": 0.25
+    },
+    {
+     "t": 8.9,
+     "d": 0.5
+    },
+    {
+     "t": 9.625,
+     "d": 0.062
+    },
+    {
+     "t": 9.688,
+     "d": 0.487
+    },
+    {
+     "t": 10.175,
+     "d": 0.475
+    },
+    {
+     "t": 10.65,
+     "d": 0.388
+    },
+    {
+     "t": 11.037,
+     "d": 0.163
+    },
+    {
+     "t": 11.2,
+     "d": 0.613
+    }
+   ]
+  },
+  {
+   "id": "c3b",
+   "chapter": 3,
+   "visual": "talk",
+   "text": "Pisałem wtedy teksty zgodne z duchem epoki i z propagandą tamtych lat. Po latach oceniałem ten okres bardzo krytycznie.",
+   "audio": "mrozek/audio/c3b.mp3",
+   "duration": 8.088,
+   "cues": [
+    {
+     "text": "Pisałem wtedy teksty zgodne z duchem epoki i z propagandą tamtych lat.",
+     "start": 0.1,
+     "end": 4.45
+    },
+    {
+     "text": "Po latach oceniałem ten okres bardzo krytycznie.",
+     "start": 4.763,
+     "end": 7.15
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.425
+    },
+    {
+     "t": 0.525,
+     "d": 0.237
+    },
+    {
+     "t": 0.762,
+     "d": 0.362
+    },
+    {
+     "t": 1.125,
+     "d": 0.375
+    },
+    {
+     "t": 1.5,
+     "d": 0.05
+    },
+    {
+     "t": 1.55,
+     "d": 0.237
+    },
+    {
+     "t": 1.788,
+     "d": 0.562
+    },
+    {
+     "t": 2.35,
+     "d": 0.05
+    },
+    {
+     "t": 2.4,
+     "d": 0.062
+    },
+    {
+     "t": 2.462,
+     "d": 0.588
+    },
+    {
+     "t": 3.05,
+     "d": 0.338
+    },
+    {
+     "t": 3.388,
+     "d": 0.463
+    },
+    {
+     "t": 4.763,
+     "d": 0.15
+    },
+    {
+     "t": 4.912,
+     "d": 0.287
+    },
+    {
+     "t": 5.2,
+     "d": 0.475
+    },
+    {
+     "t": 5.675,
+     "d": 0.163
+    },
+    {
+     "t": 5.838,
+     "d": 0.325
+    },
+    {
+     "t": 6.162,
+     "d": 0.338
+    },
+    {
+     "t": 6.5,
+     "d": 0.65
+    }
+   ]
+  },
+  {
+   "id": "c3c",
+   "chapter": 3,
+   "visual": "books1953",
+   "text": "W 1953 roku ukazały się moje pierwsze książki: „Opowiadania z Trzmielowej Góry” i „Półpancerze praktyczne”. Równolegle publikowałem w prasie satyryczne rysunki.",
+   "audio": "mrozek/audio/c3c.mp3",
+   "duration": 11.4,
+   "cues": [
+    {
+     "text": "W 1953 roku ukazały się moje pierwsze książki:",
+     "start": 0.1,
+     "end": 3.913
+    },
+    {
+     "text": "„Opowiadania z Trzmielowej Góry” i „Półpancerze praktyczne”.",
+     "start": 3.913,
+     "end": 7.313
+    },
+    {
+     "text": "Równolegle publikowałem w prasie satyryczne rysunki.",
+     "start": 7.75,
+     "end": 10.463
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.05
+    },
+    {
+     "t": 0.15,
+     "d": 0.275
+    },
+    {
+     "t": 0.425,
+     "d": 0.388
+    },
+    {
+     "t": 0.812,
+     "d": 0.475
+    },
+    {
+     "t": 1.288,
+     "d": 0.3
+    },
+    {
+     "t": 1.587,
+     "d": 0.4
+    },
+    {
+     "t": 1.988,
+     "d": 0.362
+    },
+    {
+     "t": 2.35,
+     "d": 0.1
+    },
+    {
+     "t": 2.45,
+     "d": 0.175
+    },
+    {
+     "t": 2.625,
+     "d": 0.375
+    },
+    {
+     "t": 3.0,
+     "d": 0.713
+    },
+    {
+     "t": 3.913,
+     "d": 0.487
+    },
+    {
+     "t": 4.4,
+     "d": 0.062
+    },
+    {
+     "t": 4.463,
+     "d": 0.5
+    },
+    {
+     "t": 4.963,
+     "d": 0.4
+    },
+    {
+     "t": 5.362,
+     "d": 0.087
+    },
+    {
+     "t": 5.45,
+     "d": 0.575
+    },
+    {
+     "t": 6.025,
+     "d": 0.688
+    },
+    {
+     "t": 7.75,
+     "d": 0.562
+    },
+    {
+     "t": 8.312,
+     "d": 0.662
+    },
+    {
+     "t": 8.975,
+     "d": 0.05
+    },
+    {
+     "t": 9.025,
+     "d": 0.3
+    },
+    {
+     "t": 9.325,
+     "d": 0.487
+    },
+    {
+     "t": 9.812,
+     "d": 0.65
+    }
+   ]
+  },
+  {
+   "id": "c4a",
+   "chapter": 4,
+   "visual": "slon",
+   "text": "Rozgłos przyniósł mi zbiór opowiadań „Słoń” z 1957 roku. W tytułowym opowiadaniu dyrektor zoo, chcąc zaoszczędzić, zamiast słonia pokazuje gumową kukłę napełnioną gazem. Kukła odlatuje na oczach uczniów, a dzieci przestają wierzyć w słonie.",
+   "audio": "mrozek/audio/c4a.mp3",
+   "duration": 16.896,
+   "cues": [
+    {
+     "text": "Rozgłos przyniósł mi zbiór opowiadań „Słoń” z 1957 roku.",
+     "start": 0.1,
+     "end": 5.037999999999999
+    },
+    {
+     "text": "W tytułowym opowiadaniu dyrektor zoo, chcąc zaoszczędzić,",
+     "start": 5.362,
+     "end": 8.762
+    },
+    {
+     "text": "zamiast słonia pokazuje gumową kukłę napełnioną gazem.",
+     "start": 8.762,
+     "end": 12.161999999999999
+    },
+    {
+     "text": "Kukła odlatuje na oczach uczniów, a dzieci przestają wierzyć w słonie.",
+     "start": 12.425,
+     "end": 16.038
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.55
+    },
+    {
+     "t": 0.65,
+     "d": 0.388
+    },
+    {
+     "t": 1.038,
+     "d": 0.1
+    },
+    {
+     "t": 1.137,
+     "d": 0.275
+    },
+    {
+     "t": 1.413,
+     "d": 0.525
+    },
+    {
+     "t": 1.938,
+     "d": 0.375
+    },
+    {
+     "t": 2.312,
+     "d": 0.062
+    },
+    {
+     "t": 2.375,
+     "d": 0.275
+    },
+    {
+     "t": 2.65,
+     "d": 0.425
+    },
+    {
+     "t": 3.075,
+     "d": 0.525
+    },
+    {
+     "t": 3.6,
+     "d": 0.388
+    },
+    {
+     "t": 3.987,
+     "d": 0.45
+    },
+    {
+     "t": 5.362,
+     "d": 0.1
+    },
+    {
+     "t": 5.463,
+     "d": 0.438
+    },
+    {
+     "t": 5.9,
+     "d": 0.487
+    },
+    {
+     "t": 6.388,
+     "d": 0.4
+    },
+    {
+     "t": 6.787,
+     "d": 0.487
+    },
+    {
+     "t": 7.45,
+     "d": 0.312
+    },
+    {
+     "t": 7.763,
+     "d": 0.762
+    },
+    {
+     "t": 8.762,
+     "d": 0.362
+    },
+    {
+     "t": 9.125,
+     "d": 0.325
+    },
+    {
+     "t": 9.45,
+     "d": 0.388
+    },
+    {
+     "t": 9.838,
+     "d": 0.375
+    },
+    {
+     "t": 10.213,
+     "d": 0.312
+    },
+    {
+     "t": 10.525,
+     "d": 0.525
+    },
+    {
+     "t": 11.05,
+     "d": 0.512
+    },
+    {
+     "t": 12.425,
+     "d": 0.412
+    },
+    {
+     "t": 12.838,
+     "d": 0.412
+    },
+    {
+     "t": 13.25,
+     "d": 0.087
+    },
+    {
+     "t": 13.338,
+     "d": 0.287
+    },
+    {
+     "t": 13.625,
+     "d": 0.55
+    },
+    {
+     "t": 14.375,
+     "d": 0.075
+    },
+    {
+     "t": 14.45,
+     "d": 0.275
+    },
+    {
+     "t": 14.725,
+     "d": 0.45
+    },
+    {
+     "t": 15.175,
+     "d": 0.287
+    },
+    {
+     "t": 15.463,
+     "d": 0.037
+    },
+    {
+     "t": 15.5,
+     "d": 0.537
+    }
+   ]
+  },
+  {
+   "id": "c4b",
+   "chapter": 4,
+   "visual": "wesele",
+   "text": "Dwa lata później wydałem kolejny zbiór krótkich, groteskowych opowiadań: „Wesele w Atomicach”.",
+   "audio": "mrozek/audio/c4b.mp3",
+   "duration": 6.408,
+   "cues": [
+    {
+     "text": "Dwa lata później wydałem kolejny zbiór krótkich, groteskowych opowiadań:",
+     "start": 0.1,
+     "end": 4.162
+    },
+    {
+     "text": "„Wesele w Atomicach”.",
+     "start": 4.162,
+     "end": 5.35
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.212
+    },
+    {
+     "t": 0.312,
+     "d": 0.212
+    },
+    {
+     "t": 0.525,
+     "d": 0.412
+    },
+    {
+     "t": 0.938,
+     "d": 0.338
+    },
+    {
+     "t": 1.275,
+     "d": 0.325
+    },
+    {
+     "t": 1.6,
+     "d": 0.263
+    },
+    {
+     "t": 1.863,
+     "d": 0.6
+    },
+    {
+     "t": 2.663,
+     "d": 0.588
+    },
+    {
+     "t": 3.25,
+     "d": 0.7
+    },
+    {
+     "t": 4.162,
+     "d": 0.388
+    },
+    {
+     "t": 4.55,
+     "d": 0.05
+    },
+    {
+     "t": 4.6,
+     "d": 0.75
+    }
+   ]
+  },
+  {
+   "id": "c4c",
+   "chapter": 4,
+   "visual": "policja",
+   "text": "W 1958 roku zadebiutowałem jako dramatopisarz „Policją”. To sztuka o państwie, w którym wszyscy obywatele stali się lojalni, więc policja, żeby nie stracić racji bytu, sama musi wywołać spisek.",
+   "audio": "mrozek/audio/c4c.mp3",
+   "duration": 14.064,
+   "cues": [
+    {
+     "text": "W 1958 roku zadebiutowałem jako dramatopisarz „Policją”.",
+     "start": 0.1,
+     "end": 4.949999999999999
+    },
+    {
+     "text": "To sztuka o państwie, w którym wszyscy obywatele stali się lojalni, więc policja,",
+     "start": 5.4,
+     "end": 10.137
+    },
+    {
+     "text": "żeby nie stracić racji bytu, sama musi wywołać spisek.",
+     "start": 10.137,
+     "end": 13.213
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.062
+    },
+    {
+     "t": 0.163,
+     "d": 0.287
+    },
+    {
+     "t": 0.45,
+     "d": 0.4
+    },
+    {
+     "t": 0.85,
+     "d": 0.487
+    },
+    {
+     "t": 1.337,
+     "d": 0.25
+    },
+    {
+     "t": 1.587,
+     "d": 0.45
+    },
+    {
+     "t": 2.038,
+     "d": 0.688
+    },
+    {
+     "t": 2.725,
+     "d": 0.212
+    },
+    {
+     "t": 2.938,
+     "d": 0.725
+    },
+    {
+     "t": 3.663,
+     "d": 0.688
+    },
+    {
+     "t": 5.4,
+     "d": 0.113
+    },
+    {
+     "t": 5.513,
+     "d": 0.35
+    },
+    {
+     "t": 5.862,
+     "d": 0.062
+    },
+    {
+     "t": 5.925,
+     "d": 0.725
+    },
+    {
+     "t": 6.838,
+     "d": 0.05
+    },
+    {
+     "t": 6.888,
+     "d": 0.275
+    },
+    {
+     "t": 7.162,
+     "d": 0.325
+    },
+    {
+     "t": 7.487,
+     "d": 0.438
+    },
+    {
+     "t": 7.925,
+     "d": 0.225
+    },
+    {
+     "t": 8.15,
+     "d": 0.1
+    },
+    {
+     "t": 8.25,
+     "d": 0.613
+    },
+    {
+     "t": 9.088,
+     "d": 0.2
+    },
+    {
+     "t": 9.287,
+     "d": 0.625
+    },
+    {
+     "t": 10.137,
+     "d": 0.2
+    },
+    {
+     "t": 10.338,
+     "d": 0.075
+    },
+    {
+     "t": 10.412,
+     "d": 0.388
+    },
+    {
+     "t": 10.8,
+     "d": 0.275
+    },
+    {
+     "t": 11.075,
+     "d": 0.45
+    },
+    {
+     "t": 11.725,
+     "d": 0.237
+    },
+    {
+     "t": 11.963,
+     "d": 0.212
+    },
+    {
+     "t": 12.175,
+     "d": 0.388
+    },
+    {
+     "t": 12.562,
+     "d": 0.65
+    }
+   ]
+  },
+  {
+   "id": "c4d",
+   "chapter": 4,
+   "visual": "tango",
+   "text": "„Tango”, napisane w 1964 roku we Włoszech, przyniosło mi światową sławę. Artur, syn rodziców, którzy odrzucili wszelkie normy, chce przywrócić porządek. Ale w świecie bez wartości władzę przejmuje prymitywny Edek. Sztuka kończy się tangiem, które Edek tańczy nad ciałem Artura.",
+   "audio": "mrozek/audio/c4d.mp3",
+   "duration": 20.304,
+   "cues": [
+    {
+     "text": "„Tango”, napisane w 1964 roku we Włoszech, przyniosło mi światową sławę.",
+     "start": 0.1,
+     "end": 6.074999999999999
+    },
+    {
+     "text": "Artur, syn rodziców, którzy odrzucili wszelkie normy, chce przywrócić porządek.",
+     "start": 6.325,
+     "end": 11.812999999999999
+    },
+    {
+     "text": "Ale w świecie bez wartości władzę przejmuje prymitywny Edek.",
+     "start": 12.062,
+     "end": 15.661999999999999
+    },
+    {
+     "text": "Sztuka kończy się tangiem, które Edek tańczy nad ciałem Artura.",
+     "start": 15.925,
+     "end": 19.45
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.637
+    },
+    {
+     "t": 0.938,
+     "d": 0.45
+    },
+    {
+     "t": 1.387,
+     "d": 0.037
+    },
+    {
+     "t": 1.425,
+     "d": 0.275
+    },
+    {
+     "t": 1.7,
+     "d": 0.425
+    },
+    {
+     "t": 2.125,
+     "d": 0.475
+    },
+    {
+     "t": 2.6,
+     "d": 0.35
+    },
+    {
+     "t": 2.95,
+     "d": 0.212
+    },
+    {
+     "t": 3.163,
+     "d": 0.087
+    },
+    {
+     "t": 3.25,
+     "d": 0.525
+    },
+    {
+     "t": 3.975,
+     "d": 0.4
+    },
+    {
+     "t": 4.375,
+     "d": 0.087
+    },
+    {
+     "t": 4.463,
+     "d": 0.463
+    },
+    {
+     "t": 4.925,
+     "d": 0.55
+    },
+    {
+     "t": 6.325,
+     "d": 0.65
+    },
+    {
+     "t": 7.162,
+     "d": 0.25
+    },
+    {
+     "t": 7.412,
+     "d": 0.65
+    },
+    {
+     "t": 8.225,
+     "d": 0.263
+    },
+    {
+     "t": 8.488,
+     "d": 0.412
+    },
+    {
+     "t": 8.9,
+     "d": 0.325
+    },
+    {
+     "t": 9.225,
+     "d": 0.438
+    },
+    {
+     "t": 9.863,
+     "d": 0.212
+    },
+    {
+     "t": 10.075,
+     "d": 0.463
+    },
+    {
+     "t": 10.537,
+     "d": 0.675
+    },
+    {
+     "t": 12.062,
+     "d": 0.225
+    },
+    {
+     "t": 12.287,
+     "d": 0.05
+    },
+    {
+     "t": 12.338,
+     "d": 0.312
+    },
+    {
+     "t": 12.65,
+     "d": 0.125
+    },
+    {
+     "t": 12.775,
+     "d": 0.55
+    },
+    {
+     "t": 13.325,
+     "d": 0.287
+    },
+    {
+     "t": 13.613,
+     "d": 0.375
+    },
+    {
+     "t": 13.988,
+     "d": 0.6
+    },
+    {
+     "t": 14.588,
+     "d": 0.475
+    },
+    {
+     "t": 15.925,
+     "d": 0.438
+    },
+    {
+     "t": 16.363,
+     "d": 0.275
+    },
+    {
+     "t": 16.637,
+     "d": 0.113
+    },
+    {
+     "t": 16.75,
+     "d": 0.588
+    },
+    {
+     "t": 17.512,
+     "d": 0.287
+    },
+    {
+     "t": 17.8,
+     "d": 0.25
+    },
+    {
+     "t": 18.05,
+     "d": 0.35
+    },
+    {
+     "t": 18.4,
+     "d": 0.163
+    },
+    {
+     "t": 18.562,
+     "d": 0.287
+    },
+    {
+     "t": 18.85,
+     "d": 0.6
+    }
+   ]
+  },
+  {
+   "id": "c4e",
+   "chapter": 4,
+   "visual": "emigranci",
+   "text": "W „Emigrantach” z 1974 roku zamknąłem w piwnicy dwóch ludzi z Polski: intelektualistę AA i robotnika XX. W sylwestrową noc rozmawiają o wolności, niewoli i o tym, co każdy z nich zostawił w kraju.",
+   "audio": "mrozek/audio/c4e.mp3",
+   "duration": 14.928,
+   "cues": [
+    {
+     "text": "W „Emigrantach” z 1974 roku zamknąłem w piwnicy dwóch ludzi z Polski:",
+     "start": 0.1,
+     "end": 5.125
+    },
+    {
+     "text": "intelektualistę AA i robotnika XX.",
+     "start": 5.125,
+     "end": 8.3
+    },
+    {
+     "text": "W sylwestrową noc rozmawiają o wolności, niewoli i o tym,",
+     "start": 8.55,
+     "end": 12.35
+    },
+    {
+     "text": "co każdy z nich zostawił w kraju.",
+     "start": 12.35,
+     "end": 14.012
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.1
+    },
+    {
+     "t": 0.2,
+     "d": 0.613
+    },
+    {
+     "t": 0.812,
+     "d": 0.05
+    },
+    {
+     "t": 0.863,
+     "d": 0.275
+    },
+    {
+     "t": 1.137,
+     "d": 0.4
+    },
+    {
+     "t": 1.538,
+     "d": 0.537
+    },
+    {
+     "t": 2.075,
+     "d": 0.375
+    },
+    {
+     "t": 2.45,
+     "d": 0.388
+    },
+    {
+     "t": 2.837,
+     "d": 0.45
+    },
+    {
+     "t": 3.288,
+     "d": 0.05
+    },
+    {
+     "t": 3.337,
+     "d": 0.388
+    },
+    {
+     "t": 3.725,
+     "d": 0.263
+    },
+    {
+     "t": 3.987,
+     "d": 0.2
+    },
+    {
+     "t": 4.188,
+     "d": 0.075
+    },
+    {
+     "t": 4.263,
+     "d": 0.613
+    },
+    {
+     "t": 5.125,
+     "d": 0.85
+    },
+    {
+     "t": 5.975,
+     "d": 0.475
+    },
+    {
+     "t": 6.45,
+     "d": 0.075
+    },
+    {
+     "t": 6.525,
+     "d": 0.487
+    },
+    {
+     "t": 7.013,
+     "d": 0.688
+    },
+    {
+     "t": 8.55,
+     "d": 0.087
+    },
+    {
+     "t": 8.637,
+     "d": 0.613
+    },
+    {
+     "t": 9.25,
+     "d": 0.362
+    },
+    {
+     "t": 9.613,
+     "d": 0.55
+    },
+    {
+     "t": 10.162,
+     "d": 0.05
+    },
+    {
+     "t": 10.213,
+     "d": 0.713
+    },
+    {
+     "t": 11.15,
+     "d": 0.463
+    },
+    {
+     "t": 11.613,
+     "d": 0.1
+    },
+    {
+     "t": 11.713,
+     "d": 0.087
+    },
+    {
+     "t": 11.8,
+     "d": 0.362
+    },
+    {
+     "t": 12.35,
+     "d": 0.125
+    },
+    {
+     "t": 12.475,
+     "d": 0.312
+    },
+    {
+     "t": 12.787,
+     "d": 0.062
+    },
+    {
+     "t": 12.85,
+     "d": 0.163
+    },
+    {
+     "t": 13.012,
+     "d": 0.412
+    },
+    {
+     "t": 13.425,
+     "d": 0.075
+    },
+    {
+     "t": 13.5,
+     "d": 0.512
+    }
+   ]
+  },
+  {
+   "id": "c4f",
+   "chapter": 4,
+   "visual": "talk",
+   "text": "Dlaczego groteska, satyra i absurd? Bo śmiech obnaża mechanizmy, których na co dzień nie widać: nowomowę, konformizm, władzę, która potrzebuje wroga. W czasach cenzury absurd pozwalał powiedzieć więcej niż wprost.",
+   "audio": "mrozek/audio/c4f.mp3",
+   "duration": 15.624,
+   "cues": [
+    {
+     "text": "Dlaczego groteska, satyra i absurd?",
+     "start": 0.1,
+     "end": 3.25
+    },
+    {
+     "text": "Bo śmiech obnaża mechanizmy, których na co dzień nie widać: nowomowę, konformizm,",
+     "start": 3.5,
+     "end": 8.575
+    },
+    {
+     "text": "władzę, która potrzebuje wroga.",
+     "start": 8.575,
+     "end": 11.187999999999999
+    },
+    {
+     "text": "W czasach cenzury absurd pozwalał powiedzieć więcej niż wprost.",
+     "start": 11.438,
+     "end": 14.763
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.45
+    },
+    {
+     "t": 0.55,
+     "d": 0.738
+    },
+    {
+     "t": 1.413,
+     "d": 0.512
+    },
+    {
+     "t": 1.925,
+     "d": 0.125
+    },
+    {
+     "t": 2.05,
+     "d": 0.6
+    },
+    {
+     "t": 3.5,
+     "d": 0.175
+    },
+    {
+     "t": 3.675,
+     "d": 0.3
+    },
+    {
+     "t": 3.975,
+     "d": 0.35
+    },
+    {
+     "t": 4.325,
+     "d": 0.713
+    },
+    {
+     "t": 5.2,
+     "d": 0.263
+    },
+    {
+     "t": 5.463,
+     "d": 0.087
+    },
+    {
+     "t": 5.55,
+     "d": 0.113
+    },
+    {
+     "t": 5.662,
+     "d": 0.2
+    },
+    {
+     "t": 5.862,
+     "d": 0.15
+    },
+    {
+     "t": 6.013,
+     "d": 0.512
+    },
+    {
+     "t": 6.763,
+     "d": 0.65
+    },
+    {
+     "t": 7.562,
+     "d": 0.825
+    },
+    {
+     "t": 8.575,
+     "d": 0.588
+    },
+    {
+     "t": 9.363,
+     "d": 0.237
+    },
+    {
+     "t": 9.6,
+     "d": 0.487
+    },
+    {
+     "t": 10.088,
+     "d": 0.5
+    },
+    {
+     "t": 11.438,
+     "d": 0.113
+    },
+    {
+     "t": 11.55,
+     "d": 0.312
+    },
+    {
+     "t": 11.863,
+     "d": 0.425
+    },
+    {
+     "t": 12.287,
+     "d": 0.45
+    },
+    {
+     "t": 12.738,
+     "d": 0.463
+    },
+    {
+     "t": 13.2,
+     "d": 0.375
+    },
+    {
+     "t": 13.575,
+     "d": 0.362
+    },
+    {
+     "t": 13.938,
+     "d": 0.175
+    },
+    {
+     "t": 14.113,
+     "d": 0.65
+    }
+   ]
+  },
+  {
+   "id": "c5a",
+   "chapter": 5,
+   "visual": "chiavari",
+   "text": "W 1963 roku wyjechałem z żoną do Włoch. Zamieszkaliśmy w Chiavari, na wybrzeżu Ligurii. Nie wiedziałem jeszcze, że poza krajem spędzę ponad 30 lat.",
+   "audio": "mrozek/audio/c5a.mp3",
+   "duration": 12.552,
+   "cues": [
+    {
+     "text": "W 1963 roku wyjechałem z żoną do Włoch.",
+     "start": 0.1,
+     "end": 4.212
+    },
+    {
+     "text": "Zamieszkaliśmy w Chiavari, na wybrzeżu Ligurii.",
+     "start": 4.537,
+     "end": 7.875
+    },
+    {
+     "text": "Nie wiedziałem jeszcze, że poza krajem spędzę ponad 30 lat.",
+     "start": 8.188,
+     "end": 11.662
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.1
+    },
+    {
+     "t": 0.2,
+     "d": 0.3
+    },
+    {
+     "t": 0.5,
+     "d": 0.425
+    },
+    {
+     "t": 0.925,
+     "d": 0.475
+    },
+    {
+     "t": 1.4,
+     "d": 0.3
+    },
+    {
+     "t": 1.7,
+     "d": 0.45
+    },
+    {
+     "t": 2.15,
+     "d": 0.525
+    },
+    {
+     "t": 2.675,
+     "d": 0.075
+    },
+    {
+     "t": 2.75,
+     "d": 0.287
+    },
+    {
+     "t": 3.038,
+     "d": 0.087
+    },
+    {
+     "t": 3.125,
+     "d": 0.487
+    },
+    {
+     "t": 4.537,
+     "d": 0.713
+    },
+    {
+     "t": 5.25,
+     "d": 0.05
+    },
+    {
+     "t": 5.3,
+     "d": 0.662
+    },
+    {
+     "t": 6.175,
+     "d": 0.113
+    },
+    {
+     "t": 6.287,
+     "d": 0.4
+    },
+    {
+     "t": 6.688,
+     "d": 0.588
+    },
+    {
+     "t": 8.188,
+     "d": 0.188
+    },
+    {
+     "t": 8.375,
+     "d": 0.35
+    },
+    {
+     "t": 8.725,
+     "d": 0.525
+    },
+    {
+     "t": 9.463,
+     "d": 0.125
+    },
+    {
+     "t": 9.588,
+     "d": 0.225
+    },
+    {
+     "t": 9.812,
+     "d": 0.287
+    },
+    {
+     "t": 10.1,
+     "d": 0.338
+    },
+    {
+     "t": 10.438,
+     "d": 0.275
+    },
+    {
+     "t": 10.713,
+     "d": 0.5
+    },
+    {
+     "t": 11.213,
+     "d": 0.45
+    }
+   ]
+  },
+  {
+   "id": "c5b",
+   "chapter": 5,
+   "visual": "paris",
+   "text": "W 1968 roku przenieśliśmy się do Paryża.",
+   "audio": "mrozek/audio/c5b.mp3",
+   "duration": 4.296,
+   "cues": [
+    {
+     "text": "W 1968 roku przenieśliśmy się do Paryża.",
+     "start": 0.1,
+     "end": 3.438
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.1
+    },
+    {
+     "t": 0.2,
+     "d": 0.3
+    },
+    {
+     "t": 0.5,
+     "d": 0.425
+    },
+    {
+     "t": 0.925,
+     "d": 0.512
+    },
+    {
+     "t": 1.438,
+     "d": 0.275
+    },
+    {
+     "t": 1.712,
+     "d": 0.375
+    },
+    {
+     "t": 2.087,
+     "d": 0.6
+    },
+    {
+     "t": 2.688,
+     "d": 0.113
+    },
+    {
+     "t": 2.8,
+     "d": 0.075
+    },
+    {
+     "t": 2.875,
+     "d": 0.562
+    }
+   ]
+  },
+  {
+   "id": "c5c",
+   "chapter": 5,
+   "visual": "prague",
+   "text": "W sierpniu tego roku wojska Układu Warszawskiego, także polskie, wkroczyły do Czechosłowacji. 28 sierpnia opublikowałem we francuskim dzienniku „Le Monde” list protestacyjny. Władze PRL zakazały wtedy publikowania moich utworów, a ja poprosiłem we Francji o azyl. W 1978 roku zostałem obywatelem Francji.",
+   "audio": "mrozek/audio/c5c.mp3",
+   "duration": 21.936,
+   "cues": [
+    {
+     "text": "W sierpniu tego roku wojska Układu Warszawskiego, także polskie,",
+     "start": 0.1,
+     "end": 3.85
+    },
+    {
+     "text": "wkroczyły do Czechosłowacji.",
+     "start": 3.85,
+     "end": 5.912
+    },
+    {
+     "text": "28 sierpnia opublikowałem we francuskim dzienniku „Le Monde” list protestacyjny.",
+     "start": 6.162,
+     "end": 11.012
+    },
+    {
+     "text": "Władze PRL zakazały wtedy publikowania moich utworów,",
+     "start": 11.338,
+     "end": 14.588
+    },
+    {
+     "text": "a ja poprosiłem we Francji o azyl.",
+     "start": 14.588,
+     "end": 16.975
+    },
+    {
+     "text": "W 1978 roku zostałem obywatelem Francji.",
+     "start": 17.225,
+     "end": 21.012
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.1
+    },
+    {
+     "t": 0.2,
+     "d": 0.362
+    },
+    {
+     "t": 0.562,
+     "d": 0.188
+    },
+    {
+     "t": 0.75,
+     "d": 0.325
+    },
+    {
+     "t": 1.075,
+     "d": 0.4
+    },
+    {
+     "t": 1.475,
+     "d": 0.338
+    },
+    {
+     "t": 1.812,
+     "d": 0.8
+    },
+    {
+     "t": 2.8,
+     "d": 0.263
+    },
+    {
+     "t": 3.062,
+     "d": 0.625
+    },
+    {
+     "t": 3.85,
+     "d": 0.475
+    },
+    {
+     "t": 4.325,
+     "d": 0.087
+    },
+    {
+     "t": 4.412,
+     "d": 0.9
+    },
+    {
+     "t": 6.162,
+     "d": 0.55
+    },
+    {
+     "t": 6.713,
+     "d": 0.287
+    },
+    {
+     "t": 7.0,
+     "d": 0.4
+    },
+    {
+     "t": 7.4,
+     "d": 0.2
+    },
+    {
+     "t": 7.6,
+     "d": 0.087
+    },
+    {
+     "t": 7.688,
+     "d": 0.463
+    },
+    {
+     "t": 8.15,
+     "d": 0.6
+    },
+    {
+     "t": 8.75,
+     "d": 0.225
+    },
+    {
+     "t": 8.975,
+     "d": 0.263
+    },
+    {
+     "t": 9.238,
+     "d": 0.3
+    },
+    {
+     "t": 9.537,
+     "d": 0.875
+    },
+    {
+     "t": 11.338,
+     "d": 0.412
+    },
+    {
+     "t": 11.75,
+     "d": 0.625
+    },
+    {
+     "t": 12.375,
+     "d": 0.463
+    },
+    {
+     "t": 12.838,
+     "d": 0.212
+    },
+    {
+     "t": 13.05,
+     "d": 0.537
+    },
+    {
+     "t": 13.588,
+     "d": 0.212
+    },
+    {
+     "t": 13.8,
+     "d": 0.6
+    },
+    {
+     "t": 14.588,
+     "d": 0.05
+    },
+    {
+     "t": 14.637,
+     "d": 0.075
+    },
+    {
+     "t": 14.713,
+     "d": 0.512
+    },
+    {
+     "t": 15.225,
+     "d": 0.075
+    },
+    {
+     "t": 15.3,
+     "d": 0.475
+    },
+    {
+     "t": 15.775,
+     "d": 0.113
+    },
+    {
+     "t": 15.887,
+     "d": 0.487
+    },
+    {
+     "t": 17.225,
+     "d": 0.1
+    },
+    {
+     "t": 17.325,
+     "d": 0.3
+    },
+    {
+     "t": 17.625,
+     "d": 0.412
+    },
+    {
+     "t": 18.038,
+     "d": 0.562
+    },
+    {
+     "t": 18.6,
+     "d": 0.275
+    },
+    {
+     "t": 18.875,
+     "d": 0.425
+    },
+    {
+     "t": 19.3,
+     "d": 0.5
+    },
+    {
+     "t": 19.8,
+     "d": 0.525
+    },
+    {
+     "t": 20.325,
+     "d": 0.688
+    }
+   ]
+  },
+  {
+   "id": "c5d",
+   "chapter": 5,
+   "visual": "mexico",
+   "text": "W 1989 roku zamieszkałem w Meksyku. Do Polski, do Krakowa, wróciłem na stałe w 1996 roku.",
+   "audio": "mrozek/audio/c5d.mp3",
+   "duration": 10.368,
+   "cues": [
+    {
+     "text": "W 1989 roku zamieszkałem w Meksyku.",
+     "start": 0.1,
+     "end": 4.188
+    },
+    {
+     "text": "Do Polski, do Krakowa, wróciłem na stałe w 1996 roku.",
+     "start": 4.513,
+     "end": 9.513
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.1
+    },
+    {
+     "t": 0.2,
+     "d": 0.3
+    },
+    {
+     "t": 0.5,
+     "d": 0.412
+    },
+    {
+     "t": 0.912,
+     "d": 0.525
+    },
+    {
+     "t": 1.438,
+     "d": 0.362
+    },
+    {
+     "t": 1.8,
+     "d": 0.463
+    },
+    {
+     "t": 2.263,
+     "d": 0.65
+    },
+    {
+     "t": 2.913,
+     "d": 0.037
+    },
+    {
+     "t": 2.95,
+     "d": 0.637
+    },
+    {
+     "t": 4.513,
+     "d": 0.188
+    },
+    {
+     "t": 4.7,
+     "d": 0.688
+    },
+    {
+     "t": 5.562,
+     "d": 0.113
+    },
+    {
+     "t": 5.675,
+     "d": 0.613
+    },
+    {
+     "t": 6.537,
+     "d": 0.425
+    },
+    {
+     "t": 6.963,
+     "d": 0.087
+    },
+    {
+     "t": 7.05,
+     "d": 0.287
+    },
+    {
+     "t": 7.338,
+     "d": 0.037
+    },
+    {
+     "t": 7.375,
+     "d": 0.287
+    },
+    {
+     "t": 7.662,
+     "d": 0.5
+    },
+    {
+     "t": 8.162,
+     "d": 0.575
+    },
+    {
+     "t": 8.738,
+     "d": 0.312
+    },
+    {
+     "t": 9.05,
+     "d": 0.463
+    }
+   ]
+  },
+  {
+   "id": "c6a",
+   "chapter": 6,
+   "visual": "talk",
+   "text": "W 1959 roku poślubiłem Marię Obrembę. Była ze mną we Włoszech i w Paryżu. Zmarła w 1969 roku.",
+   "audio": "mrozek/audio/c6a.mp3",
+   "duration": 11.232,
+   "cues": [
+    {
+     "text": "W 1959 roku poślubiłem Marię Obrembę.",
+     "start": 0.1,
+     "end": 4.3999999999999995
+    },
+    {
+     "text": "Była ze mną we Włoszech i w Paryżu.",
+     "start": 4.713,
+     "end": 7.199999999999999
+    },
+    {
+     "text": "Zmarła w 1969 roku.",
+     "start": 7.513,
+     "end": 10.3
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.1
+    },
+    {
+     "t": 0.2,
+     "d": 0.3
+    },
+    {
+     "t": 0.5,
+     "d": 0.4
+    },
+    {
+     "t": 0.9,
+     "d": 0.475
+    },
+    {
+     "t": 1.375,
+     "d": 0.35
+    },
+    {
+     "t": 1.725,
+     "d": 0.325
+    },
+    {
+     "t": 2.05,
+     "d": 0.675
+    },
+    {
+     "t": 2.725,
+     "d": 0.425
+    },
+    {
+     "t": 3.15,
+     "d": 0.65
+    },
+    {
+     "t": 4.713,
+     "d": 0.3
+    },
+    {
+     "t": 5.013,
+     "d": 0.113
+    },
+    {
+     "t": 5.125,
+     "d": 0.225
+    },
+    {
+     "t": 5.35,
+     "d": 0.1
+    },
+    {
+     "t": 5.45,
+     "d": 0.438
+    },
+    {
+     "t": 5.888,
+     "d": 0.062
+    },
+    {
+     "t": 5.95,
+     "d": 0.062
+    },
+    {
+     "t": 6.013,
+     "d": 0.588
+    },
+    {
+     "t": 7.513,
+     "d": 0.5
+    },
+    {
+     "t": 8.012,
+     "d": 0.037
+    },
+    {
+     "t": 8.05,
+     "d": 0.3
+    },
+    {
+     "t": 8.35,
+     "d": 0.487
+    },
+    {
+     "t": 8.838,
+     "d": 0.575
+    },
+    {
+     "t": 9.412,
+     "d": 0.4
+    },
+    {
+     "t": 9.812,
+     "d": 0.487
+    }
+   ]
+  },
+  {
+   "id": "c6b",
+   "chapter": 6,
+   "visual": "talk",
+   "text": "W 1987 roku ożeniłem się z Meksykanką, Susaną Osorio. To z nią zamieszkałem w Meksyku i to z nią wróciłem do Krakowa.",
+   "audio": "mrozek/audio/c6b.mp3",
+   "duration": 9.6,
+   "cues": [
+    {
+     "text": "W 1987 roku ożeniłem się z Meksykanką, Susaną Osorio.",
+     "start": 0.1,
+     "end": 5.3999999999999995
+    },
+    {
+     "text": "To z nią zamieszkałem w Meksyku i to z nią wróciłem do Krakowa.",
+     "start": 5.65,
+     "end": 8.75
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.1
+    },
+    {
+     "t": 0.2,
+     "d": 0.3
+    },
+    {
+     "t": 0.5,
+     "d": 0.412
+    },
+    {
+     "t": 0.912,
+     "d": 0.512
+    },
+    {
+     "t": 1.425,
+     "d": 0.287
+    },
+    {
+     "t": 1.712,
+     "d": 0.487
+    },
+    {
+     "t": 2.2,
+     "d": 0.388
+    },
+    {
+     "t": 2.587,
+     "d": 0.113
+    },
+    {
+     "t": 2.7,
+     "d": 0.05
+    },
+    {
+     "t": 2.75,
+     "d": 0.838
+    },
+    {
+     "t": 3.737,
+     "d": 0.475
+    },
+    {
+     "t": 4.213,
+     "d": 0.588
+    },
+    {
+     "t": 5.65,
+     "d": 0.175
+    },
+    {
+     "t": 5.825,
+     "d": 0.062
+    },
+    {
+     "t": 5.888,
+     "d": 0.138
+    },
+    {
+     "t": 6.025,
+     "d": 0.55
+    },
+    {
+     "t": 6.575,
+     "d": 0.037
+    },
+    {
+     "t": 6.612,
+     "d": 0.625
+    },
+    {
+     "t": 7.237,
+     "d": 0.075
+    },
+    {
+     "t": 7.312,
+     "d": 0.1
+    },
+    {
+     "t": 7.412,
+     "d": 0.062
+    },
+    {
+     "t": 7.475,
+     "d": 0.163
+    },
+    {
+     "t": 7.638,
+     "d": 0.425
+    },
+    {
+     "t": 8.062,
+     "d": 0.075
+    },
+    {
+     "t": 8.137,
+     "d": 0.613
+    }
+   ]
+  },
+  {
+   "id": "c6c",
+   "chapter": 6,
+   "visual": "baltazar",
+   "text": "15 maja 2002 roku przeszedłem udar mózgu. Jego skutkiem była afazja: straciłem zdolność swobodnego posługiwania się językiem. W ramach terapii zacząłem spisywać wspomnienia. Tak powstała autobiografia „Baltazar”, wydana w 2006 roku.",
+   "audio": "mrozek/audio/c6c.mp3",
+   "duration": 17.856,
+   "cues": [
+    {
+     "text": "15 maja 2002 roku przeszedłem udar mózgu.",
+     "start": 0.1,
+     "end": 3.975
+    },
+    {
+     "text": "Jego skutkiem była afazja: straciłem zdolność swobodnego posługiwania się językiem.",
+     "start": 4.287,
+     "end": 9.525
+    },
+    {
+     "text": "W ramach terapii zacząłem spisywać wspomnienia.",
+     "start": 9.775,
+     "end": 12.75
+    },
+    {
+     "text": "Tak powstała autobiografia „Baltazar”, wydana w 2006 roku.",
+     "start": 13.012,
+     "end": 16.988
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.55
+    },
+    {
+     "t": 0.65,
+     "d": 0.225
+    },
+    {
+     "t": 0.875,
+     "d": 0.15
+    },
+    {
+     "t": 1.025,
+     "d": 0.338
+    },
+    {
+     "t": 1.363,
+     "d": 0.338
+    },
+    {
+     "t": 1.7,
+     "d": 0.338
+    },
+    {
+     "t": 2.038,
+     "d": 0.575
+    },
+    {
+     "t": 2.612,
+     "d": 0.237
+    },
+    {
+     "t": 2.85,
+     "d": 0.525
+    },
+    {
+     "t": 4.287,
+     "d": 0.263
+    },
+    {
+     "t": 4.55,
+     "d": 0.487
+    },
+    {
+     "t": 5.037,
+     "d": 0.2
+    },
+    {
+     "t": 5.237,
+     "d": 0.662
+    },
+    {
+     "t": 6.037,
+     "d": 0.512
+    },
+    {
+     "t": 6.55,
+     "d": 0.512
+    },
+    {
+     "t": 7.062,
+     "d": 0.5
+    },
+    {
+     "t": 7.562,
+     "d": 0.55
+    },
+    {
+     "t": 8.113,
+     "d": 0.125
+    },
+    {
+     "t": 8.238,
+     "d": 0.688
+    },
+    {
+     "t": 9.775,
+     "d": 0.138
+    },
+    {
+     "t": 9.912,
+     "d": 0.275
+    },
+    {
+     "t": 10.188,
+     "d": 0.412
+    },
+    {
+     "t": 10.6,
+     "d": 0.362
+    },
+    {
+     "t": 10.963,
+     "d": 0.475
+    },
+    {
+     "t": 11.438,
+     "d": 0.713
+    },
+    {
+     "t": 13.012,
+     "d": 0.212
+    },
+    {
+     "t": 13.225,
+     "d": 0.525
+    },
+    {
+     "t": 13.75,
+     "d": 0.637
+    },
+    {
+     "t": 14.387,
+     "d": 0.7
+    },
+    {
+     "t": 15.3,
+     "d": 0.35
+    },
+    {
+     "t": 15.65,
+     "d": 0.05
+    },
+    {
+     "t": 15.7,
+     "d": 0.175
+    },
+    {
+     "t": 15.875,
+     "d": 0.35
+    },
+    {
+     "t": 16.225,
+     "d": 0.312
+    },
+    {
+     "t": 16.538,
+     "d": 0.45
+    }
+   ]
+  },
+  {
+   "id": "c7a",
+   "chapter": 7,
+   "visual": "tangoworld",
+   "text": "Moje sztuki grano na scenach całego świata, od Paryża po Belgrad i Kluż, a książki tłumaczono na wiele języków. „Tango” do dziś czytają polscy licealiści.",
+   "audio": "mrozek/audio/c7a.mp3",
+   "duration": 10.296,
+   "cues": [
+    {
+     "text": "Moje sztuki grano na scenach całego świata, od Paryża po Belgrad i Kluż,",
+     "start": 0.1,
+     "end": 4.237
+    },
+    {
+     "text": "a książki tłumaczono na wiele języków.",
+     "start": 4.237,
+     "end": 6.763
+    },
+    {
+     "text": "„Tango” do dziś czytają polscy licealiści.",
+     "start": 7.013,
+     "end": 9.438
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.287
+    },
+    {
+     "t": 0.388,
+     "d": 0.338
+    },
+    {
+     "t": 0.725,
+     "d": 0.263
+    },
+    {
+     "t": 0.988,
+     "d": 0.075
+    },
+    {
+     "t": 1.062,
+     "d": 0.325
+    },
+    {
+     "t": 1.387,
+     "d": 0.263
+    },
+    {
+     "t": 1.65,
+     "d": 0.575
+    },
+    {
+     "t": 2.425,
+     "d": 0.113
+    },
+    {
+     "t": 2.538,
+     "d": 0.325
+    },
+    {
+     "t": 2.862,
+     "d": 0.125
+    },
+    {
+     "t": 2.987,
+     "d": 0.412
+    },
+    {
+     "t": 3.4,
+     "d": 0.113
+    },
+    {
+     "t": 3.513,
+     "d": 0.525
+    },
+    {
+     "t": 4.237,
+     "d": 0.062
+    },
+    {
+     "t": 4.3,
+     "d": 0.4
+    },
+    {
+     "t": 4.7,
+     "d": 0.438
+    },
+    {
+     "t": 5.138,
+     "d": 0.1
+    },
+    {
+     "t": 5.237,
+     "d": 0.225
+    },
+    {
+     "t": 5.463,
+     "d": 0.7
+    },
+    {
+     "t": 7.013,
+     "d": 0.362
+    },
+    {
+     "t": 7.375,
+     "d": 0.113
+    },
+    {
+     "t": 7.487,
+     "d": 0.375
+    },
+    {
+     "t": 7.862,
+     "d": 0.4
+    },
+    {
+     "t": 8.262,
+     "d": 0.375
+    },
+    {
+     "t": 8.637,
+     "d": 0.8
+    }
+   ]
+  },
+  {
+   "id": "c7b",
+   "chapter": 7,
+   "visual": "awards",
+   "text": "W 1972 roku otrzymałem Austriacką Nagrodę Państwową w dziedzinie Literatury Europejskiej. W 2003 roku Francja przyznała mi Legię Honorową. Zostałem doktorem honoris causa Uniwersytetu Jagiellońskiego i honorowym obywatelem Krakowa. Po śmierci odznaczono mnie Krzyżem Wielkim Orderu Odrodzenia Polski.",
+   "audio": "mrozek/audio/c7b.mp3",
+   "duration": 21.192,
+   "cues": [
+    {
+     "text": "W 1972 roku otrzymałem Austriacką Nagrodę Państwową w dziedzinie Literatury Europejskiej.",
+     "start": 0.1,
+     "end": 6.699999999999999
+    },
+    {
+     "text": "W 2003 roku Francja przyznała mi Legię Honorową.",
+     "start": 6.95,
+     "end": 10.887
+    },
+    {
+     "text": "Zostałem doktorem honoris causa Uniwersytetu Jagiellońskiego i honorowym obywatelem Krakowa.",
+     "start": 11.213,
+     "end": 16.563
+    },
+    {
+     "text": "Po śmierci odznaczono mnie Krzyżem Wielkim Orderu Odrodzenia Polski.",
+     "start": 16.812,
+     "end": 20.262
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.1
+    },
+    {
+     "t": 0.2,
+     "d": 0.3
+    },
+    {
+     "t": 0.5,
+     "d": 0.412
+    },
+    {
+     "t": 0.912,
+     "d": 0.55
+    },
+    {
+     "t": 1.462,
+     "d": 0.275
+    },
+    {
+     "t": 1.738,
+     "d": 0.475
+    },
+    {
+     "t": 2.212,
+     "d": 0.475
+    },
+    {
+     "t": 2.688,
+     "d": 0.55
+    },
+    {
+     "t": 3.237,
+     "d": 0.325
+    },
+    {
+     "t": 3.562,
+     "d": 0.65
+    },
+    {
+     "t": 4.213,
+     "d": 0.113
+    },
+    {
+     "t": 4.325,
+     "d": 0.388
+    },
+    {
+     "t": 4.713,
+     "d": 0.512
+    },
+    {
+     "t": 5.225,
+     "d": 0.875
+    },
+    {
+     "t": 6.95,
+     "d": 0.138
+    },
+    {
+     "t": 7.088,
+     "d": 0.163
+    },
+    {
+     "t": 7.25,
+     "d": 0.325
+    },
+    {
+     "t": 7.575,
+     "d": 0.325
+    },
+    {
+     "t": 7.9,
+     "d": 0.412
+    },
+    {
+     "t": 8.312,
+     "d": 0.5
+    },
+    {
+     "t": 8.812,
+     "d": 0.388
+    },
+    {
+     "t": 9.2,
+     "d": 0.113
+    },
+    {
+     "t": 9.312,
+     "d": 0.275
+    },
+    {
+     "t": 9.588,
+     "d": 0.7
+    },
+    {
+     "t": 11.213,
+     "d": 0.5
+    },
+    {
+     "t": 11.713,
+     "d": 0.375
+    },
+    {
+     "t": 12.088,
+     "d": 0.388
+    },
+    {
+     "t": 12.475,
+     "d": 0.312
+    },
+    {
+     "t": 12.787,
+     "d": 0.588
+    },
+    {
+     "t": 13.375,
+     "d": 0.9
+    },
+    {
+     "t": 14.275,
+     "d": 0.062
+    },
+    {
+     "t": 14.338,
+     "d": 0.512
+    },
+    {
+     "t": 14.85,
+     "d": 0.5
+    },
+    {
+     "t": 15.35,
+     "d": 0.613
+    },
+    {
+     "t": 16.812,
+     "d": 0.138
+    },
+    {
+     "t": 16.95,
+     "d": 0.55
+    },
+    {
+     "t": 17.5,
+     "d": 0.4
+    },
+    {
+     "t": 17.9,
+     "d": 0.15
+    },
+    {
+     "t": 18.05,
+     "d": 0.35
+    },
+    {
+     "t": 18.4,
+     "d": 0.4
+    },
+    {
+     "t": 18.8,
+     "d": 0.425
+    },
+    {
+     "t": 19.225,
+     "d": 0.4
+    },
+    {
+     "t": 19.625,
+     "d": 0.637
+    }
+   ]
+  },
+  {
+   "id": "c8a",
+   "chapter": 8,
+   "visual": "nice",
+   "text": "W 2008 roku ponownie wyjechałem do Francji. Ostatnie lata spędziłem w Nicei. Tam zmarłem 15 sierpnia 2013 roku, w wieku 83 lat.",
+   "audio": "mrozek/audio/c8a.mp3",
+   "duration": 12.552,
+   "cues": [
+    {
+     "text": "W 2008 roku ponownie wyjechałem do Francji.",
+     "start": 0.1,
+     "end": 3.575
+    },
+    {
+     "text": "Ostatnie lata spędziłem w Nicei.",
+     "start": 3.9,
+     "end": 6.513
+    },
+    {
+     "text": "Tam zmarłem 15 sierpnia 2013 roku, w wieku 83 lat.",
+     "start": 6.85,
+     "end": 11.688
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.138
+    },
+    {
+     "t": 0.237,
+     "d": 0.163
+    },
+    {
+     "t": 0.4,
+     "d": 0.35
+    },
+    {
+     "t": 0.75,
+     "d": 0.263
+    },
+    {
+     "t": 1.012,
+     "d": 0.338
+    },
+    {
+     "t": 1.35,
+     "d": 0.4
+    },
+    {
+     "t": 1.75,
+     "d": 0.475
+    },
+    {
+     "t": 2.225,
+     "d": 0.087
+    },
+    {
+     "t": 2.312,
+     "d": 0.662
+    },
+    {
+     "t": 3.9,
+     "d": 0.512
+    },
+    {
+     "t": 4.412,
+     "d": 0.212
+    },
+    {
+     "t": 4.625,
+     "d": 0.55
+    },
+    {
+     "t": 5.175,
+     "d": 0.087
+    },
+    {
+     "t": 5.263,
+     "d": 0.65
+    },
+    {
+     "t": 6.85,
+     "d": 0.225
+    },
+    {
+     "t": 7.075,
+     "d": 0.425
+    },
+    {
+     "t": 7.5,
+     "d": 0.463
+    },
+    {
+     "t": 7.963,
+     "d": 0.375
+    },
+    {
+     "t": 8.338,
+     "d": 0.125
+    },
+    {
+     "t": 8.463,
+     "d": 0.312
+    },
+    {
+     "t": 8.775,
+     "d": 0.463
+    },
+    {
+     "t": 9.238,
+     "d": 0.425
+    },
+    {
+     "t": 9.925,
+     "d": 0.087
+    },
+    {
+     "t": 10.012,
+     "d": 0.35
+    },
+    {
+     "t": 10.363,
+     "d": 0.588
+    },
+    {
+     "t": 10.95,
+     "d": 0.275
+    },
+    {
+     "t": 11.225,
+     "d": 0.463
+    }
+   ]
+  },
+  {
+   "id": "c8b",
+   "chapter": 8,
+   "visual": "sarkofag",
+   "text": "17 września 2013 roku urnę z moimi prochami złożono w Panteonie Narodowym, w krypcie kościoła świętych Piotra i Pawła w Krakowie. Wróciłem do miasta, w którym wszystko się zaczęło.",
+   "audio": "mrozek/audio/c8b.mp3",
+   "duration": 12.312,
+   "cues": [
+    {
+     "text": "17 września 2013 roku urnę z moimi prochami złożono w Panteonie Narodowym,",
+     "start": 0.1,
+     "end": 5.1
+    },
+    {
+     "text": "w krypcie kościoła świętych Piotra i Pawła w Krakowie.",
+     "start": 5.1,
+     "end": 8.4
+    },
+    {
+     "text": "Wróciłem do miasta, w którym wszystko się zaczęło.",
+     "start": 8.65,
+     "end": 11.438
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.625
+    },
+    {
+     "t": 0.725,
+     "d": 0.325
+    },
+    {
+     "t": 1.05,
+     "d": 0.125
+    },
+    {
+     "t": 1.175,
+     "d": 0.312
+    },
+    {
+     "t": 1.488,
+     "d": 0.463
+    },
+    {
+     "t": 1.95,
+     "d": 0.425
+    },
+    {
+     "t": 2.375,
+     "d": 0.237
+    },
+    {
+     "t": 2.612,
+     "d": 0.062
+    },
+    {
+     "t": 2.675,
+     "d": 0.275
+    },
+    {
+     "t": 2.95,
+     "d": 0.487
+    },
+    {
+     "t": 3.438,
+     "d": 0.362
+    },
+    {
+     "t": 3.8,
+     "d": 0.05
+    },
+    {
+     "t": 3.85,
+     "d": 0.425
+    },
+    {
+     "t": 4.275,
+     "d": 0.625
+    },
+    {
+     "t": 5.1,
+     "d": 0.075
+    },
+    {
+     "t": 5.175,
+     "d": 0.338
+    },
+    {
+     "t": 5.513,
+     "d": 0.362
+    },
+    {
+     "t": 5.875,
+     "d": 0.362
+    },
+    {
+     "t": 6.237,
+     "d": 0.475
+    },
+    {
+     "t": 6.713,
+     "d": 0.075
+    },
+    {
+     "t": 6.787,
+     "d": 0.338
+    },
+    {
+     "t": 7.125,
+     "d": 0.05
+    },
+    {
+     "t": 7.175,
+     "d": 0.625
+    },
+    {
+     "t": 8.65,
+     "d": 0.525
+    },
+    {
+     "t": 9.175,
+     "d": 0.075
+    },
+    {
+     "t": 9.25,
+     "d": 0.6
+    },
+    {
+     "t": 10.025,
+     "d": 0.062
+    },
+    {
+     "t": 10.088,
+     "d": 0.312
+    },
+    {
+     "t": 10.4,
+     "d": 0.362
+    },
+    {
+     "t": 10.762,
+     "d": 0.1
+    },
+    {
+     "t": 10.863,
+     "d": 0.575
+    }
+   ]
+  },
+  {
+   "id": "end1",
+   "chapter": 9,
+   "visual": "talkbw",
+   "text": "Moje życie dobiegło końca 15 sierpnia 2013 roku. Jednak historie, które stworzyłem, pozostały.",
+   "audio": "mrozek/audio/end1.mp3",
+   "duration": 8.52,
+   "cues": [
+    {
+     "text": "Moje życie dobiegło końca 15 sierpnia 2013 roku.",
+     "start": 0.1,
+     "end": 4.375
+    },
+    {
+     "text": "Jednak historie, które stworzyłem, pozostały.",
+     "start": 4.7,
+     "end": 7.662
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.312
+    },
+    {
+     "t": 0.412,
+     "d": 0.3
+    },
+    {
+     "t": 0.713,
+     "d": 0.338
+    },
+    {
+     "t": 1.05,
+     "d": 0.287
+    },
+    {
+     "t": 1.337,
+     "d": 0.487
+    },
+    {
+     "t": 1.825,
+     "d": 0.475
+    },
+    {
+     "t": 2.3,
+     "d": 0.175
+    },
+    {
+     "t": 2.475,
+     "d": 0.362
+    },
+    {
+     "t": 2.837,
+     "d": 0.487
+    },
+    {
+     "t": 3.325,
+     "d": 0.45
+    },
+    {
+     "t": 4.7,
+     "d": 0.362
+    },
+    {
+     "t": 5.062,
+     "d": 0.65
+    },
+    {
+     "t": 5.9,
+     "d": 0.225
+    },
+    {
+     "t": 6.125,
+     "d": 0.65
+    },
+    {
+     "t": 6.912,
+     "d": 0.75
+    }
+   ]
+  },
+  {
+   "id": "end2",
+   "chapter": 9,
+   "visual": "talkbw",
+   "text": "W swoich utworach pokazywałem świat pełen sprzeczności, absurdu i ludzkich słabości. Chciałem, aby czytelnicy nie tylko się śmiali, lecz także zastanawiali nad otaczającą ich rzeczywistością.",
+   "audio": "mrozek/audio/end2.mp3",
+   "duration": 12.0,
+   "cues": [
+    {
+     "text": "W swoich utworach pokazywałem świat pełen sprzeczności, absurdu i ludzkich słabości.",
+     "start": 0.1,
+     "end": 5.2379999999999995
+    },
+    {
+     "text": "Chciałem, aby czytelnicy nie tylko się śmiali,",
+     "start": 5.487,
+     "end": 8.213
+    },
+    {
+     "text": "lecz także zastanawiali nad otaczającą ich rzeczywistością.",
+     "start": 8.213,
+     "end": 11.062
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.087
+    },
+    {
+     "t": 0.188,
+     "d": 0.312
+    },
+    {
+     "t": 0.5,
+     "d": 0.45
+    },
+    {
+     "t": 0.95,
+     "d": 0.537
+    },
+    {
+     "t": 1.488,
+     "d": 0.275
+    },
+    {
+     "t": 1.762,
+     "d": 0.237
+    },
+    {
+     "t": 2.0,
+     "d": 0.775
+    },
+    {
+     "t": 2.962,
+     "d": 0.588
+    },
+    {
+     "t": 3.55,
+     "d": 0.062
+    },
+    {
+     "t": 3.612,
+     "d": 0.325
+    },
+    {
+     "t": 3.938,
+     "d": 0.7
+    },
+    {
+     "t": 5.487,
+     "d": 0.713
+    },
+    {
+     "t": 6.375,
+     "d": 0.163
+    },
+    {
+     "t": 6.537,
+     "d": 0.475
+    },
+    {
+     "t": 7.013,
+     "d": 0.087
+    },
+    {
+     "t": 7.1,
+     "d": 0.225
+    },
+    {
+     "t": 7.325,
+     "d": 0.1
+    },
+    {
+     "t": 7.425,
+     "d": 0.55
+    },
+    {
+     "t": 8.213,
+     "d": 0.163
+    },
+    {
+     "t": 8.375,
+     "d": 0.3
+    },
+    {
+     "t": 8.675,
+     "d": 0.562
+    },
+    {
+     "t": 9.238,
+     "d": 0.163
+    },
+    {
+     "t": 9.4,
+     "d": 0.637
+    },
+    {
+     "t": 10.037,
+     "d": 0.113
+    },
+    {
+     "t": 10.15,
+     "d": 0.912
+    }
+   ]
+  },
+  {
+   "id": "end3",
+   "chapter": 9,
+   "visual": "talkbw",
+   "text": "Nazywam się Sławomir Mrożek. A moja historia wciąż żyje w literaturze.",
+   "audio": "mrozek/audio/end3.mp3",
+   "duration": 5.832,
+   "cues": [
+    {
+     "text": "Nazywam się Sławomir Mrożek.",
+     "start": 0.1,
+     "end": 2.388
+    },
+    {
+     "text": "A moja historia wciąż żyje w literaturze.",
+     "start": 2.663,
+     "end": 4.963
+    }
+   ],
+   "words": [
+    {
+     "t": 0.1,
+     "d": 0.487
+    },
+    {
+     "t": 0.588,
+     "d": 0.113
+    },
+    {
+     "t": 0.7,
+     "d": 0.463
+    },
+    {
+     "t": 1.163,
+     "d": 0.625
+    },
+    {
+     "t": 2.663,
+     "d": 0.125
+    },
+    {
+     "t": 2.788,
+     "d": 0.225
+    },
+    {
+     "t": 3.013,
+     "d": 0.537
+    },
+    {
+     "t": 3.55,
+     "d": 0.362
+    },
+    {
+     "t": 3.913,
+     "d": 0.275
+    },
+    {
+     "t": 4.188,
+     "d": 0.025
+    },
+    {
+     "t": 4.213,
+     "d": 0.75
+    }
+   ]
+  }
+ ]
+}

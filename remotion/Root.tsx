@@ -3,6 +3,8 @@ import { Composition } from "remotion";
 import { generateScene } from "../lib/scene/generator";
 import type { SceneSpec } from "../lib/scene/types";
 import { KidsShort } from "./KidsShort";
+import { MrozekFilm, TIMELINE } from "./mrozek/MrozekFilm";
+import { FPS as FILM_FPS, HEIGHT as FILM_H, WIDTH as FILM_W } from "./mrozek/timeline";
 
 export const COMPOSITION_ID = "KidsShort";
 
@@ -13,6 +15,7 @@ const defaultScene = generateScene({
 });
 
 export const RemotionRoot: React.FC = () => (
+  <>
   <Composition
     id={COMPOSITION_ID}
     component={KidsShort as unknown as React.FC<Record<string, unknown>>}
@@ -31,4 +34,14 @@ export const RemotionRoot: React.FC = () => (
       };
     }}
   />
+  {/* Film biograficzny o Sławomirze Mrożku (16:9) – zob. film/mrozek/README.md */}
+  <Composition
+    id="MrozekFilm"
+    component={MrozekFilm}
+    width={FILM_W}
+    height={FILM_H}
+    fps={FILM_FPS}
+    durationInFrames={TIMELINE.total}
+  />
+  </>
 );

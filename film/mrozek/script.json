@@ -1,0 +1,376 @@
+{
+ "title": "Sławomir Mrożek. Moja historia",
+ "voice": {
+  "name": "pl-PL-MarekNeural",
+  "rate": "+0%",
+  "pitch": "-6Hz"
+ },
+ "segments": [
+  {
+   "id": "intro1",
+   "chapter": 0,
+   "visual": "talk",
+   "text": "Witam Was. Nazywam się Sławomir Mrożek."
+  },
+  {
+   "id": "intro2",
+   "chapter": 0,
+   "visual": "talk",
+   "text": "Byłem pisarzem, dramaturgiem i człowiekiem, który przez całe życie próbował zrozumieć otaczający go świat. Moją bronią były słowa, ironia i absurd."
+  },
+  {
+   "id": "intro3",
+   "chapter": 0,
+   "visual": "talk",
+   "text": "Dziś chciałbym opowiedzieć Wam historię mojego życia. Historię pełną zmian, podróży i literatury…"
+  },
+  {
+   "id": "c1a",
+   "chapter": 1,
+   "visual": "borzecin",
+   "text": "Urodziłem się 29 czerwca 1930 roku w Borzęcinie, niewielkiej miejscowości w Małopolsce, niedaleko Brzeska."
+  },
+  {
+   "id": "c1b",
+   "chapter": 1,
+   "visual": "talk",
+   "text": "Mój ojciec, Antoni, był urzędnikiem pocztowym. Matka, Zofia z domu Kędzior, pochodziła ze wsi. Miałem starszego brata, Jerzego, który zmarł jako małe dziecko, i młodszą siostrę, Litosławę."
+  },
+  {
+   "id": "c1c",
+   "chapter": 1,
+   "visual": "krakow1933",
+   "text": "W 1933 roku rodzina przeprowadziła się do Krakowa. To miasto towarzyszyło mi przez całe życie."
+  },
+  {
+   "id": "c2a",
+   "chapter": 2,
+   "visual": "war",
+   "text": "Gdy we wrześniu 1939 roku wybuchła wojna, miałem 9 lat. Rodzina wróciła wtedy do Borzęcina i tam skończyłem szkołę powszechną."
+  },
+  {
+   "id": "c2b",
+   "chapter": 2,
+   "visual": "talk",
+   "text": "Dorastałem w czasie niemieckiej okupacji. Badacze mojej twórczości podkreślają, że doświadczenie wojny i totalitaryzmu nauczyło mnie nieufności wobec wielkich haseł."
+  },
+  {
+   "id": "c2c",
+   "chapter": 2,
+   "visual": "matura",
+   "text": "W 1949 roku zdałem maturę w krakowskim Liceum imienia Bartłomieja Nowodworskiego. Próbowałem studiować architekturę, a potem orientalistykę, ale żadnych studiów nie ukończyłem. Bardziej pociągało mnie rysowanie i pisanie."
+  },
+  {
+   "id": "c3a",
+   "chapter": 3,
+   "visual": "press",
+   "text": "W 1950 roku zacząłem pracę w redakcji krakowskiego „Dziennika Polskiego”. W tym samym roku „Przekrój” wydrukował mój reportaż o budowie Nowej Huty, a tygodnik „Szpilki” nagrodził mój rysunek."
+  },
+  {
+   "id": "c3b",
+   "chapter": 3,
+   "visual": "talk",
+   "text": "Pisałem wtedy teksty zgodne z duchem epoki i z propagandą tamtych lat. Po latach oceniałem ten okres bardzo krytycznie."
+  },
+  {
+   "id": "c3c",
+   "chapter": 3,
+   "visual": "books1953",
+   "text": "W 1953 roku ukazały się moje pierwsze książki: „Opowiadania z Trzmielowej Góry” i „Półpancerze praktyczne”. Równolegle publikowałem w prasie satyryczne rysunki."
+  },
+  {
+   "id": "c4a",
+   "chapter": 4,
+   "visual": "slon",
+   "text": "Rozgłos przyniósł mi zbiór opowiadań „Słoń” z 1957 roku. W tytułowym opowiadaniu dyrektor zoo, chcąc zaoszczędzić, zamiast słonia pokazuje gumową kukłę napełnioną gazem. Kukła odlatuje na oczach uczniów, a dzieci przestają wierzyć w słonie."
+  },
+  {
+   "id": "c4b",
+   "chapter": 4,
+   "visual": "wesele",
+   "text": "Dwa lata później wydałem kolejny zbiór krótkich, groteskowych opowiadań: „Wesele w Atomicach”."
+  },
+  {
+   "id": "c4c",
+   "chapter": 4,
+   "visual": "policja",
+   "text": "W 1958 roku zadebiutowałem jako dramatopisarz „Policją”. To sztuka o państwie, w którym wszyscy obywatele stali się lojalni, więc policja, żeby nie stracić racji bytu, sama musi wywołać spisek."
+  },
+  {
+   "id": "c4d",
+   "chapter": 4,
+   "visual": "tango",
+   "text": "„Tango”, napisane w 1964 roku we Włoszech, przyniosło mi światową sławę. Artur, syn rodziców, którzy odrzucili wszelkie normy, chce przywrócić porządek. Ale w świecie bez wartości władzę przejmuje prymitywny Edek. Sztuka kończy się tangiem, które Edek tańczy nad ciałem Artura."
+  },
+  {
+   "id": "c4e",
+   "chapter": 4,
+   "visual": "emigranci",
+   "text": "W „Emigrantach” z 1974 roku zamknąłem w piwnicy dwóch ludzi z Polski: intelektualistę AA i robotnika XX. W sylwestrową noc rozmawiają o wolności, niewoli i o tym, co każdy z nich zostawił w kraju."
+  },
+  {
+   "id": "c4f",
+   "chapter": 4,
+   "visual": "talk",
+   "text": "Dlaczego groteska, satyra i absurd? Bo śmiech obnaża mechanizmy, których na co dzień nie widać: nowomowę, konformizm, władzę, która potrzebuje wroga. W czasach cenzury absurd pozwalał powiedzieć więcej niż wprost."
+  },
+  {
+   "id": "c5a",
+   "chapter": 5,
+   "visual": "chiavari",
+   "text": "W 1963 roku wyjechałem z żoną do Włoch. Zamieszkaliśmy w Chiavari, na wybrzeżu Ligurii. Nie wiedziałem jeszcze, że poza krajem spędzę ponad 30 lat."
+  },
+  {
+   "id": "c5b",
+   "chapter": 5,
+   "visual": "paris",
+   "text": "W 1968 roku przenieśliśmy się do Paryża."
+  },
+  {
+   "id": "c5c",
+   "chapter": 5,
+   "visual": "prague",
+   "text": "W sierpniu tego roku wojska Układu Warszawskiego, także polskie, wkroczyły do Czechosłowacji. 28 sierpnia opublikowałem we francuskim dzienniku „Le Monde” list protestacyjny. Władze PRL zakazały wtedy publikowania moich utworów, a ja poprosiłem we Francji o azyl. W 1978 roku zostałem obywatelem Francji."
+  },
+  {
+   "id": "c5d",
+   "chapter": 5,
+   "visual": "mexico",
+   "text": "W 1989 roku zamieszkałem w Meksyku. Do Polski, do Krakowa, wróciłem na stałe w 1996 roku."
+  },
+  {
+   "id": "c6a",
+   "chapter": 6,
+   "visual": "talk",
+   "text": "W 1959 roku poślubiłem Marię Obrembę. Była ze mną we Włoszech i w Paryżu. Zmarła w 1969 roku."
+  },
+  {
+   "id": "c6b",
+   "chapter": 6,
+   "visual": "talk",
+   "text": "W 1987 roku ożeniłem się z Meksykanką, Susaną Osorio. To z nią zamieszkałem w Meksyku i to z nią wróciłem do Krakowa."
+  },
+  {
+   "id": "c6c",
+   "chapter": 6,
+   "visual": "baltazar",
+   "text": "15 maja 2002 roku przeszedłem udar mózgu. Jego skutkiem była afazja: straciłem zdolność swobodnego posługiwania się językiem. W ramach terapii zacząłem spisywać wspomnienia. Tak powstała autobiografia „Baltazar”, wydana w 2006 roku."
+  },
+  {
+   "id": "c7a",
+   "chapter": 7,
+   "visual": "tangoworld",
+   "text": "Moje sztuki grano na scenach całego świata, od Paryża po Belgrad i Kluż, a książki tłumaczono na wiele języków. „Tango” do dziś czytają polscy licealiści."
+  },
+  {
+   "id": "c7b",
+   "chapter": 7,
+   "visual": "awards",
+   "text": "W 1972 roku otrzymałem Austriacką Nagrodę Państwową w dziedzinie Literatury Europejskiej. W 2003 roku Francja przyznała mi Legię Honorową. Zostałem doktorem honoris causa Uniwersytetu Jagiellońskiego i honorowym obywatelem Krakowa. Po śmierci odznaczono mnie Krzyżem Wielkim Orderu Odrodzenia Polski."
+  },
+  {
+   "id": "c8a",
+   "chapter": 8,
+   "visual": "nice",
+   "text": "W 2008 roku ponownie wyjechałem do Francji. Ostatnie lata spędziłem w Nicei. Tam zmarłem 15 sierpnia 2013 roku, w wieku 83 lat."
+  },
+  {
+   "id": "c8b",
+   "chapter": 8,
+   "visual": "sarkofag",
+   "text": "17 września 2013 roku urnę z moimi prochami złożono w Panteonie Narodowym, w krypcie kościoła świętych Piotra i Pawła w Krakowie. Wróciłem do miasta, w którym wszystko się zaczęło."
+  },
+  {
+   "id": "end1",
+   "chapter": 9,
+   "visual": "talkbw",
+   "text": "Moje życie dobiegło końca 15 sierpnia 2013 roku. Jednak historie, które stworzyłem, pozostały."
+  },
+  {
+   "id": "end2",
+   "chapter": 9,
+   "visual": "talkbw",
+   "text": "W swoich utworach pokazywałem świat pełen sprzeczności, absurdu i ludzkich słabości. Chciałem, aby czytelnicy nie tylko się śmiali, lecz także zastanawiali nad otaczającą ich rzeczywistością."
+  },
+  {
+   "id": "end3",
+   "chapter": 9,
+   "visual": "talkbw",
+   "text": "Nazywam się Sławomir Mrożek. A moja historia wciąż żyje w literaturze."
+  }
+ ],
+ "spoken": [
+  {
+   "display": "we wrześniu 1939 roku",
+   "spoken": "we wrześniu tysiąc dziewięćset trzydziestego dziewiątego roku"
+  },
+  {
+   "display": "17 września 2013 roku",
+   "spoken": "Siedemnastego września dwa tysiące trzynastego roku"
+  },
+  {
+   "display": "15 sierpnia 2013 roku",
+   "spoken": "piętnastego sierpnia dwa tysiące trzynastego roku"
+  },
+  {
+   "display": "29 czerwca 1930 roku",
+   "spoken": "dwudziestego dziewiątego czerwca tysiąc dziewięćset trzydziestego roku"
+  },
+  {
+   "display": "15 maja 2002 roku",
+   "spoken": "Piętnastego maja dwa tysiące drugiego roku"
+  },
+  {
+   "display": "w wieku 83 lat",
+   "spoken": "w wieku osiemdziesięciu trzech lat"
+  },
+  {
+   "display": "ponad 30 lat",
+   "spoken": "ponad trzydzieści lat"
+  },
+  {
+   "display": "z 1974 roku",
+   "spoken": "z tysiąc dziewięćset siedemdziesiątego czwartego roku"
+  },
+  {
+   "display": "W 1989 roku",
+   "spoken": "W tysiąc dziewięćset osiemdziesiątym dziewiątym roku"
+  },
+  {
+   "display": "w 1989 roku",
+   "spoken": "w tysiąc dziewięćset osiemdziesiątym dziewiątym roku"
+  },
+  {
+   "display": "W 1996 roku",
+   "spoken": "W tysiąc dziewięćset dziewięćdziesiątym szóstym roku"
+  },
+  {
+   "display": "w 1996 roku",
+   "spoken": "w tysiąc dziewięćset dziewięćdziesiątym szóstym roku"
+  },
+  {
+   "display": "W 1969 roku",
+   "spoken": "W tysiąc dziewięćset sześćdziesiątym dziewiątym roku"
+  },
+  {
+   "display": "w 1969 roku",
+   "spoken": "w tysiąc dziewięćset sześćdziesiątym dziewiątym roku"
+  },
+  {
+   "display": "W 1959 roku",
+   "spoken": "W tysiąc dziewięćset pięćdziesiątym dziewiątym roku"
+  },
+  {
+   "display": "w 1959 roku",
+   "spoken": "w tysiąc dziewięćset pięćdziesiątym dziewiątym roku"
+  },
+  {
+   "display": "W 1949 roku",
+   "spoken": "W tysiąc dziewięćset czterdziestym dziewiątym roku"
+  },
+  {
+   "display": "w 1949 roku",
+   "spoken": "w tysiąc dziewięćset czterdziestym dziewiątym roku"
+  },
+  {
+   "display": "z 1957 roku",
+   "spoken": "z tysiąc dziewięćset pięćdziesiątego siódmego roku"
+  },
+  {
+   "display": "w 1964 roku",
+   "spoken": "w tysiąc dziewięćset sześćdziesiątym czwartym roku"
+  },
+  {
+   "display": "W 1963 roku",
+   "spoken": "W tysiąc dziewięćset sześćdziesiątym trzecim roku"
+  },
+  {
+   "display": "w 1963 roku",
+   "spoken": "w tysiąc dziewięćset sześćdziesiątym trzecim roku"
+  },
+  {
+   "display": "W 1972 roku",
+   "spoken": "W tysiąc dziewięćset siedemdziesiątym drugim roku"
+  },
+  {
+   "display": "w 1972 roku",
+   "spoken": "w tysiąc dziewięćset siedemdziesiątym drugim roku"
+  },
+  {
+   "display": "W 1987 roku",
+   "spoken": "W tysiąc dziewięćset osiemdziesiątym siódmym roku"
+  },
+  {
+   "display": "w 1987 roku",
+   "spoken": "w tysiąc dziewięćset osiemdziesiątym siódmym roku"
+  },
+  {
+   "display": "W 1953 roku",
+   "spoken": "W tysiąc dziewięćset pięćdziesiątym trzecim roku"
+  },
+  {
+   "display": "w 1953 roku",
+   "spoken": "w tysiąc dziewięćset pięćdziesiątym trzecim roku"
+  },
+  {
+   "display": "W 1978 roku",
+   "spoken": "W tysiąc dziewięćset siedemdziesiątym ósmym roku"
+  },
+  {
+   "display": "w 1978 roku",
+   "spoken": "w tysiąc dziewięćset siedemdziesiątym ósmym roku"
+  },
+  {
+   "display": "W 1968 roku",
+   "spoken": "W tysiąc dziewięćset sześćdziesiątym ósmym roku"
+  },
+  {
+   "display": "w 1968 roku",
+   "spoken": "w tysiąc dziewięćset sześćdziesiątym ósmym roku"
+  },
+  {
+   "display": "W 1933 roku",
+   "spoken": "W tysiąc dziewięćset trzydziestym trzecim roku"
+  },
+  {
+   "display": "w 1933 roku",
+   "spoken": "w tysiąc dziewięćset trzydziestym trzecim roku"
+  },
+  {
+   "display": "W 1958 roku",
+   "spoken": "W tysiąc dziewięćset pięćdziesiątym ósmym roku"
+  },
+  {
+   "display": "w 1958 roku",
+   "spoken": "w tysiąc dziewięćset pięćdziesiątym ósmym roku"
+  },
+  {
+   "display": "W 1950 roku",
+   "spoken": "W tysiąc dziewięćset pięćdziesiątym roku"
+  },
+  {
+   "display": "w 1950 roku",
+   "spoken": "w tysiąc dziewięćset pięćdziesiątym roku"
+  },
+  {
+   "display": "28 sierpnia",
+   "spoken": "Dwudziestego ósmego sierpnia"
+  },
+  {
+   "display": "W 2003 roku",
+   "spoken": "W dwa tysiące trzecim roku"
+  },
+  {
+   "display": "w 2006 roku",
+   "spoken": "w dwa tysiące szóstym roku"
+  },
+  {
+   "display": "W 2008 roku",
+   "spoken": "W dwa tysiące ósmym roku"
+  },
+  {
+   "display": "9 lat",
+   "spoken": "dziewięć lat"
+  }
+ ]
+}
