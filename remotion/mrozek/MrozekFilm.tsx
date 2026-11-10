@@ -525,7 +525,7 @@ const EndTitle: React.FC<{ frames: number }> = ({ frames }) => {
       <div style={{ fontFamily: SANS, fontSize: 30, letterSpacing: 9, textTransform: "uppercase", marginTop: 26, color: GOLD, opacity: a(50) }}>
         Pisarz · dramaturg · satyryk
       </div>
-      <Img src={staticFile("mrozek/img/signature.png")} style={{ width: 360, marginTop: 50, opacity: a(75) * 0.9, filter: "invert(1) brightness(0.95)" }} />
+      <Img src={staticFile("mrozek/img/signature.png")} style={{ width: 560, marginTop: 40, opacity: a(75) * 0.9, filter: "invert(1) brightness(0.95)" }} />
     </AbsoluteFill>
   );
 };
