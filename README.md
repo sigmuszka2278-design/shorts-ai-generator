@@ -192,3 +192,26 @@ tests/               testy Vitest
   zobacz [remotion.dev/license](https://remotion.dev/license).
 - Czcionka Fredoka – SIL Open Font License.
 - Wszystkie grafiki, efekty dźwiękowe i muzyka są generowane przez kod tego projektu.
+
+---
+
+## Film: „Piracki Token” – poradnik Fortnite (9:16, 40 s, 60 fps)
+
+Osobna kompozycja Remotion `PirateTokenShort` (`remotion/pirate/`), niezależna od generatora dla dzieci.
+Cała grafika (token, mapa wyspy, miasteczka w izometrii, bohater, autobus, lotnia, skrzynie, statek) jest rysowana
+w SVG – **bez assetów z gry**. Muzyka (trap/EDM 150 BPM z akordeonem i chórem „yo-ho”) oraz SFX są syntezowane w kodzie.
+
+```bash
+npm run pirate:audio                 # public/pirate/music.wav + sfx.wav (zsynchronizowane z osią czasu)
+npm run pirate:render -- --stills    # szybki podgląd: klatki PNG w renders/piracki-stills/
+npm run pirate:render                # renders/piracki-token.mp4 (1080×1920, 60 fps, H.264 + AAC)
+```
+
+- Oś czasu, napisy, kwestie lektora i SFX: `lib/pirate/timeline.ts` (wszystkie cięcia na beat – 1 beat = 24 klatki).
+- Bezpieczne strefy: kluczowe napisy powyżej dolnych 20% i z dala od prawej krawędzi (`SAFE`).
+- Font napisów: **Anton** (OFL, `public/fonts/ANTON-OFL.txt`) – gruby, w stylu Impact/Burbank, z polskimi znakami.
+- **Lektor:** nagraj kwestie wg `renders/piracki-token.srt` (tworzony przy renderze) i zapisz jako
+  `public/pirate/lektor.wav` (40 s, start od 0:00). Render sam go doda i ściszy pod nim muzykę.
+- Opis filmu (`renders/piracki-token-opis.txt`): „Liczba skrzynek z fanowskich map; token jest losowy i bardzo rzadki.
+  Zasady wydarzenia mogą się zmienić.”
+- Ostatnia klatka (token w zbliżeniu) = pierwsza klatka → płynna pętla.
