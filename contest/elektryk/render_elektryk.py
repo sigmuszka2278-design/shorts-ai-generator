@@ -204,8 +204,13 @@ def joints(p):
     return J
 
 
+NO_FIG = False  # True = tła bez ludzików (do wczytania w Pivocie)
+
+
 def figure(c, p, col=INK, helmet=False, helmet_pos=None):
     J = joints(p)
+    if NO_FIG:
+        return J
     s = p["s"]
     w = 10 * s
     for a, b, e in (("hip", "lknee", "lfoot"), ("hip", "rknee", "rfoot")):
@@ -220,6 +225,8 @@ def figure(c, p, col=INK, helmet=False, helmet_pos=None):
 
 
 def helmet_draw(c, head, s):
+    if NO_FIG:
+        return
     hx, hy = head
     r = (R_HEAD + 6) * s
     c.pie((hx, hy - 4 * s), r, 180, 360, fill=YEL)
@@ -497,7 +504,7 @@ def s3(f):
     else:
         cable(c, [(318, FRONT - 100), (300, FRONT - 20), (330, FRONT - 70)], (40, 40, 40), 6)
         cross(c, (317, FRONT - 230), 34, RED)
-    if f >= 84:
+    if f >= 84 and not NO_FIG:
         hx, hy = J["rhand"]
         c.circle((hx, hy), 9, fill=INK)
         c.line([(hx, hy), (hx, hy - 22)], INK, 8)
@@ -615,9 +622,10 @@ def s5(f):
             p["ra2"] += 3 * math.sin(f * 2)
         J = figure(c, p, INK, helmet=True)
         tgt = (J["rhand"][0] + 26, J["rhand"][1] - 4)
-        c.circle(tgt, 24, outline=RED, w=4)
-        c.line([(tgt[0] - 36, tgt[1]), (tgt[0] + 36, tgt[1])], RED, 3)
-        c.line([(tgt[0], tgt[1] - 36), (tgt[0], tgt[1] + 36)], RED, 3)
+        if not NO_FIG:
+            c.circle(tgt, 24, outline=RED, w=4)
+            c.line([(tgt[0] - 36, tgt[1]), (tgt[0] + 36, tgt[1])], RED, 3)
+            c.line([(tgt[0], tgt[1] - 36), (tgt[0], tgt[1] + 36)], RED, 3)
         c.circle((ix, iy), 70, outline=RED, w=8)
         c.circle((ix, iy), 40, outline=RED, w=8)
         c.circle((ix, iy), 12, fill=RED)
@@ -625,7 +633,7 @@ def s5(f):
         think = P(base, ra1=-150, ra2=-30, head=-10, la1=-20)
         p = keyed(f, [(22, base), (28, think)])
         J = figure(c, p, INK, helmet=True)
-        if f >= 31:
+        if f >= 31 and not NO_FIG:
             bulb(c, (J["head"][0] + 10, J["head"][1] - 140), True, 0.9 * seg(f, 31, 35) + 0.01)
         # zębatki
         for k, (gx, gyy, r) in enumerate(((ix - 25, iy - 20, 46), (ix + 45, iy + 50, 32))):
@@ -659,7 +667,7 @@ def s5(f):
         c.rect(sw[0] - 28, ly - 14, sw[0] + 28, ly + 14, fill=RED if lever_t < 1 else (60, 170, 80), r=5)
         lightning(c, (sw[0], sw[1] - 80), 16, (40, 40, 40), 5)
         c.text((sw[0], sw[1] + 85), "OFF" if lever_t >= 1 else "ON", 22, INK)
-        if f >= 80 and (f // 3) % 2 == 0:
+        if f >= 80 and (f // 3) % 2 == 0 and not NO_FIG:
             c.glow(J["head"], 90, YEL, 0.7)
     # znacznik postępu (4 kropki)
     for i in range(4):
@@ -801,6 +809,14 @@ def s7(f):
             c.line([(cx, cy - 6), (cx, cy + 6)], YEL, 4)
     return c
 
+
+BG_FRAMES = [  # (scena, klatka lokalna, opis) – tła do Pivota
+    ("s1a", 0, "pokoj_swiatlo"), ("s1a", 39, "pokoj_zgaszone"), ("s1b", 0, "pokoj_ciemnosc"),
+    ("s2", 0, "region_noc"), ("s3", 0, "region_dzien_start"), ("s3", 89, "region_dzien_wszystko_dziala"),
+    ("s4", 0, "sciana_rano"), ("s4", 99, "sciana_kabel_zarowka"), ("s5", 10, "precyzja"), ("s5", 35, "logika"),
+    ("s5", 60, "odpowiedzialnosc"), ("s5", 85, "bezpieczenstwo"), ("s6", 0, "schody"), ("s7", 0, "miasto_ciemne"),
+    ("s7", 69, "miasto_swieci"),
+]
 
 SCENE_FN = dict(s1a=s1a, s1b=s1b, s2=s2, s3=s3, s4=s4, s5=s5, s6=s6, s7=s7)
 
@@ -961,6 +977,21 @@ def render_frame(f):
 
 def main():
     os.makedirs(OUT, exist_ok=True)
+    global NO_FIG
+    if os.environ.get("FRAMES"):  # sekwencja klatek PNG w folderach scen + tła bez ludzików
+        root = os.path.join(OUT, "klatki")
+        for name, start, n in SCENES:
+            sd = os.path.join(root, f"{name}_klatki_{start + 1:03}-{start + n:03}")
+            os.makedirs(sd, exist_ok=True)
+            for k in range(n):
+                SCENE_FN[name](k).final().save(os.path.join(sd, f"{start + k + 1:03}.png"), optimize=True)
+        NO_FIG = True
+        bd = os.path.join(root, "tla_bez_ludzikow")
+        os.makedirs(bd, exist_ok=True)
+        for name, k, label in BG_FRAMES:
+            SCENE_FN[name](k).final().save(os.path.join(bd, f"{name}_{label}.png"), optimize=True)
+        NO_FIG = False
+        return
     only = os.environ.get("PREVIEW")
     if only:  # podgląd wybranych klatek: PREVIEW=0,35,100
         for f in map(int, only.split(",")):
