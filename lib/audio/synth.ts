@@ -38,7 +38,7 @@ export function normalizePeak(samples: Samples, peak = 0.9): Samples {
 }
 
 /** Deterministic noise. */
-function noiseGen(seed = 1) {
+export function noiseGen(seed = 1) {
   let x = seed;
   return () => {
     x ^= x << 13;
@@ -48,7 +48,7 @@ function noiseGen(seed = 1) {
   };
 }
 
-type Wave = "sine" | "triangle" | "square" | "saw";
+export type Wave = "sine" | "triangle" | "square" | "saw";
 
 function osc(wave: Wave, phase: number): number {
   const p = phase - Math.floor(phase);
@@ -65,7 +65,7 @@ function osc(wave: Wave, phase: number): number {
 }
 
 /** Renders a tone whose frequency follows `freq(t)` with an envelope `env(t)`. */
-function tone(
+export function tone(
   out: Samples,
   sr: number,
   start: number,
@@ -85,11 +85,11 @@ function tone(
   }
 }
 
-const expDecay = (rate: number) => (t: number) => Math.exp(-t * rate);
-const attackDecay = (attack: number, rate: number) => (t: number) =>
+export const expDecay = (rate: number) => (t: number) => Math.exp(-t * rate);
+export const attackDecay = (attack: number, rate: number) => (t: number) =>
   t < attack ? t / attack : Math.exp(-(t - attack) * rate);
 
-function bell(out: Samples, sr: number, start: number, f: number, duration: number, gain = 1) {
+export function bell(out: Samples, sr: number, start: number, f: number, duration: number, gain = 1) {
   const partials = [
     [1, 1],
     [2.01, 0.5],
