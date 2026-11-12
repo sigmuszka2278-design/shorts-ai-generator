@@ -13,3 +13,4 @@ Animacja ludzików w stylu Pivot Animator: 720×1280 (9:16), 10 kl./s, 58 s, 7 s
 Ponowne wygenerowanie: `python3 render_elektryk.py` (wymaga Pillow, numpy i ffmpeg).
 Podgląd pojedynczych klatek: `PREVIEW=0,100,300 python3 render_elektryk.py`.
 Sekwencja klatek PNG + tła bez ludzików do Pivota: `FRAMES=1 python3 render_elektryk.py`.
+Same klatki z ludzikami 1080×1920 (9:16): `HD=1 FRAMES=flat python3 render_elektryk.py`.

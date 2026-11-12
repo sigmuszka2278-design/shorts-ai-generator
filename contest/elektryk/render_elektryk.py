@@ -18,6 +18,8 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont
 
 W, H, FPS, SS = 720, 1280, 10, 2  # SS = supersampling (antyaliasing)
+# rozmiar zapisu klatek PNG (zawsze 9:16), np. HD=1 -> 1080x1920; wideo MP4 zostaje 720x1280
+OUT_SIZE = (1080, 1920) if os.environ.get("HD") else (W, H)
 OUT = sys.argv[1] if len(sys.argv) > 1 else os.path.join(os.path.dirname(os.path.abspath(__file__)), "out")
 FONT_BOLD = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 
@@ -113,7 +115,7 @@ class Canvas:
         self.d.text((xy[0] * SS, xy[1] * SS), s, font=f, fill=col, anchor=anchor)
 
     def final(self):
-        return self.img.resize((W, H), Image.LANCZOS).convert("RGB")
+        return self.img.resize(OUT_SIZE, Image.LANCZOS).convert("RGB")
 
 
 # ------------------------------------------------------------------ ludzik (Pivot)
@@ -978,6 +980,12 @@ def render_frame(f):
 def main():
     os.makedirs(OUT, exist_ok=True)
     global NO_FIG
+    if os.environ.get("FRAMES") == "flat":  # jedna paczka: same klatki z ludzikami
+        root = os.path.join(OUT, "klatki_z_ludzikami")
+        os.makedirs(root, exist_ok=True)
+        for f in range(TOTAL):
+            render_frame(f).save(os.path.join(root, f"klatka_{f + 1:03}.png"), compress_level=6)
+        return
     if os.environ.get("FRAMES"):  # sekwencja klatek PNG w folderach scen + tła bez ludzików
         root = os.path.join(OUT, "klatki")
         for name, start, n in SCENES:
