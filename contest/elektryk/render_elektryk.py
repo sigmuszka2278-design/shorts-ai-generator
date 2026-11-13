@@ -977,6 +977,20 @@ def render_frame(f):
     raise ValueError(f)
 
 
+def widen(img, size=(1920, 1080)):
+    """Poziomy kadr 16:9: pionowa klatka na środku, boki przedłużają krawędzie
+    obrazu (niebo, trawa, podłoga idą dalej na boki)."""
+    tw, th = size
+    vw = round(th * 9 / 16)
+    vert = img.resize((vw, th), Image.LANCZOS)
+    side = (tw - vw) // 2
+    out = Image.new("RGB", size)
+    out.paste(vert.crop((6, 0, 7, th)).resize((side, th)), (0, 0))
+    out.paste(vert.crop((vw - 7, 0, vw - 6, th)).resize((tw - side - vw, th)), (side + vw, 0))
+    out.paste(vert, (side, 0))
+    return out
+
+
 def main():
     os.makedirs(OUT, exist_ok=True)
     global NO_FIG
@@ -984,7 +998,10 @@ def main():
         root = os.path.join(OUT, "klatki_z_ludzikami")
         os.makedirs(root, exist_ok=True)
         for f in range(TOTAL):
-            render_frame(f).save(os.path.join(root, f"klatka_{f + 1:03}.png"), compress_level=6)
+            img = render_frame(f)
+            if os.environ.get("WIDE"):  # WIDE=1 -> 1920x1080 (poziomo, pion na środku)
+                img = widen(img)
+            img.save(os.path.join(root, f"klatka_{f + 1:03}.png"), compress_level=6)
         return
     if os.environ.get("FRAMES"):  # sekwencja klatek PNG w folderach scen + tła bez ludzików
         root = os.path.join(OUT, "klatki")

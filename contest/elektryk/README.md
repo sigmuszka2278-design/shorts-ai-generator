@@ -14,3 +14,4 @@ Ponowne wygenerowanie: `python3 render_elektryk.py` (wymaga Pillow, numpy i ffmp
 Podgląd pojedynczych klatek: `PREVIEW=0,100,300 python3 render_elektryk.py`.
 Sekwencja klatek PNG + tła bez ludzików do Pivota: `FRAMES=1 python3 render_elektryk.py`.
 Same klatki z ludzikami 1080×1920 (9:16): `HD=1 FRAMES=flat python3 render_elektryk.py`.
+Wersja pozioma 1920×1080 (16:9, animacja na środku): `HD=1 WIDE=1 FRAMES=flat python3 render_elektryk.py`.
